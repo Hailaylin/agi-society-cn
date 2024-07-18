@@ -8,4 +8,5 @@ jobs:
   deploy:
     runs-on: linux_amd64
     steps:
+      - run: cd %{WEB_WORK_DIR}
       - run: mkdocs gh-deploy
