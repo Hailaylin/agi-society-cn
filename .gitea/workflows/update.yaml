@@ -8,5 +8,8 @@ jobs:
   deploy:
     runs-on: linux_amd64
     steps:
-      - run: cd ${{ vars.WEB_WORK_DIR }}
+      - run: |
+          echo "hello world"
+      - run: |
+              cd ${{ vars.WEB_WORK_DIR }}
       - run: mkdocs gh-deploy
