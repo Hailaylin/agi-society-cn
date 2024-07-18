@@ -9,7 +9,9 @@ jobs:
     runs-on: linux-amd64
     steps:
       - run: |
-          echo "hello world"
+          ls -al
       - run: |
-              cd ${{ vars.WEB_WORK_DIR }}
+          cd ${{ vars.WEB_WORK_DIR }}
+      - run: |
+          ls -al
       - run: mkdocs gh-deploy
