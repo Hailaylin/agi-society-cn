@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: linux_amd64
+    runs-on: linux-amd64:host
     steps:
       - run: |
           echo "hello world"
