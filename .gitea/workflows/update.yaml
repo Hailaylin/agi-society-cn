@@ -11,7 +11,9 @@ jobs:
       - run: |
           ls -al
       - run: |
-          cd ${{ vars.WEB_WORK_DIR }}
+          cd ..
       - run: |
           ls -al
+      - run: |
+          cd ..
       - run: mkdocs gh-deploy
