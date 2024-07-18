@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: ubuntu-22.04:host
+    runs-on: linux_amd64
     steps:
       - uses: actions/checkout@v2
       - run: mkdocs gh-deploy
