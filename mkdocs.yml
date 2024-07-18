@@ -1,1 +1,3 @@
-site_name: My Docs
+site_name: 中国通用人工智能协会
+theme:
+  name: material
