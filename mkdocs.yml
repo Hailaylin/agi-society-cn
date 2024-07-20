@@ -1,3 +1,6 @@
 site_name: 中国通用人工智能协会
+repo_url: https://github.com/Hailaylin/agi-society-cn
+copyright: Copyright &copy; 2016 - 2024 中国通用人工智能协会 粤ICP备2021145979号-1
 theme:
   name: material
+  custom_dir: overrides
