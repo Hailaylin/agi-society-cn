@@ -83,6 +83,7 @@ nav:
   - 关于:
     - about/about_us.md
     - about/web_arch.md
+    - about/edit.md
   - nars教程:
     - nars/nars_index.md
     - nars/learning_resources.md
