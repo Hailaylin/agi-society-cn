@@ -28,8 +28,9 @@ comments: true
 > 本资料原文为英文，推荐读完中文资料后再阅读
 > [AGI Education (temple.edu)](https://cis.temple.edu/~pwang/AGI-Curriculum.html)
 
-/// note | 王培老师的备注
+/// details | 王培老师的备注
     open : True
+    type: warning
 
 以下列表是对通用人工智能研究感兴趣的学生的部分教育计划。它包括大约25门一学期课程的材料。
 
