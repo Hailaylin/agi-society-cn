@@ -1,19 +1,11 @@
-# wiki首页测试
+这里是中国通用人工智能协会的文档网站。
 
-# Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+如您想增添内容，欢迎到以下Git库提交Pull Requests：
+1. 中国境内站点Gitee：[agi-society-cn: 中国通用人工智能协会网站 (gitee.com)](https://gitee.com/Hailay/agi-society-cn)
+2. 境外编辑GitHub：[Hailaylin/agi-society-cn: save and edit china agi society wiki web content (github.com)](https://github.com/Hailaylin/agi-society-cn)
 
-## Commands
+两个站点互为镜像备份，修改一个会自动同步到另一个。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+网站静态内容部署在中国深圳阿里云服务器中，以满足合规要求。
