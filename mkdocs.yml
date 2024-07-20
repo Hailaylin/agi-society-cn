@@ -80,10 +80,22 @@ markdown_extensions:
       alternate_style: True
 
 nav:
-  - 关于:
+  - Nars 教程:
+    - nars/nars_index.md
+    - nars/learning_resources.md
+
+  - AGI 通用人工智能:
+    - agi/agi_intro.md
+
+  - SAI 专用人工智能:
+    - sai/sai_intro.md
+    - sai/llms.md
+
+  - 历届年会:
+    - conference/2024.md
+    - conference/2023.md
+
+  - 关于我们:
     - about/about_us.md
     - about/web_arch.md
     - about/edit.md
-  - nars教程:
-    - nars/nars_index.md
-    - nars/learning_resources.md
