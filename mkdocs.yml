@@ -82,7 +82,7 @@ markdown_extensions:
 nav:
   - 关于:
     - about/about_us.md
-    - about/网站架构.md
+    - about/web_arch.md
   - nars教程:
     - nars/nars_index.md
-    - nars/学习资源链接.md
+    - nars/learning_resources.md
