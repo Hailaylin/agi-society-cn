@@ -3,14 +3,12 @@ comments: true
 ---
 这里是中国通用人工智能协会的文档网站。
 
-
 **本网站旨在以开放的方式汇集通用人工智能（AGI）相关资料，降低通用人工智能入门门槛。**
-
 
 如您想增添内容，欢迎到以下Git库提交Pull Requests：
 
 1. 中国境内站点Gitee：[agi-society-cn: 中国通用人工智能协会网站 (gitee.com)](https://gitee.com/Hailay/agi-society-cn)
-2. 境外编辑GitHub：[Hailaylin/agi-society-cn: save and edit china agi society wiki web content (github.com)](https://github.com/Hailaylin/agi-society-cn)
+2. 编辑GitHub：[Hailaylin/agi-society-cn: save and edit china agi society wiki web content (github.com)](https://github.com/Hailaylin/agi-society-cn)
 
 两个站点互为镜像备份，修改一个会自动同步到另一个。
 

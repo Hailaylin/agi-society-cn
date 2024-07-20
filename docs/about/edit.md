@@ -4,7 +4,9 @@
 ## 模块化内容渲染
 使用PyMdown及其Extension：
 /// details | Some summary 
-open: True
+    open: True
+    type: warning
+
 Some content 
 ///
 
