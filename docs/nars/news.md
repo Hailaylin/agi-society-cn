@@ -1,5 +1,5 @@
 ---
-comments:true
+comments: true
 ---
 # 最新信息
 
