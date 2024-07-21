@@ -90,6 +90,12 @@ nav:
   - SAI 专用人工智能:
     - sai/sai_intro.md
     - sai/llms.md
+  
+  - 思想书库:
+    - other/other_intro.md
+    - other/meaning_network.md
+    - other/Lazero.md
+    - other/bingfengdecao.md
 
   - 历届年会:
     - conference/conference_intro.md

@@ -3,6 +3,8 @@
 ## 王培
 
 > 美国天普大学计算机系教授, 博士生导师。博士师从侯世达（Douglas Hofstadter）
+>
+> 详细个人简介：[Curriculum Vitae of Pei Wang (temple.edu)](https://cis.temple.edu/~pwang/PeiWangCV.html)
 
 王培教授是 OpenNARS 项目（AGI通用人工智能项目）的发起人和主要编写者，是国际 AGI 组织 http://agi-conf.org/  的发起人和常驻委员，是《哥德尔、埃舍尔、巴赫 -- 集异璧之大成》的译者之一，同时也是中国 nars 小组的指导老师，是中国通用人工智能协会的常驻点评指导老师，关于王培教授的头衔和周边，实在太多，建议点击下面的链接，观看视频，阅读论文和项目源码，了解详情：
 
