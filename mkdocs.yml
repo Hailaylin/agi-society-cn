@@ -82,12 +82,13 @@ markdown_extensions:
 nav:
   - Nars 教程:
     - 各个版本实现介绍:
+      - nars/impl/index.md
       - nars/impl/opennars1.5.8.md
       - nars/impl/pynars.md
       - nars/impl/junars.md
       - nars/impl/narust.md
     - nars/nars_index.md
-    - nars/impl/index.md
+
 
     # - nars/learning_resources.md
     - nars/aikr.md
