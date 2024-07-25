@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Lazero
 
 [跳到导航](http://agi-society.cn/wiki/index.php/Lazero#mw-head)[跳到搜索](http://agi-society.cn/wiki/index.php/Lazero#searchInput)[ ] ## 目录

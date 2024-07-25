@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 意义片网思想
 
 [跳到导航](http://agi-society.cn/wiki/index.php/%E6%84%8F%E4%B9%89%E7%89%87%E7%BD%91%E6%80%9D%E6%83%B3#mw-head)[跳到搜索](http://agi-society.cn/wiki/index.php/%E6%84%8F%E4%B9%89%E7%89%87%E7%BD%91%E6%80%9D%E6%83%B3#searchInput)[ ] ## 目录

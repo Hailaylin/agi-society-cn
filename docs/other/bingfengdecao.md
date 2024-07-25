@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 一种能阅读和对话的类脑智能意识系统的设想与架构
 
 [跳到导航](http://agi-society.cn/wiki/index.php/%E4%B8%80%E7%A7%8D%E8%83%BD%E9%98%85%E8%AF%BB%E5%92%8C%E5%AF%B9%E8%AF%9D%E7%9A%84%E7%B1%BB%E8%84%91%E6%99%BA%E8%83%BD%E6%84%8F%E8%AF%86%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E6%83%B3%E4%B8%8E%E6%9E%B6%E6%9E%84#mw-head)[跳到搜索](http://agi-society.cn/wiki/index.php/%E4%B8%80%E7%A7%8D%E8%83%BD%E9%98%85%E8%AF%BB%E5%92%8C%E5%AF%B9%E8%AF%9D%E7%9A%84%E7%B1%BB%E8%84%91%E6%99%BA%E8%83%BD%E6%84%8F%E8%AF%86%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E6%83%B3%E4%B8%8E%E6%9E%B6%E6%9E%84#searchInput)[ ] ## 目录
