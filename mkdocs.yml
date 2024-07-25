@@ -108,10 +108,13 @@ nav:
     - other/Lazero.md
     - other/bingfengdecao.md
 
-  - 历届年会:
-    - conference/conference_intro.md
-    - conference/2024.md
-    - conference/2023.md
+  - 历届会议:
+    - 年会:
+      - conference/conference_intro.md
+      - conference/2024.md
+      - conference/2023.md
+    - 组会:
+      - conference/group_meeting_catalogue.md
 
   - 关于我们:
     - about/about_us.md
