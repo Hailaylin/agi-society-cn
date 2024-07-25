@@ -1,3 +1,6 @@
 .vscode/
 site/
 .obsidian/
+
+# 参考：https://stackoverflow.com/questions/63974953/how-to-remove-or-stop-auto-generating-debug-log-file-in-vscode
+debug.log
