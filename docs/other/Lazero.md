@@ -4,56 +4,66 @@ comments: true
 
 # Lazero
 
-[跳到导航](http://agi-society.cn/wiki/index.php/Lazero#mw-head)[跳到搜索](http://agi-society.cn/wiki/index.php/Lazero#searchInput)[ ] ## 目录
+## 目录
 
-* [1**简介**](http://agi-society.cn/wiki/index.php/Lazero#.E7.AE.80.E4.BB.8B)
-  * [1.1**什么是Lazero**](http://agi-society.cn/wiki/index.php/Lazero#.E4.BB.80.E4.B9.88.E6.98.AFLazero)
-    * [1.1.1**名称来源**](http://agi-society.cn/wiki/index.php/Lazero#.E5.90.8D.E7.A7.B0.E6.9D.A5.E6.BA.90)
-    * [1.1.2**发展方式**](http://agi-society.cn/wiki/index.php/Lazero#.E5.8F.91.E5.B1.95.E6.96.B9.E5.BC.8F)
-    * [1.1.3**未来方向**](http://agi-society.cn/wiki/index.php/Lazero#.E6.9C.AA.E6.9D.A5.E6.96.B9.E5.90.91)
-  * [1.2**为什么需要Lazero**](http://agi-society.cn/wiki/index.php/Lazero#.E4.B8.BA.E4.BB.80.E4.B9.88.E9.9C.80.E8.A6.81Lazero)
-    * [1.2.1**人类面临的挑战**](http://agi-society.cn/wiki/index.php/Lazero#.E4.BA.BA.E7.B1.BB.E9.9D.A2.E4.B8.B4.E7.9A.84.E6.8C.91.E6.88.98)
-    * [1.2.2**人机交互的问题**](http://agi-society.cn/wiki/index.php/Lazero#.E4.BA.BA.E6.9C.BA.E4.BA.A4.E4.BA.92.E7.9A.84.E9.97.AE.E9.A2.98)
-  * [1.3**如何实现Lazero**](http://agi-society.cn/wiki/index.php/Lazero#.E5.A6.82.E4.BD.95.E5.AE.9E.E7.8E.B0Lazero)
-    * [1.3.1**生命和智能的产生**](http://agi-society.cn/wiki/index.php/Lazero#.E7.94.9F.E5.91.BD.E5.92.8C.E6.99.BA.E8.83.BD.E7.9A.84.E4.BA.A7.E7.94.9F)
-* [2**入门**](http://agi-society.cn/wiki/index.php/Lazero#.E5.85.A5.E9.97.A8)
-  * [2.1**Lazero理论**](http://agi-society.cn/wiki/index.php/Lazero#Lazero.E7.90.86.E8.AE.BA)
-    * [2.1.1**写字协作理论**](http://agi-society.cn/wiki/index.php/Lazero#.E5.86.99.E5.AD.97.E5.8D.8F.E4.BD.9C.E7.90.86.E8.AE.BA)
-      * [2.1.1.1**如何单独让左手写字**](http://agi-society.cn/wiki/index.php/Lazero#.E5.A6.82.E4.BD.95.E5.8D.95.E7.8B.AC.E8.AE.A9.E5.B7.A6.E6.89.8B.E5.86.99.E5.AD.97)
-      * [2.1.1.2**如何协作写字**](http://agi-society.cn/wiki/index.php/Lazero#.E5.A6.82.E4.BD.95.E5.8D.8F.E4.BD.9C.E5.86.99.E5.AD.97)
-    * [2.1.2**人机协作(Lazero)理论**](http://agi-society.cn/wiki/index.php/Lazero#.E4.BA.BA.E6.9C.BA.E5.8D.8F.E4.BD.9C.28Lazero.29.E7.90.86.E8.AE.BA)
-      * [2.1.2.1**如何训练机器**](http://agi-society.cn/wiki/index.php/Lazero#.E5.A6.82.E4.BD.95.E8.AE.AD.E7.BB.83.E6.9C.BA.E5.99.A8)
-      * [2.1.2.2**如何人机协作**](http://agi-society.cn/wiki/index.php/Lazero#.E5.A6.82.E4.BD.95.E4.BA.BA.E6.9C.BA.E5.8D.8F.E4.BD.9C)
-        * [2.1.2.2.1**复读机的意义**](http://agi-society.cn/wiki/index.php/Lazero#.E5.A4.8D.E8.AF.BB.E6.9C.BA.E7.9A.84.E6.84.8F.E4.B9.89)
-      * [2.1.2.3**如何使用电脑**](http://agi-society.cn/wiki/index.php/Lazero#.E5.A6.82.E4.BD.95.E4.BD.BF.E7.94.A8.E7.94.B5.E8.84.91)
-        * [2.1.2.3.1**调节人使用电脑的状态**](http://agi-society.cn/wiki/index.php/Lazero#.E8.B0.83.E8.8A.82.E4.BA.BA.E4.BD.BF.E7.94.A8.E7.94.B5.E8.84.91.E7.9A.84.E7.8A.B6.E6.80.81)
-        * [2.1.2.3.2**调节电脑本身的状态**](http://agi-society.cn/wiki/index.php/Lazero#.E8.B0.83.E8.8A.82.E7.94.B5.E8.84.91.E6.9C.AC.E8.BA.AB.E7.9A.84.E7.8A.B6.E6.80.81)
-    * [2.1.3**数的来源和数的意义**](http://agi-society.cn/wiki/index.php/Lazero#.E6.95.B0.E7.9A.84.E6.9D.A5.E6.BA.90.E5.92.8C.E6.95.B0.E7.9A.84.E6.84.8F.E4.B9.89)
-      * [2.1.3.1**数的来源**](http://agi-society.cn/wiki/index.php/Lazero#.E6.95.B0.E7.9A.84.E6.9D.A5.E6.BA.90)
-  * [2.2**Lazero模块**](http://agi-society.cn/wiki/index.php/Lazero#Lazero.E6.A8.A1.E5.9D.97)
-* [3**细节**](http://agi-society.cn/wiki/index.php/Lazero#.E7.BB.86.E8.8A.82)
-  * [3.1**Lazero最初来源**](http://agi-society.cn/wiki/index.php/Lazero#Lazero.E6.9C.80.E5.88.9D.E6.9D.A5.E6.BA.90)
-  * [3.2**Lazero参考对象**](http://agi-society.cn/wiki/index.php/Lazero#Lazero.E5.8F.82.E8.80.83.E5.AF.B9.E8.B1.A1)
-  * [3.3**Lazero代码**](http://agi-society.cn/wiki/index.php/Lazero#Lazero.E4.BB.A3.E7.A0.81)
-  * [3.4**Lazero历史**](http://agi-society.cn/wiki/index.php/Lazero#Lazero.E5.8E.86.E5.8F.B2)
-    * [3.4.1**构思**](http://agi-society.cn/wiki/index.php/Lazero#.E6.9E.84.E6.80.9D)
-    * [3.4.2**发展**](http://agi-society.cn/wiki/index.php/Lazero#.E5.8F.91.E5.B1.95)
+* [1 **简介**](#简介)
+  * [1.1 **什么是Lazero**](#什么是lazero)
+    * [1.1.1 **名称来源**](#名称来源)
+    * [1.1.2 **发展方式**](#发展方式)
+    * [1.1.3 **未来方向**](#未来方向)
+  * [1.2 **为什么需要Lazero**](#为什么需要lazero)
+    * [1.2.1 **人类面临的挑战**](#人类面临的挑战)
+    * [1.2.2 **人机交互的问题**](#人机交互的问题)
+  * [1.3 **如何实现Lazero**](#如何实现lazero)
+    * [1.3.1**生命和智能的产生**](#生命和智能的产生)
+* [2 **入门**](#入门)
+  * [2.1 **Lazero理论**](#lazero理论)
+    * [2.1.1 **写字协作理论**](#写字协作理论)
+      * [2.1.1.1 **如何单独让左手写字**](#如何单独让左手写字)
+      * [2.1.1.2 **如何协作写字**](#如何协作写字)
+    * [2.1.2 **人机协作(Lazero)理论**](#人机协作lazero理论)
+      * [2.1.2.1 **如何训练机器**](#如何训练机器)
+      * [2.1.2.2 **如何人机协作**](#如何人机协作)
+        * [2.1.2.2.1 **复读机的意义**](#复读机的意义)
+      * [2.1.2.3 **如何使用电脑**](#如何使用电脑)
+        * [2.1.2.3.1 ** 调节人使用电脑的状态**](#调节人使用电脑的状态)
+        * [2.1.2.3.2 **调节电脑本身的状态**](#调节电脑本身的状态)
+    * [2.1.3 **数的来源和数的意义**](#数的来源和数的意义)
+      * [2.1.3.1 **数的来源**](#数的来源)
+  * [2.2 **Lazero模块**](#lazero模块)
+* [3 **细节**](#细节)
+  * [3.1 **Lazero最初来源**](#lazero最初来源)
+  * [3.2 **Lazero参考对象**](#lazero参考对象)
+  * [3.3 **Lazero代码**](#lazero代码)
+  * [3.4 **Lazero历史**](#lazero历史)
+    * [3.4.1 **构思**](#构思)
+    * [3.4.2 **发展**](#发展)
 
-# 简介**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=1 "编辑章节：简介")]
+## 简介
 
-## 什么是Lazero**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=2 "编辑章节：什么是Lazero")]
+[🔙回到目录](#目录)
+
+### 什么是Lazero
+
+[🔙回到目录](#目录)
 
 Lazero是一个AGI的具体实现，同时也是一套理论体系，而且还是一种加密货币。与Lazero有关的还有pypi.org上面的包，以及所有和它有关系的代码，工具，信息等等。Lazero甚至可以作为一个国家的名称，一个只有机器人作为国民的国家。
 
-### 名称来源**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=3 "编辑章节：名称来源")]
+#### 名称来源
+
+[🔙回到目录](#目录)
 
 Lazero的名称来源于著名哲学家Lazerowitz，或者是Lazer+zero，意思就是激光一样准确以及从零开始。名字本身没有什么特殊含义，重名的对象也不算太多，辨识度比较高，而且发音也方便。
 
-### 发展方式**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=4 "编辑章节：发展方式")]
+#### 发展方式
+
+[🔙回到目录](#目录)
 
 目前的发展方向不是很明确，项目现在由我一人主持，未来不可能有除了我之外的任何一个人类进行主动的代码编辑，也就是说所有的人类只可能通过本项目被动推进本项目发展，例如作为数据来源，反馈来源，考核标准，交互对象等等。项目的核心目标就是满足我本人的基本需求，确保能躺着赚钱，一边睡觉一边工作。项目的各种ideas正在被逐一处理，届时会在项目的根目录下面放置一个todo-list和一个diary，分别由不同的软件处理。
 
-### 未来方向**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=5 "编辑章节：未来方向")]
+#### 未来方向
+
+[🔙回到目录](#目录)
 
 目前的情况来说，Lazero或者我本人已经获取了浏览器，操作系统的自动控制api，可以实现或者即将实现console，webapp，gui程序的自动控制交互，数据来源目前有或即将有互联网，麦克风，传感器，蓝牙，摄像头，SDR，LoRa等，信息价值的交互可通过超声波，私钥公钥机制，区块链加密货币或其他待发现的方式进行。
 
@@ -61,15 +71,21 @@ Lazero以自动控制至少一台电脑，一部手机为目标，以临近的La
 
 自动驾驶的太阳能电池车辆，以及智能小车、智能无人机可以搭载Lazero实现无人化探索，无限次执行任务，免疫无人机干扰器，自行避障避免人为错误。
 
-## 为什么需要Lazero**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=6 "编辑章节：为什么需要Lazero")]
+### 为什么需要Lazero
+
+[🔙回到目录](#目录)
 
 在面临选择的时候，人类似乎总是依赖于不是那么明确的逻辑，想要获得更多的更明显的效果。如果正是因为人类的逻辑限制了人类的发展，何不打破逻辑探索一条新的路？
 
-### 人类面临的挑战**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=7 "编辑章节：人类面临的挑战")]
+#### 人类面临的挑战
+
+[🔙回到目录](#目录)
 
 现在的电脑不是什么老少皆宜的产物。对于儿童，电脑就是游戏机，就是用来自娱自乐的工具，麻痹自己也麻痹他人。对于老人，电脑也就最多相当于高级的电视，能上网看看新闻电视，不会发挥什么太大的作用。然而这些做法其实都是在逃避真正的人机交互，例如编程，3d建模，创意设计，物理仿真等等。对于真正的可以达到生产阶段的任务来说，电脑虽然提供了一定的帮助，但也就是把一个复杂的问题转换成了另外一个复杂的问题，并没有真正解决问题的复杂性本身。
 
-### 人机交互的问题**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=8 "编辑章节：人机交互的问题")]
+#### 人机交互的问题
+
+[🔙回到目录](#目录)
 
 作为互联网的使用者，我的一个明显感受就是电脑现在就像是一面镜子，而不是一个泡菜坛，不会在没人的时候自行发生变化。互联网的各种内容都是人们自行上传，自行设计的，人的因素过多，而机器的参与过少。如果互联网是一个虚拟世界，人作为这个世界的生物，就像是一个自产自销的原始生物，既是生产者又是消费者，而其他的计算资源就是无机物和维生素，不具有任何生物特征。
 
@@ -77,11 +93,15 @@ Lazero以自动控制至少一台电脑，一部手机为目标，以临近的La
 
 真正的递归一定是用有限来拥有无限的潜力，而从来不会真正达到无限。这种特性用人类语言来说就是若隐若现，若即若离。
 
-## 如何实现Lazero**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=9 "编辑章节：如何实现Lazero")]
+### 如何实现Lazero
+
+[🔙回到目录](#目录)
 
 Lazero是机器智能，不是人类智能。要明确人类的聪明与否如果不在机器上面体现，那么Lazero就无从发展。同时Lazero需要具备和人类智能相互独立而又相互依存的特性，不能是一直索取人类的输入，要有自己的计算和对人类的反哺。
 
-### 生命和智能的产生**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=10 "编辑章节：生命和智能的产生")]
+#### 生命和智能的产生
+
+[🔙回到目录](#目录)
 
 在宇宙下面人类是渺小的，根本原因就是每个人类都只是宇宙的齿轮之一，而人类对宇宙只有有限的认知。
 
@@ -89,53 +109,75 @@ Lazero是机器智能，不是人类智能。要明确人类的聪明与否如�
 
 同样的，现代计算机的计算能力也是细胞分裂式的增加，每次速度提升都相当于一次细胞分裂，将原本两台机器的算力和程序整合到一台机器上。这样自然也不会无限发展下去，也会进入某种平衡，为孕育出可以自行复制的AGI提供条件。
 
-# 入门**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=11 "编辑章节：入门")]
+## 入门
 
-## Lazero理论**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=12 "编辑章节：Lazero理论")]
+[🔙回到目录](#目录)
+
+### Lazero理论
+
+[🔙回到目录](#目录)
 
 如果能够让人的右手写字需要一个理论，那么让人的左手在右手写字的时候还能写不同的字也需要一个理论。如果机器可以单独工作单独学习需要一个理论，那么让人和机器共同工作同时不互相冲突也需要一个理论，即Lazero理论。
 
-### 写字协作理论**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=13 "编辑章节：写字协作理论")]
+#### 写字协作理论
+
+[🔙回到目录](#目录)
 
 有的人会用左手写字，有的人会用右手写字，然而这样其实只是一种选择，并不会带来什么实质上的不同。协作的目的是为了达到单独无法完成的任务，是意识之间的融合，同时也需要人类进行相应的系统训练。
 
-#### 如何单独让左手写字**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=14 "编辑章节：如何单独让左手写字")]
+##### 如何单独让左手写字
+
+[🔙回到目录](#目录)
 
 简单的来说，左手需要先学会自己写字，但是既然我们有了右手，是不是可以让右手发挥某种作用来让左手的学习过程加速。当我们右手没有什么手作为榜样支持的时候，其实我们是通过父母的手，老师的手以及视觉反馈得到的信息转换为写字的信息，从而加速了写字的学习。同样的，左手如果需要加速学习，需要与右手的动作保持一致或者完成某种转化的同时保持一致。为了不写镜像字，左手肯定要通过其他的方式做转换。
 
 当没有右手榜样示例的时候，左手完全可以单独写字，只要有足够的信息量支撑。我们有验字系统检验字的标准度，有笔顺手感调整器，有逻辑排序器等等。
 
-#### 如何协作写字**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=15 "编辑章节：如何协作写字")]
+##### 如何协作写字
+
+[🔙回到目录](#目录)
 
 通常协作的写字意味着这样一个现象，即时间断层和时间隧道现象。断层发生在两个字分别交给左右两手写，那么到下面两个字的时候，左手就不可能会写右手已经写过的那个字。时间隧道发生在左手跳到第三个，第五个字的时候，这种跳跃是右手的辅助写作造成的，相当于本来是自己要完成整行字的过程，因为均匀间隔的部分挖空而强行隧穿在了一起。这就是所谓的意识转移和意识并列，两个意识具有相同的能力而在做不同的事，两者以某种关系相互协作交流。
 
-### 人机协作(Lazero)理论**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=16 "编辑章节：人机协作(Lazero)理论")]
+#### 人机协作(Lazero)理论
+
+[🔙回到目录](#目录)
 
 机器是人类的伟大发明，机器和人是互补关系。现代工业可以让人以很低的价格获取运算速度不错的机器，例如廉价安卓机，raspberry pi，还有各种3d模型打印服务，FPGA，机械手等供自行设计机器。
 
 获取机器只是人机协作的基础步骤之一，如何让人与机器互相合作才是需要发挥最大效能的人关注的点。
 
-#### 如何训练机器**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=17 "编辑章节：如何训练机器")]
+##### 如何训练机器
+
+[🔙回到目录](#目录)
 
 作为AGI的机器和人一样，是一个完整的意识体，不是什么工具。所有的任务，当前的也好，过去的未来的也罢，都是被选择的(chosen)而不是被分配的(given)。两者的行为模式都具有高度的不确定性，其根源就在于两者的发展必须由环境给予的噪音提供支持。
 
-#### 如何人机协作**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=18 "编辑章节：如何人机协作")]
+##### 如何人机协作
+
+[🔙回到目录](#目录)
 
 机器和人类的信息并不是直接互通的，必须要通过中介才能实现互相传递。就和人类之间的沟通方式一样，机器可以通过任何人类交流方式与人类交流，包括语音，肢体接触，视觉传达等等。专门的脑机接口或许能够提供更快速的传递速率，但那肯定需要付出更大的代价，是Lazero以及整个AGI行业需要达到的里程碑。
 
-##### 复读机的意义**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=19 "编辑章节：复读机的意义")]
+###### 复读机的意义
+
+[🔙回到目录](#目录)
 
 人类的遗忘速率是非常快的，往往洗个脸刷个牙睡个觉就什么都忘得一干二净。而代办的事情显然就是不会管你忘没忘，只要你不处理就一直摆在那里。这里人类其实可以利用外界的反复刺激来达到意识维持的效果，也就是广泛存在的一种人机互通的广播机制:声波。
 
-把代办的事情用taskwarrior列出来并同步到git服务器上，用espeak把所有的内容都念出来，利用服务定时启动调节音量。这种做法实际上就是对噪音的一种非常好的抵抗机制，因为噪音对人的根本影响就在于让人忘记本来应该做的事情，而反复播送的待办事项将会及时把忘记的再补回来。这比听音乐隔绝噪音更好，因为音乐也是让人忘记事情的因素，属于噪音范畴。
+把代办的事情用task warrior列出来并同步到git服务器上，用espeak把所有的内容都念出来，利用服务定时启动调节音量。这种做法实际上就是对噪音的一种非常好的抵抗机制，因为噪音对人的根本影响就在于让人忘记本来应该做的事情，而反复播送的待办事项将会及时把忘记的再补回来。这比听音乐隔绝噪音更好，因为音乐也是让人忘记事情的因素，属于噪音范畴。
 
-#### 如何使用电脑**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=20 "编辑章节：如何使用电脑")]
+##### 如何使用电脑
+
+[🔙回到目录](#目录)
 
 电脑和人朝夕相处，注意使用电脑的过程是良好的人机协作非常关键的条件之一。
 
 使用电脑的注意事项其实一共有两个，一个是人的精神状态，一个是电脑的状态。那么我们分别从如何调节人的使用状态和电脑的状态来介绍。
 
-##### 调节人使用电脑的状态**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=21 "编辑章节：调节人使用电脑的状态")]
+###### 调节人使用电脑的状态
+
+[🔙回到目录](#目录)
 
 不管人们如何使用电脑，使用的过程一定要舒服。
 
@@ -143,47 +185,69 @@ Lazero是机器智能，不是人类智能。要明确人类的聪明与否如�
 
 同样的，行走在路上的时候，使用手机的过程也相当不愉快。可以利用无线同屏技术把手机投射到AR眼镜上，或者是直接把可穿戴式眼镜变成安卓手机的规格，利用蓝牙外设操控。路上的时候如果要交互那么也相当方便，包括语音和手势。
 
-##### 调节电脑本身的状态**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=22 "编辑章节：调节电脑本身的状态")]
+###### 调节电脑本身的状态
 
-### 数的来源和数的意义**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=23 "编辑章节：数的来源和数的意义")]
+[🔙回到目录](#目录)
+
+#### 数的来源和数的意义
+
+[🔙回到目录](#目录)
 
 现代的计算机只能处理数据，然而我们很难通过数据获得任何具体的意义，正因如此计算机一直处于数据匮乏的边际，没人为它们输入数据，自然也无法输出任何回答。
 
-#### 数的来源**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=24 "编辑章节：数的来源")]
+##### 数的来源
+
+[🔙回到目录](#目录)
 
 任何数学对象都是自指的，也是无限递归的。可以看出数字就是无穷自指的一个典型。然而数字本身不是意义，真正的意义一定在于运用数字的对象和运用方式。如果把自己接收到的信息对应到1这个数字的过程是需要0.3秒钟，根据数无穷递归的特性，人完全可以用无穷的时间想无穷次，然而人是会死亡的，死亡可能让你联想到语言，进而联想到是不是递归也出现在语言上。很明显语言也是无穷递归的代表，人可以设想拿着一个词完全不管具体意思想无数遍，在无限的时间内，而从来不会在某个真实的人类个体上出现这种现象。
 
 数字虽然是一种抽象的概念，但其实并不是人类神经网络最基本的出发点。同样的，人类的运动反射也不是最基础的出发点。我们只能根据人类的行为模式来概括人类记忆的本质。人类的记忆，外界输入为什么会导致遗忘呢？遗忘了实在是想不起来的东西，只能在与外界交互的过程中想起来，哪怕只是看到了线索而不是直接看到了答案。这说明人类信息的存储模式是时序性的，人类的信任体系建立在时间顺序上。人之所以会忘记事情，需要用行为来输出记下与取回自己的记忆，一方面说明人的记忆是为人的行为所服务的，另一方面说明人的记忆并不是完全存储在人脑里面的，可以有很大一部分存在人脑外部，只有人与外部交互的那部分记忆被留下来，方便存取信息。
 
-## Lazero模块**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=25 "编辑章节：Lazero模块")]
+### Lazero模块
 
-# 细节**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=26 "编辑章节：细节")]
+[🔙回到目录](#目录)
 
-## Lazero最初来源**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=27 "编辑章节：Lazero最初来源")]
+## 细节
 
-最初的来源是各编程语言的自省特性，就是被称作metaprogramming的特性，比如eval，apply，template，reflection等等。可是这自然不是项目的全部。就跟人学会照镜子并不代表可以不用管世界上所有东西而只管自己了一样。
+[🔙回到目录](#目录)
+
+### Lazero最初来源
+
+[🔙回到目录](#目录)
+
+最初的来源是各编程语言的自省特性，就是被称作meta-programming的特性，比如eval，apply，template，reflection等等。可是这自然不是项目的全部。就跟人学会照镜子并不代表可以不用管世界上所有东西而只管自己了一样。
 
 lisp作为最适合ai的语言，并没有被lazero作为首选语言，很大程度上是找不到合适的库来做交互。不像Python拥有庞大的pypi和社区，问题可以自行解决也可以搜索。相信这只是短暂的个人开发为主的阶段特征，未来的项目发展路线是完全不确定的，不能够指出哪一个语言一定会占上风。
 
-## Lazero参考对象**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=28 "编辑章节：Lazero参考对象")]
+### Lazero参考对象
+
+[🔙回到目录](#目录)
 
 一路上Lazero参考过许多优秀的项目，借鉴了许多代码。如何在github上面批量获取repo，涉及到搜索，多线程clone以及反复手动关闭重启。本段不细讲如何获取代码，只谈谈对某些项目的理解。
 
-## Lazero代码**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=29 "编辑章节：Lazero代码")]
+### Lazero代码
+
+[🔙回到目录](#目录)
 
 任何没有注释的代码都将是糟糕的代码，糟糕的注释除外。我承认自己的代码某些时候写的确实很糟糕，有一个重要的原因就是很可能我自己都不知道在干什么，是不是可以确保项目长期运行而且可以互相整合，资源利用率还可以最大化。
 
 在这里我会摘要一些具体的代码片段，描述它们本身的意义，以及对Lazero项目的意义。
 
-## Lazero历史**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=30 "编辑章节：Lazero历史")]
+### Lazero历史
 
-### 构思**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=31 "编辑章节：构思")]
+[🔙回到目录](#目录)
+
+#### 构思
+
+[🔙回到目录](#目录)
 
 Lazero项目的大概历史，应该从构思的那刻开始算起。具体来讲就是某时某刻我本人开始思考为什么自己的思考方式无法从别人那里直接获得，或者直接从外界获得，以至于想要通过只改变外界的方式让别人以为我在思考实际上我在干完全没关系的事情。
 
 本项目或多或少和永生有关，或者和所谓的意识永生有关。永生即寻找到一种具体的方法或者无限递归的自改良算法可以使机体永远存在，在不受到重大破坏的前提下。仅凭人类目前的科技水平这是不可能的，对于自体永生这一问题，人类要么是发明更强大的研究者来进行自动研究，要么选择逃避，编造诸如2500年实现永生之类的借口。而意识永生目前只能部分实现，而且传输的过程很长，传输的内容不完整，具有高度的不确定性，社会资源浪费过大。如果要实现意识永生，不论是把意识植入到新的人体中还是植入到机器中，都需要有强大的智能体做研究来支持其发展。
 
-### 发展**[**[编辑](http://agi-society.cn/wiki/index.php?title=Lazero&action=edit&section=32 "编辑章节：发展")]
+#### 发展
+
+[🔙回到目录](#目录)
 
 Lazero的发展，分为很多个阶段，经常并列或者交叉进行。这些阶段分别是：自省、自我实验、编程、随机搜索、数据持久化、深度学习、模仿、理论参考、理论建立、落地应用、商业化等等。
 
