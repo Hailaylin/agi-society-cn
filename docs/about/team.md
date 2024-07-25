@@ -9,19 +9,16 @@ comments: true
 >
 > 详细个人简介：[Curriculum Vitae of Pei Wang (temple.edu)](https://cis.temple.edu/~pwang/PeiWangCV.html)
 
-王培教授是 OpenNARS 项目（AGI通用人工智能项目）的发起人和主要编写者，是国际 AGI 组织 http://agi-conf.org/  的发起人和常驻委员，是《哥德尔、埃舍尔、巴赫 -- 集异璧之大成》的译者之一，同时也是中国 nars 小组的指导老师，是中国通用人工智能协会的常驻点评指导老师，关于王培教授的头衔和周边，实在太多，建议点击下面的链接，观看视频，阅读论文和项目源码，了解详情：
+王培教授是 OpenNARS 项目（AGI通用人工智能项目）的发起人和主要编写者，是[国际 AGI 组织](http://agi-conf.org/)  的发起人和常驻委员，是《哥德尔、埃舍尔、巴赫 -- 集异璧之大成》的译者之一，同时也是中国 nars 小组的指导老师，是中国通用人工智能协会的常驻点评指导老师，关于王培教授的头衔和周边，实在太多，建议点击下面的链接，观看视频，阅读论文和项目源码，了解详情：
 
-https://cis.temple.edu/~pwang/
+- <https://cis.temple.edu/~pwang/>
+- <https://cis.temple.edu/~pwang/Chinese.html>
+- <https://github.com/opennars/opennars/wiki>
+- <http://agi-conf.org/>
 
-https://cis.temple.edu/~pwang/Chinese.html
+### 个人访谈
 
-https://github.com/opennars/opennars/wiki
-
-http://agi-conf.org/
-
-### 个人访谈：
-
-[Pei Wang Interviewes (temple.edu)](https://cis.temple.edu/~wangp/interviews.html)
+[Pei Wang Interviews (temple.edu)](https://cis.temple.edu/~wangp/interviews.html)
 
 里面有一些关于个人问题的回答等。与AGI强相关。
 
@@ -29,13 +26,14 @@ http://agi-conf.org/
 
 > 博士，渤海大学 , 教育科学学院, 教育技术学学硕及心理健康教育专硕硕士生导师,  中国通用人工智能协会（筹），召集人
 
-研究方向:  通用人工智能与教育大科学的理论与实践、类脑系统开发与机器教育、计算精神病学。包括如下不同层次：
+研究方向:  通用人工智能与教育大科学的理论与实践、类脑系统开发与机器教育、计算精神病学。
 
-   （1）理论：一般智能理论、 一般学习理论和一般教育理论（含职业教育）研究
+研究层次：
 
-   （2）技术：基于理解的动态学科知识图谱构建（学科数学）、教学材料的自组织与自改进（教育技术学）、精神障碍心理学标记物的拓扑发现与定位（精神病学）、基于经验建构的机器婴儿主动视觉（计算机科学）
-
-   （3）工程：研发通用人工智能框架下的类脑系统（计算机科学）（4）应用：基于认知建构的下一代ITS（教育技术学）、教育干预手段治疗精神障碍（精神病学）
+1. 理论：一般智能理论、 一般学习理论和一般教育理论（含职业教育）研究
+2. 技术：基于理解的动态学科知识图谱构建（学科数学）、教学材料的自组织与自改进（教育技术学）、精神障碍心理学标记物的拓扑发现与定位（精神病学）、基于经验建构的机器婴儿主动视觉（计算机科学）
+3. 工程：研发通用人工智能框架下的类脑系统（计算机科学）
+4. 应用：基于认知建构的下一代ITS（教育技术学）、教育干预手段治疗精神障碍（精神病学）
 
 ## 徐英瑾
 

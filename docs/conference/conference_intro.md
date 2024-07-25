@@ -1,27 +1,62 @@
-**第一届中国通用人工智能年会：武汉，华中师范大学，2016年6月**
+# 历届年会
 
-**第二届中国通用人工智能年会：武汉，华中师范大学，2017年7月** [会议网站](https://www.allconfs.org/meeting/list.asp?id=4153&nid=2091)
+## 2016 第一届中国通用人工智能年会
 
-**第三届中国通用人工智能年会：锦州，渤海大学，2018年7月**
+- 时间：2016年6月
+- 地点：武汉
+- 主办单位：华中师范大学
 
-**第四届中国通用人工智能年会：深圳，2019年8月**
+## 2017 第二届中国通用人工智能年会
 
-**第五届中国通用人工智能年会：在线举办，2020年12月**
+- 时间：2017年7月
+- 地点：武汉
+- 主办单位：华中师范大学
+- 会议网站：<https://www.allconfs.org/meeting/list.asp?id=4153&nid=2091>
 
-[【2020年第五届中国通用人工智能年会_日程全集】 ](https://www.bilibili.com/video/BV1y64y1f7Nf/?share_source=copy_web)
+## 2018 第三届中国通用人工智能年会
 
-第六届中国通用人工智能年会:
+- 时间：2018年7月
+- 地点：锦州
+- 主办单位：渤海大学
 
-[【2021年第六届中国通用人工智能年会_专题报告】 ](https://www.bilibili.com/video/BV1db4y1Y7Hw/?share_source=copy_web&vd_source=69a514dc0e2aaf825077e413b7f6a4d4)
+## 2019 第四届中国通用人工智能年会
 
-第七届中国通用人工智能年会：兰州 2022年7月12日-13日
+- 时间：2019年8月
+- 地点：深圳
 
-[【2022年第七届中国通用人工智能年会_主旨报告】 ](https://www.bilibili.com/video/BV1fS4y177JZ/?share_source=copy_web&vd_source=69a514dc0e2aaf825077e413b7f6a4d4)
+## 2020 第五届中国通用人工智能年会
 
-第八届中国通用人工智能年会：上海
+- 时间：2020年12月
+- 地点：在线
+- 年会视频：[【2020年第五届中国通用人工智能年会_日程全集】](https://www.bilibili.com/video/BV1y64y1f7Nf)
 
-[【2023年第八届中国通用人工智能年会（一）】 ](https://www.bilibili.com/video/BV11M4y1p7mG/?share_source=copy_web&vd_source=69a514dc0e2aaf825077e413b7f6a4d4)
+## 2021 第六届中国通用人工智能年会
 
+- 年会视频：[【2021年第六届中国通用人工智能年会_专题报告】](https://www.bilibili.com/video/BV1db4y1Y7Hw)
 
+## 2022 第七届中国通用人工智能年会
 
-[第九届中国通用人工智能年会：南京](2024.md)
+- 时间：2022年7月12日-13日
+- 地点：兰州
+- 主办单位：西北民族大学
+- 年会视频：[【2022年第七届中国通用人工智能年会_主旨报告】](https://www.bilibili.com/video/BV1fS4y177JZ)
+
+## 2023 第八届中国通用人工智能年会
+
+- 时间：2023年7月24日-25日
+- 地点：上海
+- 主办单位：复旦大学
+- 年会视频：[【2023年第八届中国通用人工智能年会（一）】](https://www.bilibili.com/video/BV11M4y1p7mG)
+
+## 2024 第九届中国通用人工智能年会
+
+[📄2024](2024)
+
+- 时间：2024年7月13日-14日
+- 地点：南京
+- 主办单位：南京理工大学
+- 年会视频
+  - [1](https://www.bilibili.com/video/BV1p4421D78q)
+  - [2](https://www.bilibili.com/video/BV1zE421A7rr)
+  - [3](https://www.bilibili.com/video/BV1Ff421B7sp)
+  - [4](https://www.bilibili.com/video/BV1dx4y1x7Vn)
