@@ -13,8 +13,10 @@ comments: true
 
 这种通用能力, 区别于专用人工智能系统(如 人脸识别 语音识别等等深度学习应用) , 更强调统一性和普遍性(多任务), 以及可解释性.
 
-本项目的源码地址:
+## 主要源码地址
 
 [https://github.com/opennars/opennars](https://github.com/opennars/opennars)
 
-介绍文章: [https://cis.temple.edu/~pwang/NARS-Intro.html](https://cis.temple.edu/~pwang/NARS-Intro.html) (英文)
+## 介绍文章
+
+（英文）[https://cis.temple.edu/~pwang/NARS-Intro.html](https://cis.temple.edu/~pwang/NARS-Intro.html)

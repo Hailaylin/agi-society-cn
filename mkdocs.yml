@@ -5,11 +5,11 @@ theme:
   name: material
   custom_dir: overrides
   language: zh
-  palette: 
+  palette:
         # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: 切换为夜间模式
       primary: indigo
       accent: orange
@@ -20,8 +20,8 @@ theme:
         icon: material/brightness-4
         name: 切换为日间模式
       accent: cyan
-  
-  font: 
+
+  font:
     text: Noto Sans SC
     code: Roboto Mono
 
@@ -79,19 +79,21 @@ markdown_extensions:
   - pymdownx.blocks.tab:
       alternate_style: True
 
+# 导航目录
 nav:
-  - Nars 教程:
-    - 各个版本实现介绍:
+  - NARS教程:
+    - nars/nars_index.md
+    # - nars/learning_resources.md
+
+    - NARS理论:
+      - nars/theory/aikr.md
+
+    - NARS各版实现:
       - nars/impl/index.md
       - nars/impl/opennars1.5.8.md
       - nars/impl/pynars.md
       - nars/impl/junars.md
       - nars/impl/narust.md
-    - nars/nars_index.md
-
-
-    # - nars/learning_resources.md
-    - nars/aikr.md
 
   - AGI 通用人工智能:
     - agi/agi_intro.md
@@ -99,7 +101,7 @@ nav:
   - SAI 专用人工智能:
     - sai/sai_intro.md
     - sai/llms.md
-  
+
   - 思想书库:
     - other/other_intro.md
     - other/meaning_network.md
