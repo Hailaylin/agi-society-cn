@@ -1,7 +1,6 @@
 ---
 comments: true
 ---
-
 # 本网站编辑格式
 
 ## 模块化内容渲染
@@ -51,14 +50,12 @@ note 字段可以是以下types里面的任意一种
 
 hi hi hi ，我被二向箔折叠啦
 
-
 /// details | 折叠块还能改变类型
     type: warning
 
 我竟然被二向箔打了两遍
 
 ///
-
 
 /// details | 折叠块还能强制不折叠
     open: true
@@ -68,12 +65,7 @@ hi hi hi ，我被二向箔折叠啦
 
 ///
 
-
 ///
-
-
-
-
 
 ## 推荐编辑工具
 
@@ -100,7 +92,6 @@ git clone https://github.com/Hailaylin/agi-society-cn.git
 
 ### 1. 安装 python 虚拟环境
 
-
 如果报错，则需要先安装python3，然后再执行上面的命令。apt源推荐换成清华源。
 
 ````bash
@@ -109,7 +100,7 @@ sudo apt install python3-full
 
 并且在主机创建虚拟环境
 
-````bash 
+````bash
 python3 -m venv agi-society-pyenv
 ````
 
@@ -120,12 +111,12 @@ source agi-society-pyenv/bin/activate
 ````
 
 然后你的终端会显示：
+
 ````bash
 (agi-society-pyenv) starlin@StarCloud:/mnt/d/NARS/000-AGI-Society.cn$
 ````
 
 则你已经入虚拟环境中。
-
 
 ### 2. 启动实时预览
 
@@ -141,5 +132,7 @@ pip install mkdocs-material
 mkdocs serve
 ````
 
-3. vscode 实时预览
+### 3. vscode 实时预览
 
+效果如下：
+![vscode wsl mkdocs效果图](image/edit/Snipaste_2024-07-26_18-03-28.png)
