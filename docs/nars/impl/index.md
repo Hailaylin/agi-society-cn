@@ -1,6 +1,7 @@
 ---
 comments: true
 ---
+
 # NARS各版实现索引
 
 综合NARS在各处的实现情况，本文添加了NARS各版实现索引。

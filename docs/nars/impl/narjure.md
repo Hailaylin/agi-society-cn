@@ -1,6 +1,7 @@
 ---
 comments: true
 ---
+
 # Narjure
 
 [GitHub↗](https://github.com/opennars/narjure)

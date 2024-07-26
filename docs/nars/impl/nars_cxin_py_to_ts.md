@@ -1,6 +1,7 @@
 ---
 comments: true
 ---
+
 # NARS CXin Py to TS
 
 [GitHub↗](https://gitee.com/poerlang/nars_cxin_py_to_ts)
