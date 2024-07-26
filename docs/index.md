@@ -1,6 +1,7 @@
 ---
 comments: true
 ---
+
 # AGI Society CN - Docs
 
 这里是中国通用人工智能协会的文档网站。
