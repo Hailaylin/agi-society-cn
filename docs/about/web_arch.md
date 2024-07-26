@@ -35,10 +35,10 @@ comments: true
 
 ## 3. 改进
 
+/// note | 想法1
+
 可选用具有知识网络结构[Quartz 4](https://quartz.jzhao.xyz/)，适合将Obsidian的双向链接知识库发布在网上。
 
-/// note | 想法
-
-或许，【TODO】
-
 ///
+
+
