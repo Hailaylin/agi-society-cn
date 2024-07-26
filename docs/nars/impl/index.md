@@ -1,24 +1,77 @@
+---
+comments: true
+---
+# NARS各版实现索引
 
-# NARS 各个版本实现介绍
+综合NARS在各处的实现情况，本文添加了NARS各版实现索引。
 
-在NARS的发展过程中，涌现了一大批研究者按照NARS的运作逻辑，用各种编程语言自己编写NARS核心。
+该索引将专注于NARS各版实现的分类存档。索引将以**编程语言**为主要分类依据，内部排序大部分将按**实现时间/发布时间**组织。编程语言的排序不分先后。
 
-由于版本多，加之理论难度和编程难度都对初学者入门造成了一定的阻碍，因此特地总结各个版本实现的简介和运行教程，让新手也能在自己计算设备上运行NARS，感受其实际效果。
+（TODO: 具体介绍前言仍可扩充与润色。）
 
-## 各版本总览
+/// warning | 注意
+    open: True
 
-最经典的是王培教授使用Java语言编写实现的[OpenNars 1.5.8](opennars1.5.8)。这一版实现了NAL1-6层，实现效果：稳定无变动。
+本板块不讨论编程语言。
 
-[ARCJ137442](https://github.com/ARCJ137442)
-根据此版本魔改了一版实现，名为[OpenNARS-158-dev](https://github.com/ARCJ137442/OpenNARS-158-dev)
-，并且在内补充了详尽的中文注释，可便于学习。
+若想讨论与编程语言自身相关的话题，可移步至其它技术论坛网站。
 
-ARCJ137442 还根据此魔改版本实现了[NARust](narust)。
+///
 
-opennars经过发展后有3.0.4、3.1.1等几个大版本，
+## 索引
 
-最后更换了python语言，由徐博文博士主持编写[pynars (opennars 4.0)](pynars)。
+### C
 
-4.0版本大改了控制机制，增加了多通道输入和对时间事件的感知与预测。整体实现由python实现，性能部分对接C++编写的cNARS作为运算单元，加快python代码运行速度。
+- [ONA](ona "OpenNARS for Applications") (OpenNARS for Applications)
 
-- TODO：还有更多版本 见[天普大学AGI团队](https://cis.temple.edu/tagit/#projects)。
+### Clojure
+
+- [Narjure](narjure "OpenNARS 2.x") (OpenNARS 2.x)
+
+### Java
+
+- [OpenNARS](opennars "OpenNARS 1.x / 3.x") (OpenNARS 1.x / 3.x)
+
+### JavaScript/TypeScript
+
+- [NARS CXin Py to TS](nars_cxin_py_to_ts)
+
+### Julia
+
+- [OpenJunars](openjunars)
+
+### Python
+
+- [NARS-Python](nars_python)
+- [PyNARS](pynars)
+
+### Rust
+
+- [20NAR1](20nar1)
+- [Narst](narst)（截止至2024-07-26，尚不完整）
+
+### Swift
+
+- [NARS-Swift](nars_swift)
+
+## 版本收录&投稿
+
+/// question | 需要添加自己的版本？
+    open: True
+
+若实现者有自己的一版NARS实现，可[在GitHub提issue](https://github.com/Hailaylin/agi-society-cn/issues/new)，或在文末评论区发言。
+
+同样也欢迎贡献者对遗漏的版本投稿！
+
+投稿NARS实现前，可检查以下几点：
+
+1. 有GitHub/Gitee代码仓库
+    - 推荐开源
+2. 有Narsese语言实现
+    - 不论是内建数据结构，还是借助外部语法解析库
+3. 有NAL实现
+    - 不限层级，不限算法
+4. 有Demo演示
+    - 可为视频，也可为在线交互页面
+
+///
