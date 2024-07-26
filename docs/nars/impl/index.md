@@ -10,8 +10,7 @@ comments: true
 
 （TODO: 具体介绍前言仍可扩充与润色。）
 
-/// warning | 注意
-    open: True
+/// Warning | 注意
 
 本板块不讨论编程语言。
 

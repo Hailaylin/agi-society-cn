@@ -12,7 +12,7 @@ comments: true
 
 ## 各版本总览
 
-最经典的是王培教授使用Java语言编写实现的[OpenNARS 1.5.8](opennars1.5.8)。这一版实现了NAL1-6层，实现效果：稳定无变动。
+最经典的是王培教授使用Java语言编写实现的[OpenNARS 1.5.8](opennars.md)。这一版实现了NAL1-6层，实现效果：稳定无变动。
 
 [ARCJ137442](https://github.com/ARCJ137442)
 根据此版本魔改了一版实现，名为[OpenNARS-158-dev](https://github.com/ARCJ137442/OpenNARS-158-dev)

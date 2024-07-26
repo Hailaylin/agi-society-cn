@@ -8,8 +8,7 @@ comments: true
 
 目前此处的文字主要由【AGI爱好者，非专业从事本领域的人】提供。
 
-/// warning | "注意"
-    open: True
+/// warning | 注意
 
 思想书库的内容仅作记录，搬运了[旧版wiki](http://agi-society.cn/wiki/index.php/)的内容。
 
