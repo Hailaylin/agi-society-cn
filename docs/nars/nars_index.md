@@ -1,6 +1,7 @@
 ---
 comments: true
 ---
+
 # NARS
 
 **非公理推理系统** ( Non-Axiomatic Reasoning System )。

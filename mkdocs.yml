@@ -88,12 +88,27 @@ nav:
     - NARS理论:
       - nars/theory/aikr.md
 
-    - NARS各版实现:
-      - nars/impl/index.md
-      - nars/impl/opennars1.5.8.md
-      - nars/impl/pynars.md
-      - nars/impl/junars.md
-      - nars/impl/narust.md
+    - NARS工程:
+
+      - NARS各版实现:
+        - nars/impl/introduction.md
+        - nars/impl/index.md
+
+        - nars/impl/20nar1.md
+        - nars/impl/narjure.md
+        - nars/impl/nars_cxin_py_to_ts.md
+        - nars/impl/nars_python.md
+        - nars/impl/nars_swift.md
+        - nars/impl/narst.md
+        - nars/impl/ona.md
+        - nars/impl/openjunars.md
+        - nars/impl/opennars.md
+        - nars/impl/pynars.md
+
+      - NARS衍生项目:
+        - nars/derivative_project/introduction.md
+        - nars/derivative_project/index.md
+
 
   - AGI 通用人工智能:
     - agi/agi_intro.md
