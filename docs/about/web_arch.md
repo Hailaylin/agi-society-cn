@@ -40,5 +40,3 @@ comments: true
 可选用具有知识网络结构[Quartz 4](https://quartz.jzhao.xyz/)，适合将Obsidian的双向链接知识库发布在网上。
 
 ///
-
-

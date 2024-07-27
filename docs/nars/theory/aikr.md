@@ -4,7 +4,7 @@ comments: true
 
 # AIKR / 不足预设
 
-**[NARS](http://agi-society.cn/wiki/index.php/NARS "非公理推理系统")** 系统理论当中 **最核心的假设** :
+**[NARS](http://agi-society.cn/wiki/index.php/NARS "非公理推理系统")** 系统理论当中 **最核心的假设**:
 
 **A**ssumption of **I**nsufficient **K**nowledgeand **R**esources:
 

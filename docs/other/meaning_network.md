@@ -46,7 +46,7 @@ comments: true
 
 上面的讨论之上，我们再考察一下 符号系统的结构，和意义的结构，会发现其实是非常相似的。 后面我们会发现其活动行为，也是有很大关系的。
 
-![联想.png](http://agi-society.cn/wiki/images/thumb/9/93/%E8%81%94%E6%83%B3.png/300px-%E8%81%94%E6%83%B3.png)
+!![联想](image/联想.png)
 
 ## **引子3，[联想](http://agi-society.cn/wiki/index.php?title=%E8%81%94%E6%83%B3&action=edit&redlink=1 "联想（页面不存在）")活动的[跳板](http://agi-society.cn/wiki/index.php?title=%E8%B7%B3%E6%9D%BF&action=edit&redlink=1 "跳板（页面不存在）")**
 
