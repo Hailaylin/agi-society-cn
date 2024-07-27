@@ -8,6 +8,6 @@ comments: true
 
 - 全名：OpenNARS for Applications
 - 作者：*Patrick Hammer*
-  - [GitHub↗](https://github.com/patham9)
+    - [GitHub↗](https://github.com/patham9)
 
 todo

@@ -5,12 +5,12 @@ comments: true
 # OpenJunars
 
 - 作者：*孙常新 (Changxin Sun)*
-  - [GitHub↗](https://github.com/AIxer)
+    - [GitHub↗](https://github.com/AIxer)
 - 源码链接
-  - [Github↗](https://github.com/AIxer/OpenJunars)
-  - [Gitee↗](https://gitee.com/junars/nacore6)
+    - [Github↗](https://github.com/AIxer/OpenJunars)
+    - [Gitee↗](https://gitee.com/junars/nacore6)
 - 介绍链接
-  - [Bilibili视频（年会报告）](https://www.bilibili.com/video/BV15m4y1Q7yD?p=3)
+    - [Bilibili视频（年会报告）](https://www.bilibili.com/video/BV15m4y1Q7yD?p=3)
 
 ## 教程导引
 

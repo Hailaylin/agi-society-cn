@@ -7,6 +7,6 @@ comments: true
 [GitHub↗](https://github.com/ntoxeg/narst)
 
 - 作者：*Adrian Borucki*
-  - [GitHub↗](https://github.com/ntoxeg)
+    - [GitHub↗](https://github.com/ntoxeg)
 
 todo
