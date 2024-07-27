@@ -10,7 +10,7 @@ comments: true
 
 [学术主页↗](https://cis.temple.edu/~pwang/)
 [个人CV↗](https://cis.temple.edu/~pwang/PeiWangCV.html "Curriculum Vitae of Pei Wang (temple.edu)")
-<!-- [知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=%E7%8E%8B%E5%9F%B9&code=000030813766&v=S9YHj3BEsKa5fwwTFPnTmqScyLd2I_AasnZGijQCwpKf4UHLVXsBbaUm89ugcmww) -->
+[知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=%E7%8E%8B%E5%9F%B9&code=000030813766&v=S9YHj3BEsKa5fwwTFPnTmqScyLd2I_AasnZGijQCwpKf4UHLVXsBbaUm89ugcmww)
 
 主要研究:
 
@@ -53,7 +53,7 @@ comments: true
 [知乎↗](https://www.zhihu.com/people/wuyuezhidian)
 [Bilibili↗](https://space.bilibili.com/475410405)
 [优酷↗](https://www.youku.com/profile/index/?uid=UMjE3MDM1OTcy)
-<!-- [知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=刘凯&code=000047659669;000047659669&v=y7vj98LMVg_UHxhubKBjMQQpbklWyJGk5a_8PeXYFeCYzWi5m1uTEUjjoX1xjAIIOeb1sc-Ug9eznEYpNQXXLA==) -->
+[知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=刘凯&code=000047659669;000047659669&v=y7vj98LMVg_UHxhubKBjMQQpbklWyJGk5a_8PeXYFeCYzWi5m1uTEUjjoX1xjAIIOeb1sc-Ug9eznEYpNQXXLA==)
 
 研究方向：通用人工智能与教育大科学的理论与实践、类脑系统开发与机器教育、计算精神病学。
 
@@ -80,7 +80,7 @@ comments: true
 
 [百度百科↗](https://baike.baidu.com/item/%E5%BE%90%E8%8B%B1%E7%91%BE/1778275)
 [Bilibili↗](https://space.bilibili.com/1030)
-<!-- [知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=%E5%BE%90%E8%8B%B1%E7%91%BE&code=000036949310&v=f5P6chuNTza-7Rk3TFVHPGmsJDI8Q8tRORf9XlH8k8njXtviqPM535RNdHPUPx1o) -->
+[知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=%E5%BE%90%E8%8B%B1%E7%91%BE&code=000036949310&v=f5P6chuNTza-7Rk3TFVHPGmsJDI8Q8tRORf9XlH8k8njXtviqPM535RNdHPUPx1o)
 
 专长为分析哲学史、心灵哲学、人工智能哲学以及分析哲学与欧陆哲学比较研究。
 
@@ -94,6 +94,8 @@ comments: true
 目前徐英瑾还任中国知识论专业委员会副秘书长。
 
 ## 那孜古力·斯拉木(那迪)
+
+[知网↗](https://chn.oversea.cnki.net/kcms2/author/detail?v=wRD08hUPYgwHqv6pqt1Lry077C8HmYeFUg_u_vKAKELr9EuNyzuelYm8aFEHWLCDlsaQ35mKa0ssz5y7seHPRwYweIqJYvLqGRxektNLWL-gjim3eRBvXXRWBg--mAzQraqInCBc1Zy03vfEnEBPhEIi3C0Kz5X0byKD64Kg2olxmlgOimKHfRjBS1efeJAW&uniplatform=NZKPT&language=CHS)
 
 > 博士，西北民族大学，中国民族信息技术研究院，计算机技术、人工智能、大数据方向的硕士研究生导师
 
