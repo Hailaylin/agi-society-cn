@@ -9,7 +9,7 @@ comments: true
 
 /// note | 如何使用 block
 
-````
+````markdown
 /// note | name
 
 some context
