@@ -8,7 +8,7 @@ comments: true
 
 > 美国天普大学计算机系教授，博士生导师。博士师从侯世达（Douglas Hofstadter）。
 
-![王培老师相片](https://cis.temple.edu/~pwang/PeiWang-photo.png)
+![王培老师相片](./image/team/王培老师相片.png)
 
 [学术主页↗](https://cis.temple.edu/~pwang/)
 [个人CV↗](https://cis.temple.edu/~pwang/PeiWangCV.html "Curriculum Vitae of Pei Wang (temple.edu)")
