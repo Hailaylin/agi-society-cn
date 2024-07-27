@@ -57,7 +57,6 @@ comments: true
 ## 版本收录&投稿
 
 /// question | 需要添加自己的版本？
-    open: True
 
 若实现者有自己的一版NARS实现，可[在GitHub提issue](https://github.com/Hailaylin/agi-society-cn/issues/new)，或在文末评论区发言。
 

@@ -25,6 +25,7 @@ comments: true
 [组会视频列表](conference/group_meeting_catalogue.md)
 
 ## 共建共享
+
 如您想增添内容，欢迎查看[贡献者指南](about/edit.md)查看编辑方式。
 
 并到以下Git库提交Pull Requests：
