@@ -86,6 +86,7 @@ nav:
     # - nars/learning_resources.md
 
     - NARS理论:
+      - nars/theory/index.md
       - nars/theory/aikr.md
       - nars/theory/3c.md
 
