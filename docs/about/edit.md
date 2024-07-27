@@ -1,7 +1,14 @@
 ---
 comments: true
 ---
+
 # 本网站编辑格式
+
+[🔗Markdown标准（英文）](https://commonmark.org/)
+
+[🔗PyMDown官网文档](https://facelessuser.github.io/pymdown-extensions)
+
+- ℹ️特别建议查看其中与标准Markdown不同的[块(block)语法](https://facelessuser.github.io/pymdown-extensions/extensions/blocks/)
 
 ## 模块化内容渲染
 
@@ -38,6 +45,18 @@ note 字段可以是以下types里面的任意一种
       - quote
 ````
 
+如：
+
+````markdown
+/// example | 例如
+
+就像这样
+
+///
+````
+
+此将生成：
+
 /// example | 例如
 
 就像这样
@@ -69,12 +88,12 @@ hi hi hi ，我被二向箔折叠啦
 
 ## 推荐编辑工具
 
-1. vscode
-2. obsidian
-3. Typora
+1. [VSCode](https://code.visualstudio.com/)
+2. [Obsidian](https://obsidian.md/)
+3. [Typora](https://typora.io/)
 4. etc.
 
-欢迎推荐更优秀的编辑工具
+（欢迎推荐更优秀的编辑工具）
 
 ## 配置实时开发环境
 
