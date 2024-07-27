@@ -114,3 +114,16 @@ comments: true
 在SCI期刊、EI检索会议和国内核心期刊发表论多篇论文；
 
 作为项目负责人获得新疆维吾尔自治区自然科学面向基金、国家博士后基金、西北民族大学人才引进项目启动基金等三项基金资助。
+
+## 魏屹东
+
+> 山西大学，教授
+
+主要研究领域：
+
+- 适应性表征
+- 自然科学理论与方法
+- 哲学
+- 心理学
+
+[知网↗](https://chn.oversea.cnki.net/kcms2/author/detail?v=wRD08hUPYgym68S7GHd2poHMO-BDlA-GdxcWHe-R3H4JseLdQZ2VugdAtBPQIQnqVd2rPnJWpGXF8IQ_BKdhrwZnUrFnLUSwvC8RPbBMj0E_1-ZNNWcNYYVZ8VQ8TSPD&uniplatform=NZKPT&language=CHS)
