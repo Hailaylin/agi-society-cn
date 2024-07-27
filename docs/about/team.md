@@ -55,7 +55,11 @@ comments: true
 [优酷↗](https://www.youku.com/profile/index/?uid=UMjE3MDM1OTcy)
 [知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=刘凯&code=000047659669;000047659669&v=y7vj98LMVg_UHxhubKBjMQQpbklWyJGk5a_8PeXYFeCYzWi5m1uTEUjjoX1xjAIIOeb1sc-Ug9eznEYpNQXXLA==)
 
-研究方向：通用人工智能与教育大科学的理论与实践、类脑系统开发与机器教育、计算精神病学。
+研究方向：
+
+- 通用人工智能与教育大科学的理论与实践
+- 类脑系统开发与机器教育
+- 计算精神病学
 
 研究层次：
 
@@ -82,14 +86,22 @@ comments: true
 [Bilibili↗](https://space.bilibili.com/1030)
 [知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=%E5%BE%90%E8%8B%B1%E7%91%BE&code=000036949310&v=f5P6chuNTza-7Rk3TFVHPGmsJDI8Q8tRORf9XlH8k8njXtviqPM535RNdHPUPx1o)
 
-专长为分析哲学史、心灵哲学、人工智能哲学以及分析哲学与欧陆哲学比较研究。
+专长：
 
-著有《人工智能哲学十五讲》。
+- 分析哲学史
+- 心灵哲学
+- 人工智能哲学
+- 分析哲学与欧陆哲学比较研究
 
-代表作《心智、语言和机器——维特根斯坦哲学与人工智能哲学的对话》（76万字，人民出版社2013年10月出版）
+著作：
 
-- 是国内目前最全面深入的关于人工智能哲学的研究著作
-- 2015年获得中国首届“科史哲青年著作奖”。
+- 《人工智能哲学十五讲》
+- 《心智、语言和机器——维特根斯坦哲学与人工智能哲学的对话》
+    - 个人代表作
+    - 76万字
+    - 人民出版社2013年10月出版
+    - 国内目前最全面深入的关于人工智能哲学的研究著作
+    - 2015年获得中国首届“科史哲青年著作奖”。
 
 目前徐英瑾还任中国知识论专业委员会副秘书长。
 
@@ -105,11 +117,13 @@ comments: true
 2. 数据科学
 3. 通用人工智能理论与技术
 
-2005年毕业于新疆大学信息科学与工程学院并获计算机科学与技术专业工学学士学位
+个人履历：
 
-2008年毕业于新疆大学信息科学与工程学院并获计算机应用技术专业工学硕士学位
+- 2005年毕业于新疆大学信息科学与工程学院并获计算机科学与技术专业工学学士学位
+- 2008年毕业于新疆大学信息科学与工程学院并获计算机应用技术专业工学硕士学位
+- 2016年毕业于天津大学计算机科学与技术学院并获计算机应用技术专业博士学位
 
-2016年毕业于天津大学计算机科学与技术学院并获计算机应用技术专业博士学位。中国计算机学会专业会员。
+中国计算机学会专业会员。
 
 在SCI期刊、EI检索会议和国内核心期刊发表论多篇论文；
 
@@ -119,11 +133,11 @@ comments: true
 
 > 山西大学，教授
 
+[知网↗](https://chn.oversea.cnki.net/kcms2/author/detail?v=wRD08hUPYgym68S7GHd2poHMO-BDlA-GdxcWHe-R3H4JseLdQZ2VugdAtBPQIQnqVd2rPnJWpGXF8IQ_BKdhrwZnUrFnLUSwvC8RPbBMj0E_1-ZNNWcNYYVZ8VQ8TSPD&uniplatform=NZKPT&language=CHS)
+
 主要研究领域：
 
 - 适应性表征
 - 自然科学理论与方法
 - 哲学
 - 心理学
-
-[知网↗](https://chn.oversea.cnki.net/kcms2/author/detail?v=wRD08hUPYgym68S7GHd2poHMO-BDlA-GdxcWHe-R3H4JseLdQZ2VugdAtBPQIQnqVd2rPnJWpGXF8IQ_BKdhrwZnUrFnLUSwvC8RPbBMj0E_1-ZNNWcNYYVZ8VQ8TSPD&uniplatform=NZKPT&language=CHS)
