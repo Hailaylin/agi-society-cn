@@ -142,7 +142,6 @@ julia> oracle = NaCore(Narsche{Concept}(100, 10, 400), Narsche{NaTask}(5, 3, 20)
 
 /// warning | 注意
 
-
 > 本内容搬运自 [ARCJ137442](https://github.com/ARCJ137442) 的文章。
 
 ///
