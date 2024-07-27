@@ -21,5 +21,6 @@ comments: true
 - [Lazero](lazero.md)（[旧版↗](http://agi-society.cn/wiki/index.php/Lazero)）
 - 反射模型（来源请求）
 - [智能同一观](identity_of_intelligence.md)（[旧版↗](http://agi-society.cn/wiki/index.php/%E6%99%BA%E8%83%BD%E5%90%8C%E4%B8%80%E8%A7%82)）
+- [拟态操作](mimicry_operation.md)（[旧版↗](http://agi-society.cn/wiki/index.php/%E6%8B%9F%E6%80%81%E6%93%8D%E4%BD%9C)）
 
 - [关于资料和Q群](documents_and_qq_group.md)（[旧版↗](http://agi-society.cn/wiki/index.php/%E5%85%B3%E4%BA%8E%E8%B5%84%E6%96%99%E5%92%8CQ%E7%BE%A4)）

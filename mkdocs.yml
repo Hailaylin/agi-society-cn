@@ -82,7 +82,7 @@ markdown_extensions:
 # 导航目录
 nav:
   - NARS教程:
-    - nars/nars_index.md
+    - nars/index.md
     # - nars/learning_resources.md
 
     - NARS理论:
@@ -112,14 +112,14 @@ nav:
 
 
   - AGI 通用人工智能:
-    - agi/agi_intro.md
+    - agi/index.md
 
   - SAI 专用人工智能:
-    - sai/sai_intro.md
+    - sai/index.md
     - sai/llms.md
 
   - 思想书库:
-    - other/other_intro.md
+    - other/index.md
     - other/meaning_network.md
     - other/mimicry_operation.md
     - other/lazero.md
@@ -127,16 +127,16 @@ nav:
     - other/identity_of_intelligence.md
     - other/documents_and_qq_group.md
 
-  - 历届会议:
+  - 历次会议:
     - 年会:
-      - conference/conference_intro.md
+      - conference/index.md
       - conference/2024.md
       - conference/2023.md
     - 组会:
       - conference/group_meeting_catalogue.md
 
   - 关于我们:
-    - about/about_us.md
+    - about/index.md
     - about/web_arch.md
     - about/edit.md
     - about/team.md
