@@ -9,7 +9,7 @@ a developing eBook by [Pei Wang](http://www.cis.temple.edu/~pwang/PeiWangCV.html
 
 * * *
 
-[Preface](GTI-Preface.html)
+[Preface](preface.md)
 ---------------------------
 
 _The preface explains the subject and format of this book._
@@ -22,7 +22,7 @@ This eBook consists of a main text and many sidebars. The main text is organized
 
 * * *
 
-[Chapter 1. Information System](GTI-CH1/GTI-1.html)
+[Chapter 1. Information System](chapter1/index.md)
 ---------------------------------------------------
 
 _This chapter introduces the basic terminology used in this book to describe various systems._
@@ -35,7 +35,7 @@ An information system carries out its actions to achieve its goals, following th
 
 * * *
 
-[Chapter 2. Intelligent System](GTI-CH2/GTI-2.html)
+[Chapter 2. Intelligent System](chapter2/index.md)
 ---------------------------------------------------
 
 _This chapter clarifies the central concept of this theory — intelligence._
@@ -48,7 +48,7 @@ In an intelligent system, all major components and their relations are adaptive 
 
 * * *
 
-[Chapter 3. Inference System](GTI-CH3/GTI-3.html)
+[Chapter 3. Inference System](chapter3/index.md)
 -------------------------------------------------
 
 _This chapter describes the structures and procedures of an inference system, as a concrete model of intelligent systems._
@@ -61,7 +61,7 @@ As a model of intelligent systems, a concrete inference system, NARS, is designe
 
 * * *
 
-[Chapter 4. Self-Organizing Process](GTI-CH4/GTI-4.html)
+[Chapter 4. Self-Organizing Process](chapter4/index.md)
 --------------------------------------------------------
 
 _This chapter describes the running and evolving processes in an intelligent reasoning system._
@@ -78,7 +78,7 @@ Self-organization of concepts provides an intermediate structure between the who
 
 * * *
 
-[Chapter 5. Experience and Socialization](GTI-CH5/GTI-5.html)
+[Chapter 5. Experience and Socialization](chapter5/index.md)
 -------------------------------------------------------------
 
 _This chapter describes the interaction between an intelligent system and its environment._
@@ -91,7 +91,7 @@ Socialization is the process for a system to adapt to a society, which shapes th
 
 * * *
 
-[Chapter 6. Community and Science](GTI-CH6/GTI-6.html)
+[Chapter 6. Community and Science](chapter6/index.md)
 ------------------------------------------------------
 
 _This chapter treats a community of systems as an information system, and analyses its intelligence._
@@ -106,17 +106,17 @@ A science of intelligence should properly clarify the notion of intelligence, so
 
 * * *
 
-[Topic List](GTI-TOPICS/GTI-TopicList.html)
+[Topic List](topics/index.md)
 -------------------------------------------
 
 * * *
 
-[Acknowledgment](GTI-Acknowledgment.html)
+[Acknowledgment](acknowledgment.md)
 -----------------------------------------
 
 * * *
 
-[Bibliography](GTI-Bibliography.html)
+[Bibliography](bibliography.md)
 -------------------------------------
 
 * * *
