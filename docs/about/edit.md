@@ -10,6 +10,58 @@ comments: true
 
 - ℹ️特别建议查看其中与标准Markdown不同的[块(block)语法](https://facelessuser.github.io/pymdown-extensions/extensions/blocks/)
 
+## 文件规范
+
+//// warning | 文件名规范
+
+***所有Markdown文件，不论是否专名（如"NARS"），文件名一律使用snake_case蛇形命名规范***
+
+- ⚠️实际网站运行中**区分大小写**，所以请务必确保文件名符合规范
+
+在Git提交上，若需更改，编辑时请在 `.git/config` 中将 `core.ignorecase` 设置为 **`false`**
+
+代码：
+
+```bash
+git config --global core.ignorecase false
+```
+
+/// example | 专名亦要全小写
+
+❌ `NARS.md`
+
+✅ `nars.md`
+
+///
+
+/// example | 首字母亦要小写
+
+❌ `Lazero.md`
+
+✅ `lazero.md`
+
+///
+
+/// example | 下划线`_`而非短斜杠`-`
+
+❌ `web-arch.md`
+
+✅ `web_arch.md`
+
+///
+
+/// example | 下划线分隔而非驼峰分隔
+
+❌ `WebArch.md` `webArch.md`
+
+✅ `web_arch.md`
+
+///
+
+////
+
+（2024-07-27 其它有待扩充）
+
 ## 模块化内容渲染
 
 使用PyMdown及其Extension：
