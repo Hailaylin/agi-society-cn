@@ -82,8 +82,12 @@ comments: true
 
 ## 徐英瑾
 
-> 哲学博士，复旦大学哲学学院教授
+> 哲学博士，复旦大学哲学学院教授，博士生导师
 
+<!-- ![徐英瑾老师相片](https://philosophy.fudan.edu.cn/_upload/article/images/80/f3/56b9138841bf9211ae5f80f9dfd9/5632d963-c229-48cc-99a9-cf1de8f79323.jpg) -->
+<!-- ↑【2024-07-28 12:14:39】注：太大张了 -->
+
+[学术主页↗](https://philosophy.fudan.edu.cn/64/8f/c14253a222351/page.htm)
 [百度百科↗](https://baike.baidu.com/item/%E5%BE%90%E8%8B%B1%E7%91%BE/1778275)
 [Bilibili↗](https://space.bilibili.com/1030)
 [知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=%E5%BE%90%E8%8B%B1%E7%91%BE&code=000036949310&v=f5P6chuNTza-7Rk3TFVHPGmsJDI8Q8tRORf9XlH8k8njXtviqPM535RNdHPUPx1o)
@@ -109,9 +113,9 @@ comments: true
 
 ## 那孜古力·斯拉木(那迪)
 
-[知网↗](https://chn.oversea.cnki.net/kcms2/author/detail?v=wRD08hUPYgwHqv6pqt1Lry077C8HmYeFUg_u_vKAKELr9EuNyzuelYm8aFEHWLCDlsaQ35mKa0ssz5y7seHPRwYweIqJYvLqGRxektNLWL-gjim3eRBvXXRWBg--mAzQraqInCBc1Zy03vfEnEBPhEIi3C0Kz5X0byKD64Kg2olxmlgOimKHfRjBS1efeJAW&uniplatform=NZKPT&language=CHS)
-
 > 博士，西北民族大学，中国民族信息技术研究院，计算机技术、人工智能、大数据方向的硕士研究生导师
+
+[知网↗](https://chn.oversea.cnki.net/kcms2/author/detail?v=wRD08hUPYgwHqv6pqt1Lry077C8HmYeFUg_u_vKAKELr9EuNyzuelYm8aFEHWLCDlsaQ35mKa0ssz5y7seHPRwYweIqJYvLqGRxektNLWL-gjim3eRBvXXRWBg--mAzQraqInCBc1Zy03vfEnEBPhEIi3C0Kz5X0byKD64Kg2olxmlgOimKHfRjBS1efeJAW&uniplatform=NZKPT&language=CHS)
 
 主要研究领域：
 
@@ -133,8 +137,9 @@ comments: true
 
 ## 魏屹东
 
-> 山西大学，教授
+> 山西大学教授，博士生导师
 
+[学术主页↗](https://cap.sxu.edu.cn/yjry/2358.htm)
 [知网↗](https://chn.oversea.cnki.net/kcms2/author/detail?v=wRD08hUPYgym68S7GHd2poHMO-BDlA-GdxcWHe-R3H4JseLdQZ2VugdAtBPQIQnqVd2rPnJWpGXF8IQ_BKdhrwZnUrFnLUSwvC8RPbBMj0E_1-ZNNWcNYYVZ8VQ8TSPD&uniplatform=NZKPT&language=CHS)
 
 主要研究领域：
@@ -143,3 +148,33 @@ comments: true
 - 自然科学理论与方法
 - 哲学
 - 心理学
+
+## 李祥
+
+> 辽宁工业大学，讲师，哲学学科硕士生导师。博士师从[王培](#王培)
+
+[学术主页↗](https://seie.lnut.edu.cn/info/14393/185134.htm)
+[email↗](mailto:xiangliagi@lnut.edu.cn)
+[联系电话↗](tel:+86-0416-4198700)
+
+主要研究领域：
+
+1. 通用人工智能
+2. 认知科学
+3. 人工智能情感
+
+主讲：
+
+- 本科生课程
+    - 分布式数据库
+    - 分布式大数据处理技术
+    - 数据结构
+    - 算法与程序设计。
+- 研究生课程
+    - 人工智能
+    - 机器学习
+
+主持科研项目：
+
+- 辽宁省教育厅面上项目：情感在实现自主化通用人工智能中的作用与机制
+- 辽宁工业大学博士启动项目： 通用人工智能中自我意识以及情感的研究
