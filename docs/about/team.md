@@ -13,6 +13,7 @@ comments: true
 [学术主页↗](https://cis.temple.edu/~pwang/)
 [个人CV↗](https://cis.temple.edu/~pwang/PeiWangCV.html "Curriculum Vitae of Pei Wang (temple.edu)")
 [知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=%E7%8E%8B%E5%9F%B9&code=000030813766&v=S9YHj3BEsKa5fwwTFPnTmqScyLd2I_AasnZGijQCwpKf4UHLVXsBbaUm89ugcmww)
+[email↗](mailto:pei.wang@temple.edu)
 
 主要研究:
 
@@ -91,6 +92,7 @@ comments: true
 [百度百科↗](https://baike.baidu.com/item/%E5%BE%90%E8%8B%B1%E7%91%BE/1778275)
 [Bilibili↗](https://space.bilibili.com/1030)
 [知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=%E5%BE%90%E8%8B%B1%E7%91%BE&code=000036949310&v=f5P6chuNTza-7Rk3TFVHPGmsJDI8Q8tRORf9XlH8k8njXtviqPM535RNdHPUPx1o)
+[email↗](mailto:yjxu@fudan.edu.cn)
 
 专长：
 
@@ -109,7 +111,26 @@ comments: true
     - 国内目前最全面深入的关于人工智能哲学的研究著作
     - 2015年获得中国首届“科史哲青年著作奖”。
 
-目前徐英瑾还任中国知识论专业委员会副秘书长。
+现为复旦大学哲学学院教授、博士生导师、全国重大社科项目“基于信息技术哲学的当代认识论研究”首席专家。
+
+曾在意大利与美国各自进修一年。
+
+他在这五年中（以及稍早的一些时候）累计获得
+
+- 两次上海市哲学社会科学优秀成果奖（一、二、三等奖各一次）
+- 两次全国高等院校优秀人文社会科学成果奖（二等奖，2009年；二等奖，2015）。
+
+在2009年他被上海市委宣传部下属的东方学社评为“上海十大社科新人”，这是当年上海哲学界唯一入选者。
+
+同时，他至今依然是上海哲学界目前唯一的全国优秀博士论文的获得者（2006年获奖）。
+
+- 获奖的论文《维特根斯坦哲学转型期中的“现象学”之谜》（2006年复旦大学出版社出版，28万字）是汉语哲学界第一部（至今也是唯一一部）专门讨论维特根斯坦从其早期立场转向晚期立场之转型过程的专著。
+
+代表作《心智、语言和机器——维特根斯坦哲学与人工智能哲学的对话》（76万字，人民出版社2013年10月出版）是国内目前最全面深入的关于人工智能哲学的研究著作。
+
+目前徐英瑾还任中国知识论专业委员会副秘书长，2018年担任“世界哲学大会”人工智能分会场主席。
+
+（上述资料源自学术主页）
 
 ## 那孜古力·斯拉木(那迪)
 
