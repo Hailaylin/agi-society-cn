@@ -153,7 +153,7 @@ comments: true
 
 ## 魏屹东
 
-> 山西大学教授，博士生导师
+> 博士，山西大学教授，哲学方向博士生导师
 
 [学术主页↗](https://cap.sxu.edu.cn/yjry/2358.htm)
 [知网↗](https://chn.oversea.cnki.net/kcms2/author/detail?v=wRD08hUPYgym68S7GHd2poHMO-BDlA-GdxcWHe-R3H4JseLdQZ2VugdAtBPQIQnqVd2rPnJWpGXF8IQ_BKdhrwZnUrFnLUSwvC8RPbBMj0E_1-ZNNWcNYYVZ8VQ8TSPD&uniplatform=NZKPT&language=CHS)
@@ -167,7 +167,7 @@ comments: true
 
 ## 李祥
 
-> 辽宁工业大学，讲师，哲学学科硕士生导师。博士师从[王培](#王培)
+> 博士，辽宁工业大学计算机讲师，人工智能方向硕士生导师。博士师从[王培](#王培)
 
 [学术主页↗](https://seie.lnut.edu.cn/info/14393/185134.htm)
 [email↗](mailto:xiangliagi@lnut.edu.cn)
