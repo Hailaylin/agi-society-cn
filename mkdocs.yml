@@ -81,38 +81,42 @@ markdown_extensions:
 
 # 导航目录
 nav:
-  - NARS教程:
-    - nars/index.md
+  # - NARS教程:
+    # - nars/index.md
     # - nars/learning_resources.md
 
-    - NARS理论:
-      - nars/theory/index.md
-      - nars/theory/aikr.md
-      - nars/theory/3c.md
+  - NARS理论:
+    - nars/theory/index.md
+    - nars/theory/aikr.md
+    - nars/theory/3c.md
 
-    - NARS工程:
+    - 参考书籍:
+      - nars/theory/gti/index.md
 
-      - NARS各版实现:
-        - nars/impl/introduction.md
-        - nars/impl/index.md
-        - nars/impl/20nar1.md
-        - nars/impl/narjure.md
-        - nars/impl/nars_cxin_py_to_ts.md
-        - nars/impl/nars_python.md
-        - nars/impl/nars_swift.md
-        - nars/impl/narst.md
-        - nars/impl/ona.md
-        - nars/impl/openjunars.md
-        - nars/impl/opennars.md
-        - nars/impl/pynars.md
+  - NARS工程:
 
-      - NARS衍生项目:
-        - nars/derivative_project/introduction.md
-        - nars/derivative_project/index.md
+    - NARS各版实现:
+      - nars/impl/introduction.md
+      - nars/impl/index.md
+      - nars/impl/20nar1.md
+      - nars/impl/narjure.md
+      - nars/impl/nars_cxin_py_to_ts.md
+      - nars/impl/nars_python.md
+      - nars/impl/nars_swift.md
+      - nars/impl/narst.md
+      - nars/impl/ona.md
+      - nars/impl/openjunars.md
+      - nars/impl/opennars.md
+      - nars/impl/pynars.md
+
+    - NARS衍生项目:
+      - nars/derivative_project/introduction.md
+      - nars/derivative_project/index.md
 
 
   - AGI 通用人工智能:
     - agi/index.md
+    - nars/index.md
 
   - SAI 专用人工智能:
     - sai/index.md

@@ -4,20 +4,28 @@ comments: true
 
 # NARS
 
-**非公理推理系统** ( Non-Axiomatic Reasoning System )。
+**非公理推理系统** (Non-Axiomatic Reasoning System)。
 
 此项目由美国天普大学 [王培](https://cis.temple.edu/~pwang/ "王培") 教授主导。
 
 ## 项目目标
 
-试图构建一个通用人工智能系统 , 这里说的 **通用**, 代表能与人类思考比肩的能力, 即我们通常说的 **思考机器**.
+试图构建一个通用人工智能系统，这里说的 **通用**，代表能与人类思考比肩的能力，即我们通常说的 **思考机器**。
 
-这种通用能力, 区别于专用人工智能系统(如 人脸识别 语音识别等等深度学习应用) , 更强调统一性和普遍性(多任务), 以及可解释性.
+这种通用能力，区别于专用人工智能系统(如 人脸识别 语音识别等等深度学习应用)，更强调统一性和普遍性(多任务)，以及可解释性。
 
 ## 主要源码地址
 
 [https://github.com/opennars/opennars](https://github.com/opennars/opennars)
 
+亦可参考[各版实现](./impl/introduction.md)
+
 ## 介绍文章
 
 （英文）[https://cis.temple.edu/~pwang/NARS-Intro.html](https://cis.temple.edu/~pwang/NARS-Intro.html)
+
+亦可参考[NARS理论](./theory/index.md)
+
+## 近期新闻
+
+参见[news.md](./news.md)
