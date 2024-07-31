@@ -6,6 +6,8 @@ comments: true
 
 [英文原文↗](https://cis.temple.edu/~pwang/GTI-book/GTI-Preface.html)
 
+[🔙上一级](./index.md)
+
 As the title suggests, this book attempts to propose a theory on _intelligence_, which is _general_, in the sense that it identifies the common principles, structures, and mechanisms behind various types of intelligence, including _human intelligence_, _computer intelligence_, _animal intelligence_, _alien intelligence_, _group intelligence_, etc.
 
 It is my hope that this book can serve two major purposes: first, as a descriptive theory, it will provide a uniform explanation of human intelligence and the related phenomena studied in cognitive science (CogSci); and second, as a constructive theory, it will suggest an approach to create artificial intelligence (AI).
