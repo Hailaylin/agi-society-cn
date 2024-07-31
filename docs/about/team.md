@@ -8,9 +8,12 @@ comments: true
 
 > 美国天普大学计算机系教授，博士生导师。博士师从侯世达（Douglas Hofstadter）。
 
+![王培老师相片](./image/team/王培老师相片.png)
+
 [学术主页↗](https://cis.temple.edu/~pwang/)
 [个人CV↗](https://cis.temple.edu/~pwang/PeiWangCV.html "Curriculum Vitae of Pei Wang (temple.edu)")
 [知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=%E7%8E%8B%E5%9F%B9&code=000030813766&v=S9YHj3BEsKa5fwwTFPnTmqScyLd2I_AasnZGijQCwpKf4UHLVXsBbaUm89ugcmww)
+[email↗](mailto:pei.wang@temple.edu)
 
 主要研究:
 
@@ -55,7 +58,11 @@ comments: true
 [优酷↗](https://www.youku.com/profile/index/?uid=UMjE3MDM1OTcy)
 [知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=刘凯&code=000047659669;000047659669&v=y7vj98LMVg_UHxhubKBjMQQpbklWyJGk5a_8PeXYFeCYzWi5m1uTEUjjoX1xjAIIOeb1sc-Ug9eznEYpNQXXLA==)
 
-研究方向：通用人工智能与教育大科学的理论与实践、类脑系统开发与机器教育、计算精神病学。
+研究方向：
+
+- 通用人工智能与教育大科学的理论与实践
+- 类脑系统开发与机器教育
+- 计算精神病学
 
 研究层次：
 
@@ -76,28 +83,55 @@ comments: true
 
 ## 徐英瑾
 
-> 哲学博士，复旦大学哲学学院教授
+> 哲学博士，复旦大学哲学学院教授，博士生导师
 
+<!-- ![徐英瑾老师相片](https://philosophy.fudan.edu.cn/_upload/article/images/80/f3/56b9138841bf9211ae5f80f9dfd9/5632d963-c229-48cc-99a9-cf1de8f79323.jpg) -->
+<!-- ↑【2024-07-28 12:14:39】注：太大张了 -->
+
+[学术主页↗](https://philosophy.fudan.edu.cn/64/8f/c14253a222351/page.htm)
 [百度百科↗](https://baike.baidu.com/item/%E5%BE%90%E8%8B%B1%E7%91%BE/1778275)
 [Bilibili↗](https://space.bilibili.com/1030)
 [知网↗](https://chn.oversea.cnki.net/kcms/detail/knetsearch.aspx?sfield=au&skey=%E5%BE%90%E8%8B%B1%E7%91%BE&code=000036949310&v=f5P6chuNTza-7Rk3TFVHPGmsJDI8Q8tRORf9XlH8k8njXtviqPM535RNdHPUPx1o)
+[email↗](mailto:yjxu@fudan.edu.cn)
 
-专长为分析哲学史、心灵哲学、人工智能哲学以及分析哲学与欧陆哲学比较研究。
+专长：
 
-著有《人工智能哲学十五讲》。
+- 分析哲学史
+- 心灵哲学
+- 人工智能哲学
+- 分析哲学与欧陆哲学比较研究
 
-代表作《心智、语言和机器——维特根斯坦哲学与人工智能哲学的对话》（76万字，人民出版社2013年10月出版）
+著作：
 
-- 是国内目前最全面深入的关于人工智能哲学的研究著作
-- 2015年获得中国首届“科史哲青年著作奖”。
+- 《人工智能哲学十五讲》
+- 《心智、语言和机器——维特根斯坦哲学与人工智能哲学的对话》
 
-目前徐英瑾还任中国知识论专业委员会副秘书长。
+现为复旦大学哲学学院教授、博士生导师、全国重大社科项目“基于信息技术哲学的当代认识论研究”首席专家。
+
+曾在意大利与美国各自进修一年。
+
+他在这五年中（以及稍早的一些时候）累计获得
+
+- 两次上海市哲学社会科学优秀成果奖（一、二、三等奖各一次）
+- 两次全国高等院校优秀人文社会科学成果奖（二等奖，2009年；二等奖，2015）。
+
+在2009年他被上海市委宣传部下属的东方学社评为“上海十大社科新人”，这是当年上海哲学界唯一入选者。
+
+同时，他至今依然是上海哲学界目前唯一的全国优秀博士论文的获得者（2006年获奖）。
+
+- 获奖的论文《维特根斯坦哲学转型期中的“现象学”之谜》（2006年复旦大学出版社出版，28万字）是汉语哲学界第一部（至今也是唯一一部）专门讨论维特根斯坦从其早期立场转向晚期立场之转型过程的专著。
+
+代表作《心智、语言和机器——维特根斯坦哲学与人工智能哲学的对话》（76万字，人民出版社2013年10月出版）是国内目前最全面深入的关于人工智能哲学的研究著作。
+
+目前徐英瑾还任中国知识论专业委员会副秘书长，2018年担任“世界哲学大会”人工智能分会场主席。
+
+（上述资料源自学术主页）
 
 ## 那孜古力·斯拉木(那迪)
 
-[知网↗](https://chn.oversea.cnki.net/kcms2/author/detail?v=wRD08hUPYgwHqv6pqt1Lry077C8HmYeFUg_u_vKAKELr9EuNyzuelYm8aFEHWLCDlsaQ35mKa0ssz5y7seHPRwYweIqJYvLqGRxektNLWL-gjim3eRBvXXRWBg--mAzQraqInCBc1Zy03vfEnEBPhEIi3C0Kz5X0byKD64Kg2olxmlgOimKHfRjBS1efeJAW&uniplatform=NZKPT&language=CHS)
-
 > 博士，西北民族大学，中国民族信息技术研究院，计算机技术、人工智能、大数据方向的硕士研究生导师
+
+[知网↗](https://chn.oversea.cnki.net/kcms2/author/detail?v=wRD08hUPYgwHqv6pqt1Lry077C8HmYeFUg_u_vKAKELr9EuNyzuelYm8aFEHWLCDlsaQ35mKa0ssz5y7seHPRwYweIqJYvLqGRxektNLWL-gjim3eRBvXXRWBg--mAzQraqInCBc1Zy03vfEnEBPhEIi3C0Kz5X0byKD64Kg2olxmlgOimKHfRjBS1efeJAW&uniplatform=NZKPT&language=CHS)
 
 主要研究领域：
 
@@ -105,11 +139,13 @@ comments: true
 2. 数据科学
 3. 通用人工智能理论与技术
 
-2005年毕业于新疆大学信息科学与工程学院并获计算机科学与技术专业工学学士学位
+个人履历：
 
-2008年毕业于新疆大学信息科学与工程学院并获计算机应用技术专业工学硕士学位
+- 2005年毕业于新疆大学信息科学与工程学院并获计算机科学与技术专业工学学士学位
+- 2008年毕业于新疆大学信息科学与工程学院并获计算机应用技术专业工学硕士学位
+- 2016年毕业于天津大学计算机科学与技术学院并获计算机应用技术专业博士学位
 
-2016年毕业于天津大学计算机科学与技术学院并获计算机应用技术专业博士学位。中国计算机学会专业会员。
+中国计算机学会专业会员。
 
 在SCI期刊、EI检索会议和国内核心期刊发表论多篇论文；
 
@@ -117,7 +153,10 @@ comments: true
 
 ## 魏屹东
 
-> 山西大学，教授
+> 博士，山西大学教授，哲学方向博士生导师
+
+[学术主页↗](https://cap.sxu.edu.cn/yjry/2358.htm)
+[知网↗](https://chn.oversea.cnki.net/kcms2/author/detail?v=wRD08hUPYgym68S7GHd2poHMO-BDlA-GdxcWHe-R3H4JseLdQZ2VugdAtBPQIQnqVd2rPnJWpGXF8IQ_BKdhrwZnUrFnLUSwvC8RPbBMj0E_1-ZNNWcNYYVZ8VQ8TSPD&uniplatform=NZKPT&language=CHS)
 
 主要研究领域：
 
@@ -126,4 +165,32 @@ comments: true
 - 哲学
 - 心理学
 
-[知网↗](https://chn.oversea.cnki.net/kcms2/author/detail?v=wRD08hUPYgym68S7GHd2poHMO-BDlA-GdxcWHe-R3H4JseLdQZ2VugdAtBPQIQnqVd2rPnJWpGXF8IQ_BKdhrwZnUrFnLUSwvC8RPbBMj0E_1-ZNNWcNYYVZ8VQ8TSPD&uniplatform=NZKPT&language=CHS)
+## 李祥
+
+> 博士，辽宁工业大学计算机讲师，人工智能方向硕士生导师。博士师从[王培](#王培)
+
+[学术主页↗](https://seie.lnut.edu.cn/info/14393/185134.htm)
+[email↗](mailto:xiangliagi@lnut.edu.cn)
+[联系电话↗](tel:+86-0416-4198700)
+
+主要研究领域：
+
+1. 通用人工智能
+2. 认知科学
+3. 人工智能情感
+
+主讲：
+
+- 本科生课程
+    - 分布式数据库
+    - 分布式大数据处理技术
+    - 数据结构
+    - 算法与程序设计
+- 研究生课程
+    - 人工智能
+    - 机器学习
+
+主持科研项目：
+
+- 辽宁省教育厅面上项目：情感在实现自主化通用人工智能中的作用与机制
+- 辽宁工业大学博士启动项目： 通用人工智能中自我意识以及情感的研究
