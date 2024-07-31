@@ -2,10 +2,7 @@
 comments: true
 ---
 
-# Chapter 6 (todo)
-### [A General Theory of Intelligence](https://cis.temple.edu/~pwang/GTI-book/index.html)
-
-## Chapter 6. Community and Science
+# Chapter 6. Community and Science
 
 * * *
 
