@@ -95,7 +95,6 @@ nav:
       - NARS各版实现:
         - nars/impl/introduction.md
         - nars/impl/index.md
-
         - nars/impl/20nar1.md
         - nars/impl/narjure.md
         - nars/impl/nars_cxin_py_to_ts.md
