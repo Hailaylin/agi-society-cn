@@ -2,15 +2,13 @@
 comments: true
 ---
 
-A General Theory of Intelligence
-================================
+# A General Theory of Intelligence
 
 a developing eBook by [Pei Wang](http://www.cis.temple.edu/~pwang/PeiWangCV.html)
 
 * * *
 
-[Preface](preface.md)
----------------------------
+## [Preface](preface.md)
 
 _The preface explains the subject and format of this book._
 
@@ -22,8 +20,7 @@ This eBook consists of a main text and many sidebars. The main text is organized
 
 * * *
 
-[Chapter 1. Information System](chapter1/index.md)
----------------------------------------------------
+## [Chapter 1. Information System](chapter1/index.md)
 
 _This chapter introduces the basic terminology used in this book to describe various systems._
 
@@ -35,8 +32,7 @@ An information system carries out its actions to achieve its goals, following th
 
 * * *
 
-[Chapter 2. Intelligent System](chapter2/index.md)
----------------------------------------------------
+## [Chapter 2. Intelligent System](chapter2/index.md)
 
 _This chapter clarifies the central concept of this theory — intelligence._
 
@@ -48,8 +44,7 @@ In an intelligent system, all major components and their relations are adaptive 
 
 * * *
 
-[Chapter 3. Inference System](chapter3/index.md)
--------------------------------------------------
+## [Chapter 3. Inference System](chapter3/index.md)
 
 _This chapter describes the structures and procedures of an inference system, as a concrete model of intelligent systems._
 
@@ -61,8 +56,7 @@ As a model of intelligent systems, a concrete inference system, NARS, is designe
 
 * * *
 
-[Chapter 4. Self-Organizing Process](chapter4/index.md)
---------------------------------------------------------
+## [Chapter 4. Self-Organizing Process](chapter4/index.md)
 
 _This chapter describes the running and evolving processes in an intelligent reasoning system._
 
@@ -78,8 +72,7 @@ Self-organization of concepts provides an intermediate structure between the who
 
 * * *
 
-[Chapter 5. Experience and Socialization](chapter5/index.md)
--------------------------------------------------------------
+[Chapter 5. Experience and Socialization](chapter5/index.## md)
 
 _This chapter describes the interaction between an intelligent system and its environment._
 
@@ -91,8 +84,7 @@ Socialization is the process for a system to adapt to a society, which shapes th
 
 * * *
 
-[Chapter 6. Community and Science](chapter6/index.md)
-------------------------------------------------------
+## [Chapter 6. Community and Science](chapter6/index.md)
 
 _This chapter treats a community of systems as an information system, and analyses its intelligence._
 
@@ -106,17 +98,14 @@ A science of intelligence should properly clarify the notion of intelligence, so
 
 * * *
 
-[Topic List](topics/index.md)
--------------------------------------------
+## [Topic List](topics/index.md)
 
 * * *
 
-[Acknowledgment](acknowledgment.md)
------------------------------------------
+## [Acknowledgment](acknowledgment.md)
 
 * * *
 
-[Bibliography](bibliography.md)
--------------------------------------
+## [Bibliography](bibliography.md)
 
 * * *
