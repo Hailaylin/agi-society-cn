@@ -4,6 +4,8 @@ comments: true
 
 # Working Definition
 
+[英文原文↗](https://cis.temple.edu/~pwang/GTI-book/GTI-TOPICS/GTI-WorkingDefinition.html)
+
 Roughly speaking, in a book like this, there are two types of "definition". A relatively simple type of definition is used to specify the meaning a new word or phrase, by describing it with familiar words and phrases. A much more complicated type, some times called "working definition", is used to specify the meaning a word or phrase which is already familiar to the readers.
 
 Working definition is needed when a word will be used with a specific meaning, which may either be one of several common usages of the word, or be different from all of them. An author introduces a working definition to clarify the meaning of the word in his writing, so as to avoid misunderstandings, as well as to indicate what he thinks what it _should_ mean, despite of the current common usage.

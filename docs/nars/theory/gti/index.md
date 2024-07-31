@@ -4,6 +4,8 @@ comments: true
 
 # A General Theory of Intelligence
 
+[英文原文↗](https://cis.temple.edu/~pwang/GTI-book/)
+
 a developing eBook by [Pei Wang](http://www.cis.temple.edu/~pwang/PeiWangCV.html)
 
 * * *

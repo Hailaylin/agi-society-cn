@@ -4,6 +4,8 @@ comments: true
 
 # Amount of Information
 
+[英文原文↗](https://cis.temple.edu/~pwang/GTI-book/GTI-TOPICS/GTI-AmountOfInformation.html)
+
 Through communication, a system may obtain knowledge about the other system, the environment, as well as the communication process itself. As an abstraction, we say that "information" is "transferred" from the sender to the receiver.
 
 The Information Theory of Claude Shannon (1948) provides a detailed analysis for communication at the signal level. The theory defines a measure of information, basically using the number of bits needed for the storage or communication of a sequence of signals carrying the information. Though this theory makes great contribution to signal communication, it says little about the content and effect of the information.

@@ -4,6 +4,8 @@ comments: true
 
 # Chapter 6. Community and Science
 
+[英文原文↗](https://cis.temple.edu/~pwang/GTI-book/GTI-CH6/GTI-6.html)
+
 * * *
 
 ## [Section 6.1. Collective intelligence](https://cis.temple.edu/~pwang/GTI-book/GTI-CH6/GTI-6-1.html)

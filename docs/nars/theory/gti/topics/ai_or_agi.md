@@ -2,8 +2,9 @@
 comments: true
 ---
 
-Not Found
-=========
+# Not Found
+
+[英文原文↗](https://cis.temple.edu/~pwang/GTI-book/GTI-TOPICS/GTI-AIorAGI.html)
 
 The requested URL was not found on this server.
 
