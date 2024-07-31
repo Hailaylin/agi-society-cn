@@ -6,9 +6,11 @@ comments: true
 
 [英文原文↗](https://cis.temple.edu/~pwang/GTI-book/GTI-CH6/GTI-6.html)
 
+[🔙上一级](../index.md)
+
 * * *
 
-## [Section 6.1. Collective intelligence](https://cis.temple.edu/~pwang/GTI-book/GTI-CH6/GTI-6-1.html)
+## [Section 6.1. Collective intelligence](6.1.md)
 
 It often makes sense to treat a community of information systems as an information system itself, and such a collective system shares many properties with an individual system. It can be analyzed in terms of its goals, actions, and beliefs, which are related to the corresponding components of the members, but also depends on the social structure of the community.
 
@@ -18,7 +20,7 @@ During the adaptation process of a collective intelligence, its goals, actions, 
 
 * * *
 
-## [Section 6.2. Science as common knowledge](https://cis.temple.edu/~pwang/GTI-book/GTI-CH6/GTI-6-2.html)
+## [Section 6.2. Science as common knowledge](6.2.md)
 
 Science plays the same role for a collective intelligence as the beliefs for an individual intelligence, that is, to summarize the common experience of the members into a general, compact, and structured form, which can be used to predict the future, and to guide the system to take promising and efficient actions when achieving its goals. Therefore, science is socialized, instructive, and theorized knowledge.
 
@@ -30,7 +32,7 @@ A scientific theory is not an arbitrary collection of widely accepted instructio
 
 * * *
 
-## [Section 6.3. Scientific theories](https://cis.temple.edu/~pwang/GTI-book/GTI-CH6/GTI-6-3.html)
+## [Section 6.3. Scientific theories](6.3.md)
 
 There are two major types of scientific theory: empirical theory and formal theory. A formal theory roughly corresponds to an instructive system, because all of its conclusions are predetermined in principle. An empirical theory roughly corresponds to an intelligent system, because the theory develops in time according to new evidence, and even the most basic principles can be challenged and revised. Therefore, the internal structure of a formal theory is very close to a "pure-axiomatic system" , while internal structure of an empirical theory is very close to a "non-axiomatic system".
 
@@ -40,7 +42,7 @@ For a given domain, due to the difference in motivation, experience, background,
 
 * * *
 
-## [Section 6.4. The science of intelligence](https://cis.temple.edu/~pwang/GTI-book/GTI-CH6/GTI-6-4.html)
+## [Section 6.4. The science of intelligence](6.4.md)
 
 This last section provides a self-referential summary of the book by applying the theory about science into the domain of intelligence.
 
