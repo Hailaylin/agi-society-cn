@@ -380,11 +380,17 @@
 
 ### 2023~2024
 
-- [何以停机——论以数据“市场”为外部制约条件的停机机制对AGI的意义\_20230809\_马翰林](https://www.bilibili.com/video/BV1o94y1r7hB?p=1)
-- [通用人工智能的元模型和框架——从理论到实践\_20231122\_那迪](https://www.bilibili.com/video/BV1o94y1r7hB?p=2)
-- [Nal-7通讲之“基于时间的推理规则”\_20240103\_李汤睿](https://www.bilibili.com/video/BV1o94y1r7hB?p=3)
-- [NARS之8-9层通讲\_20240117\_李汤睿](https://www.bilibili.com/video/BV1o94y1r7hB?p=4)
-- [AGI爱好者的进阶之路：NARS接口及衍生实验\_20240124\_Tessergon](https://www.bilibili.com/video/BV1o94y1r7hB?p=5)
+- [何以停机——论以数据“市场”为外部制约条件的停机机制对AGI的意义_20230809_马翰林](https://www.bilibili.com/video/BV1o94y1r7hB?p=1)
+- [通用人工智能的元模型和框架——从理论到实践_20231122_那迪](https://www.bilibili.com/video/BV1o94y1r7hB?p=2)
+- [Nal-7通讲之“基于时间的推理规则”_20240103_李汤睿](https://www.bilibili.com/video/BV1o94y1r7hB?p=3)
+- [NARS之8-9层通讲_20240117_李汤睿](https://www.bilibili.com/video/BV1o94y1r7hB?p=4)
+- [AGI爱好者的进阶之路：NARS接口及衍生实验_20240124_Tessergon](https://www.bilibili.com/video/BV1o94y1r7hB?p=5)
+- [AGI新春茶话会_20240207](https://www.bilibili.com/video/BV1o94y1r7hB?p=6)
+- [登峰方能造极——披露NARS九层之“秘”_20240228_李汤睿](https://www.bilibili.com/video/BV1o94y1r7hB?p=7)
+- [NARS接口再现——基于「非公理虚拟机」的统一IO模型_20240403_Tessergon](https://www.bilibili.com/video/BV1o94y1r7hB?p=8)
+- [再读NARS代码——基于整体视角的尝试(一)_20240410_张涛](https://www.bilibili.com/video/BV1o94y1r7hB?p=9)
+- [再读NARS代码——基于整体视角的尝试(二)_20240522_张涛](https://www.bilibili.com/video/BV1o94y1r7hB?p=10)
+- [OpenNARS零码通览_20240605_Tessergon](https://www.bilibili.com/video/BV1o94y1r7hB?p=11)
 
 【未完待续】
 
@@ -400,12 +406,24 @@
 
 #### 2024/2
 
-【TODO】<https://www.bilibili.com/video/BV1zE421A7rr>
+- [01_周倩如_形式化可解释人工智能进展](https://www.bilibili.com/video/BV1zE421A7rr?p=1)
+- [02_张姗姗_视觉行人搜索领域研究进展](https://www.bilibili.com/video/BV1zE421A7rr?p=2)
+- [03_那迪_以知识生态学为基础的信念演化模型](https://www.bilibili.com/video/BV1zE421A7rr?p=3)
+- [04_杨明鑫_基于非公理化逻辑的城市消防案例推理方法研究](https://www.bilibili.com/video/BV1zE421A7rr?p=4)
+- [05_周芃_重新思考通用人工智能：类脑计算与智能涌现](https://www.bilibili.com/video/BV1zE421A7rr?p=5)
 
 #### 2024/3
 
-【TODO】<https://www.bilibili.com/video/BV1Ff421B7sp>
+- [01_王涛_OpenNARS应用方法论——以钢材表面缝隙检测为例](https://www.bilibili.com/video/BV1Ff421B7sp?p=1)
+- [02_徐博文_通用人工智能：是什么、如何测、如何做](https://www.bilibili.com/video/BV1Ff421B7sp?p=2)
+- [03_李汤睿_基于Event Buffer的NARS时序学习](https://www.bilibili.com/video/BV1Ff421B7sp?p=3)
+- [04_孙强_当我们在讨论情感时，到底是在讲什么](https://www.bilibili.com/video/BV1Ff421B7sp?p=4)
+- [05_黄彧_注意力分配与智能体决策](https://www.bilibili.com/video/BV1Ff421B7sp?p=5)
 
 #### 2024/4
 
-【TODO】<https://www.bilibili.com/video/BV1dx4y1x7Vn>
+- [01_冯博杰_超越情欲：进化心理学视角下AGI利他动机初探](https://www.bilibili.com/video/BV1dx4y1x7Vn?p=1)
+- [02_刘凯_自底向上：AGI的具身认知发展之道](https://www.bilibili.com/video/BV1dx4y1x7Vn?p=2)
+- [03_王泰然_张涛_“看”的感觉：AGI主动视觉研究进展](https://www.bilibili.com/video/BV1dx4y1x7Vn?p=3)
+- [04_林嘉濠_江成_“动”起来：AGI系统的自动驾驶技术](https://www.bilibili.com/video/BV1dx4y1x7Vn?p=4)
+- [05_卢桥桥_连小雨_“成长”的烦恼：AGI视角下自闭症病理学新探](https://www.bilibili.com/video/BV1dx4y1x7Vn?p=5)
