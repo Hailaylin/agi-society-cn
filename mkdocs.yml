@@ -142,6 +142,9 @@ nav:
   - 关于我们:
     - about/index.md
     - about/web_arch.md
-    - about/edit.md
+    - 贡献指南:
+      - about/contributing/formats.md
+      - about/contributing/tools.md
+      - about/contributing/carrying.md
     - about/team.md
 
