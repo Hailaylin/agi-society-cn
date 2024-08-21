@@ -104,6 +104,7 @@ nav:
       - nars/impl/nars_python.md
       - nars/impl/nars_swift.md
       - nars/impl/narst.md
+      - nars/impl/narust.md
       - nars/impl/ona.md
       - nars/impl/openjunars.md
       - nars/impl/opennars.md

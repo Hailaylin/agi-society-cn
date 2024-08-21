@@ -392,8 +392,6 @@
 - [再读NARS代码——基于整体视角的尝试(二)_20240522_张涛](https://www.bilibili.com/video/BV1o94y1r7hB?p=10)
 - [OpenNARS零码通览_20240605_Tessergon](https://www.bilibili.com/video/BV1o94y1r7hB?p=11)
 
-【未完待续】
-
 ### 2024
 
 #### 2024/1
@@ -424,6 +422,10 @@
 
 - [01_冯博杰_超越情欲：进化心理学视角下AGI利他动机初探](https://www.bilibili.com/video/BV1dx4y1x7Vn?p=1)
 - [02_刘凯_自底向上：AGI的具身认知发展之道](https://www.bilibili.com/video/BV1dx4y1x7Vn?p=2)
-- [03_王泰然_张涛_“看”的感觉：AGI主动视觉研究进展](https://www.bilibili.com/video/BV1dx4y1x7Vn?p=3)
+<!-- - [03_王泰然_张涛_“看”的感觉：AGI主动视觉研究进展](https://www.bilibili.com/video/BV1dx4y1x7Vn?p=3)
 - [04_林嘉濠_江成_“动”起来：AGI系统的自动驾驶技术](https://www.bilibili.com/video/BV1dx4y1x7Vn?p=4)
-- [05_卢桥桥_连小雨_“成长”的烦恼：AGI视角下自闭症病理学新探](https://www.bilibili.com/video/BV1dx4y1x7Vn?p=5)
+- [05_卢桥桥_连小雨_“成长”的烦恼：AGI视角下自闭症病理学新探](https://www.bilibili.com/video/BV1dx4y1x7Vn?p=5) -->
+
+### 2024~2025
+
+- [NARust——兼顾高性能与可集成性的NARS实现方案_20240821_Tessergon](https://www.bilibili.com/video/BV1LxWYeBEiZ/?p=1)

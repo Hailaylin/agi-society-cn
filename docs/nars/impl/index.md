@@ -49,6 +49,7 @@ comments: true
 
 - [20NAR1](20nar1)
 - [Narst](narst)（截止至2024-07-26，尚不完整）
+- [NARust](narust)
 
 ### Swift
 
