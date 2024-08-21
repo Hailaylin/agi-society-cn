@@ -20,4 +20,5 @@ NARust是一个兼顾高性能与可集成性的NARS实现方案。
 - [lib.rs↗](https://lib.rs/narust-158)
 - [GitHub↗](https://github.com/ARCJ137442/NARust-158)
 
-<!-- 这儿有个在线演示页面，感兴趣的可以[现场玩玩]() -->
+这儿有个在线演示页面，感兴趣的可以[现场玩玩](./../demo/narust-158/index.html)
+（页面最后更新时间：【2024-08-22 01:34:33】）
