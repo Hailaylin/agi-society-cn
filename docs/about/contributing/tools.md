@@ -103,7 +103,7 @@ pip install mkdocs-material
 
 若不希望在系统全局安装 `mkdocs-material` 包，可以创建一个虚拟环境，在虚拟环境中安装 `mkdocs-material`。
 
-具体可参考[Linux对应小节](#1-安装-python-虚拟环境)，或网络搜索关键词
+具体可参考[Linux对应小节](#1-python)，或网络搜索关键词<!-- MKDocs的索引会自动去掉中文 -->
 
 ```plaintext
 Python venv 创建虚拟环境
@@ -113,8 +113,8 @@ Python venv 创建虚拟环境
 
 #### 3. 开启实时预览
 
-同[Linux对应小节](#2-启动实时预览)，在Git仓库目录下（如`...\agi-society-cn\`）运行如下命令：
-
+同[Linux对应小节](#2)，在Git仓库目录下（如`...\agi-society-cn\`）运行如下命令：
+<!-- MKDocs的索引会自动去掉中文 -->
 ```bash
 mkdocs serve
 ```
