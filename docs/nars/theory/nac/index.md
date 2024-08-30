@@ -22,20 +22,21 @@ comments: true
 
 🕒最后更新：【2024-08-30 20:44:42】
 
-- NARS控制机制概览
-- NARS控制机制的总体原则
-    - AIKR
-    - 常数时间的单步推理
+- [NARS控制机制概览](nac_overview/index.md)
+- [NARS控制机制的总体原则](nac_principles/index.md)
+    - [知识资源相对不足](nac_principles/aikr.md)
+    - [常数时间的单步推理](nac_principles/inference_step_o_n.md)
     - …
-- NAL高层与NARS控制机制
-    - NAL-7 时间推理：事件缓冲区系统
-    - NAL-8 目标推理：目标、事件与操作
-    - NAL-9 内省推理：全局指标与心理操作
-- NARS经典版本的控制机制
-    - OpenNARS 1.5.x
-    - OpenNARS 3.0.x/3.1.0
-    - ONA
-    - PyNARS
+- [NAL高层与NARS控制机制](nal_and_nac/index.md)
+    - [NAL-7 时间推理：事件缓冲区系统](nal_and_nac/nal_7.md)
+    - [NAL-8 目标推理：目标、事件与操作](nal_and_nac/nal_8.md)
+    - [NAL-9 内省推理：全局指标与心理操作](nal_and_nac/nal_9.md)
+- [NARS经典版本的控制机制](nac_classic_versions/index.md)
+    - [OpenNARS 1.5.x](nac_classic_versions/opennars_15x.md)
+    - [OpenNARS 3.0.x/3.1.0](nac_classic_versions/opennars_30x.md)
+    - [OpenNARS 3.1.x](nac_classic_versions/opennars_31x.md)
+    - [ONA](nac_classic_versions/ona.md)
+    - [PyNARS](nac_classic_versions/pynars.md)
     - …
 
 （✨持续更新中，欢迎贡献内容）
