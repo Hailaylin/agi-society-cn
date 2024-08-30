@@ -76,7 +76,7 @@ Self-organization of concepts provides an intermediate structure between the who
 
 * * *
 
-[Chapter 5. Experience and Socialization](chapter5/index.## md)
+[Chapter 5. Experience and Socialization](chapter5/index.md)
 
 _This chapter describes the interaction between an intelligent system and its environment._
 

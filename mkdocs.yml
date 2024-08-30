@@ -98,17 +98,17 @@ nav:
     - NARS各版实现:
       - nars/impl/introduction.md
       - nars/impl/index.md
-      - nars/impl/20nar1.md
-      - nars/impl/narjure.md
-      - nars/impl/nars_cxin_py_to_ts.md
-      - nars/impl/nars_python.md
-      - nars/impl/nars_swift.md
-      - nars/impl/narst.md
-      - nars/impl/narust.md
-      - nars/impl/ona.md
-      - nars/impl/openjunars.md
-      - nars/impl/opennars.md
-      - nars/impl/pynars.md
+      - nars/impl/impls/20nar1.md
+      - nars/impl/impls/narjure.md
+      - nars/impl/impls/nars_cxin_py_to_ts.md
+      - nars/impl/impls/nars_python.md
+      - nars/impl/impls/nars_swift.md
+      - nars/impl/impls/narst.md
+      - nars/impl/impls/narust.md
+      - nars/impl/impls/ona.md
+      - nars/impl/impls/openjunars.md
+      - nars/impl/impls/opennars.md
+      - nars/impl/impls/pynars.md
 
     - NARS衍生项目:
       - nars/derivative_project/introduction.md
