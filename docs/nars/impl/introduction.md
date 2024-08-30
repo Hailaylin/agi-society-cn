@@ -12,7 +12,7 @@ comments: true
 
 ## 各版本总览
 
-最经典的是王培教授使用Java语言编写实现的[OpenNARS 1.5.8](opennars.md)。这一版实现了NAL1-6层，实现效果：稳定无变动。
+最经典的是王培教授使用Java语言编写实现的[OpenNARS 1.5.8](impls/opennars.md/#opennars-1x)。这一版实现了NAL1-6层，实现效果：稳定无变动。
 
 [ARCJ137442](https://github.com/ARCJ137442)
 根据此版本魔改了一版实现，名为[OpenNARS-158-dev](https://github.com/ARCJ137442/OpenNARS-158-dev)
@@ -20,7 +20,7 @@ comments: true
 
 opennars经过发展后有3.0.4、3.1.1等几个大版本，
 
-最后更换了python语言，由徐博文博士主持编写[pynars (opennars 4.0)](pynars)。
+最后更换了python语言，由徐博文博士主持编写[pynars (opennars 4.0)](impls/pynars.md)。
 
 4.0版本大改了控制机制，增加了多通道输入和对时间事件的感知与预测。整体实现由python实现，性能部分对接C++编写的cNARS作为运算单元，加快python代码运行速度。
 

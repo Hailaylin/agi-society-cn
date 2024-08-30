@@ -13,8 +13,8 @@ comments: true
 下面是一些快捷链接：
 
 1. [NARS各个实现版本介绍](nars/impl/introduction.md)
-2. [NARS简介](nars/nars_index.md)
-3. [通用人工智能(AGI)是什么？](agi/agi_intro.md)
+2. [NARS简介](nars/index.md)
+3. [通用人工智能(AGI)是什么？](agi/index.md)
 
 ## 最新活动
 
@@ -26,7 +26,7 @@ comments: true
 
 ## 共建共享
 
-如您想增添内容，欢迎查看[贡献者指南](about/edit.md)查看编辑方式。
+如您想增添内容，欢迎查看[贡献者指南](about/contributing/formats.md)查看编辑方式。
 
 并到以下Git库提交Pull Requests：
 

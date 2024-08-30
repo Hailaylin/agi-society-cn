@@ -26,7 +26,7 @@ todo
 
 下载地址：<https://www.jetbrains.com/pycharm/download/>
 
-![1](../image/impl/nars_python/tutorial_1.png)
+![1](../../image/impl/nars_python/tutorial_1.png)
 
 安装好后，去如下链接下载 NARS Python 版：
 
@@ -36,20 +36,20 @@ todo
 
 前一个是国内镜像，后一个是原版最新地址，如果你能科学上网，推荐后一个链接。
 
-![2](../image/impl/nars_python/tutorial_2.png)
+![2](../../image/impl/nars_python/tutorial_2.png)
 
 解压到D盘，结构如下：
 
-![3](../image/impl/nars_python/tutorial_3.png)
+![3](../../image/impl/nars_python/tutorial_3.png)
 
 双击桌面的 PyCharm 图标，然后打开解压后的目录：
 
-![4](../image/impl/nars_python/tutorial_4.png)
+![4](../../image/impl/nars_python/tutorial_4.png)
 
 （下面这个步骤**不是必要的**）除非编辑器找不到 python.exe 或你想换一个 python.exe 版本：
 
-![5](../image/impl/nars_python/tutorial_5.png)
+![5](../../image/impl/nars_python/tutorial_5.png)
 
 接下来试着右键点击并启动 main.py （应该会报错，因为缺少某些库）：
 
-![6](../image/impl/nars_python/tutorial_6.png)
+![6](../../image/impl/nars_python/tutorial_6.png)

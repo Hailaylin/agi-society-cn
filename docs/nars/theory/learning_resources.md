@@ -53,7 +53,7 @@ comments: true
 
 ## 2. 编码实现
 
-参见[NARS 各个版本实现介绍](impl/index.md)
+参见[NARS 各个版本实现介绍](../impl/index.md)
 
 ## Christian G. Hahm（ccrock4t）NARS Python v0.3
 
