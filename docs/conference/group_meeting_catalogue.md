@@ -429,3 +429,4 @@
 ### 2024~2025
 
 - [NARust——兼顾高性能与可集成性的NARS实现方案_20240821_Tessergon](https://www.bilibili.com/video/BV1LxWYeBEiZ/?p=1)
+- [专用与通用人工智能研究路径之比较及对时间认知的重新思考_20240904_王泰然](https://www.bilibili.com/video/BV1LxWYeBEiZ/?p=2)

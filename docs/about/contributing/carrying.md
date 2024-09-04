@@ -196,7 +196,7 @@ function HTML处理(s::String)::String
     # 2
     s = replace(
         s,
-        """<ul class="list-box"><li class="watched on">""" => "",
+        r"""<ul class="list-box"><li class="[^"]*">""" => "",
         r"""<div class="clickitem">[^\n]*""" => "",
     )
 
