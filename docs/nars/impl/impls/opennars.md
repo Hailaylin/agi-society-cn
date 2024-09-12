@@ -20,6 +20,7 @@ todo
 - 代码仓库参考：
   - [OpenNARS声明性内核](https://github.com/patham9/opennars_declarative_core)：由 *Patrick Hammer* 发布，适合以此实现自己的NAL 7~9层（时间推理、目标推理）
   - [ARCJ137442/OpenNARS-158-dev](https://github.com/ARCJ137442/OpenNARS-158-dev)：基于上述声明性内核的中文注释版，相比原版增加了许多内容注解，并优化了代码可读性
+    - [Gitee镜像↗](https://gitee.com/A137442/OpenNARS-158-dev)
 
 todo
 
