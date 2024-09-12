@@ -22,44 +22,44 @@ comments: true
 
 ### C
 
-- [ONA](impls/ona "OpenNARS for Applications") (OpenNARS for Applications)
+- [ONA](impls/ona.md "OpenNARS for Applications") (OpenNARS for Applications)
 
 ### Clojure
 
-- [Narjure](impls/narjure "OpenNARS 2.x") (OpenNARS 2.x)
+- [Narjure](impls/narjure.md "OpenNARS 2.x") (OpenNARS 2.x)
 
 ### Java
 
-- [OpenNARS](impls/opennars "OpenNARS 1.x / 3.x") (OpenNARS 1.x / 3.x)
+- [OpenNARS](impls/opennars.md "OpenNARS 1.x / 3.x") (OpenNARS 1.x / 3.x)
 
 ### JavaScript/TypeScript
 
-- [NARS CXin Py to TS](impls/nars_cxin_py_to_ts)
+- [NARS CXin Py to TS](impls/nars_cxin_py_to_ts.md)
 
 ### Julia
 
-- [OpenJunars](impls/openjunars)
+- [OpenJunars](impls/openjunars.md)
 
 ### Python
 
-- [NARS-Python](impls/nars_python)
-- [PyNARS](impls/pynars)
+- [NARS-Python](impls/nars_python.md)
+- [PyNARS](impls/pynars.md)
 
 ### Rust
 
-- [20NAR1](impls/20nar1)
-- [Narst](impls/narst)（截止至2024-07-26，尚不完整）
-- [NARust](impls/narust)
+- [20NAR1](impls/20nar1.md)
+- [Narst](impls/narst.md)（截止至2024-07-26，尚不完整）
+- [NARust](impls/narust.md)
 
 ### Swift
 
-- [NARS-Swift](impls/nars_swift)
+- [NARS-Swift](impls/nars_swift.md)
 
 ## 版本收录&投稿
 
 /// question | 需要添加自己的版本？
 
-若实现者有自己的一版NARS实现，可[在GitHub提issue](impls/https://github.com/Hailaylin/agi-society-cn/issues/new)，或在文末评论区发言。
+若实现者有自己的一版NARS实现，可[在GitHub提issue](https://github.com/Hailaylin/agi-society-cn/issues/new)，或在文末评论区发言。
 
 同样也欢迎贡献者对遗漏的版本投稿！
 
