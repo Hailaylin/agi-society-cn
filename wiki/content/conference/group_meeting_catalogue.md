@@ -53,83 +53,83 @@ comments: true
 
 ## 2017-2018 学年
 
-- [1] 人工智能哲学与NARS，冯博杰
-- [2] AI教育专刊系列报告之一（《走向世界的AI教育》、《人工智能教育》，《MOOCs十问》），刘凯、王涛
+- [1] [人工智能哲学与NARS，冯博杰](https://v.youku.com/v_show/id_XMjg2ODQ3MzU5Mg==.html)
+- [2] [AI教育专刊系列报告之一（《走向世界的AI教育》、《人工智能教育》，《MOOCs十问》），刘凯、王涛](https://v.youku.com/v_show/id_XMjg4NDQ1MzkwMA==.html)
 - [3] AI中的"难"问题：关于"常识"的那些事，刘凯、那迪
 - [4] AI课程中道德问题之思虑，沈建铭
-- [5] 婴儿心理学与AGI系统教育，刘凯
-- [6] 万事开头难--自己动手试写NARS系统有感，徐升
-- [7] "咱们情绪有力量"--《Mood as Representation of Momentum》文献报告，刘凯
-- [8] 基本情感理论及其与AGI关系的思考，黄英辉
-- [9] 《AGI_and_Reflexivity》文献报告，冯博杰
+- [5] [婴儿心理学与AGI系统教育，刘凯](https://v.youku.com/v_show/id_XMjkzODc0NjA1Mg==.html)
+- [6] [万事开头难--自己动手试写NARS系统有感，徐升](https://v.youku.com/v_show/id_XMjk1MzgwNzE4MA==.html)
+- [7] ["咱们情绪有力量"--《Mood as Representation of Momentum》文献报告，刘凯](https://v.youku.com/v_show/id_XMjk3MjQ5ODAwNA==.html)
+- [8] [基本情感理论及其与AGI关系的思考，黄英辉](https://v.youku.com/v_show/id_XMjk4NTQyMjc4NA==.html)
+- [9] [《AGI_and_Reflexivity》文献报告，冯博杰](https://v.youku.com/v_show/id_XMjk5NzA2NDQyMA==.html)
 - [10] 主流人工智能的短板与挑战，胡祥恩、姜洋、王涛、左斌、冯博杰、杨磊、马翰林、吴宇航、陶夏彤、黄彧、刘凯
 - [11] 通用人工智能大家谈（一），黄彧、刘凯、左斌、冯博杰、李祥
 - [12] 通用人工智能大家谈（二），马翰林、冯博杰、胡祥恩、姜洋、黄英辉、王涛
 - [13] 通用人工智能大家谈（三），王涛、陶夏彤、吴宇航、杨磊、黄彧、刘凯、冯博杰、姜洋
 - [14] 为什么是图灵测试而不是图灵定义？，蔡恒进
-- [15] 通用人工智能的理论基础（一）：概述，王涛
-- [16] 通用人工智能的理论基础（二）：Marcus Hutter和他的"通用"人工智能，吴宇航
-- [17] 通用人工智能的理论基础（三）──智能体的动机建模及情感产生（上），刘凯
-- [18] 通用人工智能的理论基础（三）──智能体的动机建模及情感产生（下），刘凯
-- [19] 通用人工智能的理论基础（四）──通用人工智能与机器的意识问题，黄彧
-- [20] 通用人工智能的理论基础（五）──概念整合作为通用人工智能系统的创造力框架，黄英辉
-- [21] 通用人工智能的理论基础（六）──人和机器意识作为概念分析机制的边界作用，黄彧
-- [22] 从内在表征到人工智能，李光辉
+- [15] [通用人工智能的理论基础（一）：概述，王涛](https://v.youku.com/v_show/id_XMzA5NDE4NDE0MA==.html)
+- [16] [通用人工智能的理论基础（二）：Marcus Hutter和他的"通用"人工智能，吴宇航](https://v.youku.com/v_show/id_XMzEwODA2MzkwMA==.html)
+- [17] [通用人工智能的理论基础（三）──智能体的动机建模及情感产生（上），刘凯](https://v.youku.com/v_show/id_XMzEyNDY2NDM0NA==.html)
+- [18] [通用人工智能的理论基础（三）──智能体的动机建模及情感产生（下），刘凯](https://v.youku.com/v_show/id_XMzE0MTU1MTk0MA==.html)
+- [19] [通用人工智能的理论基础（四）──通用人工智能与机器的意识问题，黄彧](https://v.youku.com/v_show/id_XMzE1Nzk3ODk3Ng==.html)
+- [20] [通用人工智能的理论基础（五）──概念整合作为通用人工智能系统的创造力框架，黄英辉](https://v.youku.com/v_show/id_XMzE3NDM4NzM4NA==.html)
+- [21] [通用人工智能的理论基础（六）──人和机器意识作为概念分析机制的边界作用，黄彧](https://v.youku.com/v_show/id_XMzE5MTMzMDI2OA==.html)
+- [22] [从内在表征到人工智能，李光辉](https://v.youku.com/v_show/id_XMzIwNzg5NTUxNg==.html)
 - [23] 作为行动指南的表征理论，冯博杰
-- [24] 人机情未了──人形机器人感知运动尝试，任庆
+- [24] [人机情未了──人形机器人感知运动尝试，任庆](https://v.youku.com/v_show/id_XMzI4NzMyNDIyNA==.html)
 - [25] 法律是人工智能的"紧箍咒"？，韦邦龙、徐博
-- [26] 探赜索隐──纳思软件工程大揭秘，Patrick、李祥、王培
-- [27] 法律与人工智能新挑战──"貌合神离"还是"莫逆于心"？，杨驭颥、朱程
-- [28] 础润而雨──论通用人工智能与教育大科学走向，刘凯
-- [29] 主体·强化学习·推理──让AGI适应我们的世界，徐鼎
+- [26] [探赜索隐──纳思软件工程大揭秘，Patrick、李祥、王培](https://v.youku.com/v_show/id_XMzM0NTg2MjAyNA==.html)
+- [27] [法律与人工智能新挑战──"貌合神离"还是"莫逆于心"？，杨驭颥、朱程](https://v.youku.com/v_show/id_XMzM3MjM0NDMyOA==.html)
+- [28] [础润而雨──论通用人工智能与教育大科学走向，刘凯](https://v.youku.com/v_show/id_XMzQ0NDIwNzg4NA==.html)
+- [29] [主体·强化学习·推理──让AGI适应我们的世界，徐鼎](https://v.youku.com/v_show/id_XMzQ2MTMzMTY3Ng==.html)
 - [30] "知己知彼"视频共享系列•之一：SAI眼中的AGI──通用人工智能的现状及展望，群体讨论
 - [31] "锵锵三人行"小组讨论•之一：何为理解？，刘凯、马翰林、冯博杰
-- [32] HTM脑皮质学习算法（一），赵勇
+- [32] [HTM脑皮质学习算法（一），赵勇](https://v.youku.com/v_show/id_XMzUxMjE4OTM0OA==.html)
 - [33] "知己知彼"视频共享系列•之二：自然语言处理的"理想与现实、机遇与挑战"，群体讨论
-- [34] 揭开智能真相──NARS基本理论速读，刘凯
+- [34] [揭开智能真相──NARS基本理论速读，刘凯](https://v.youku.com/v_show/id_XMzU0NTc1MDI5Ng==.html)
 - [35] 语义表征与分析：有何裨益？，胡祥恩
 - [36] 心理世界的逻辑痕迹，黄彧、刘凯
-- [37] 人脑中的"理性"和"非理性"谁多谁少？──从心理视角解读人类逻辑思维，刘凯
-- [38] 通用人工智能的理论基础（七）──模型解释与机制构建──智能难题中的"知行合一"，周泽恩
-- [39] 通用人工智能的理论基础（八）──作为通用人工智能基础的LIDA，冯博杰
-- [40] 表征的本质──从内在表征与外在表征区分来看，李光辉
-- [41] 谎言的艺术──深度学习真的模拟了人脑神经结构吗？，刘凯
-- [42] 以深度强化学习作为通用人工智能的基础，吴宇航
+- [37] [人脑中的"理性"和"非理性"谁多谁少？──从心理视角解读人类逻辑思维，刘凯](https://v.youku.com/v_show/id_XMzYwNzk3ODQ4MA==.html)
+- [38] [通用人工智能的理论基础（七）──模型解释与机制构建──智能难题中的"知行合一"，周泽恩](https://v.youku.com/v_show/id_XMzYyMTI0ODY3Ng==.html)
+- [39] [通用人工智能的理论基础（八）──作为通用人工智能基础的LIDA，冯博杰](https://v.youku.com/v_show/id_XMzYzMzg1MTc1Ng==.html)
+- [40] [表征的本质──从内在表征与外在表征区分来看，李光辉](https://v.youku.com/v_show/id_XMzY0NzcwMDUxNg==.html)
+- [41] [谎言的艺术──深度学习真的模拟了人脑神经结构吗？，刘凯](https://v.youku.com/v_show/id_XMzY2MDg5MDM3Ng==.html)
+- [42] [以深度强化学习作为通用人工智能的基础，吴宇航](https://v.youku.com/v_show/id_XMzY5Mjc0MTc5Ng==.html)
 
 ## 2018-2019 学年
 
 - [1] NARS教材第一章，黄彧
-- [2] NARS工程解密系列之一，李祥
-- [3] 意识认知理论模型的30年进展，刘凯
-- [4] NARS工程解密系列之二，王洪政
-- [5] NARS工程解密系列之三：医疗系统那些事儿，李祥
+- [2] [NARS工程解密系列之一，李祥](https://v.youku.com/v_show/id_XMzgyMTMxNjY2NA==.html)
+- [3] [意识认知理论模型的30年进展，刘凯](https://v.youku.com/v_show/id_XMzgzMDIxNDk0OA==.html)
+- [4] [NARS工程解密系列之二，王洪政](https://v.youku.com/v_show/id_XMzgzODg5OTY1Mg==.html)
+- [5] [NARS工程解密系列之三：医疗系统那些事儿，李祥](https://v.youku.com/v_show/id_XMzg1NzE0MjQ1Mg==.html)
 - [6] 系统论三部曲，刘凯
-- [7] NARS工程解密系列之四：时间推理，王洪政
-- [8] 《Non-Axiomatic Logic》教材第二、三章，黄彧，徐鼎
-- [9] HTM脑皮质学习算法新动向──"千脑理论"，冯博杰
+- [7] [NARS工程解密系列之四：时间推理，王洪政](https://v.youku.com/v_show/id_XMzg4NTY4NTM5Mg==.html)
+- [8] [《Non-Axiomatic Logic》教材第二、三章，黄彧，徐鼎](https://v.youku.com/v_show/id_XMzg5NzE5NjI1Mg==.html)
+- [9] [HTM脑皮质学习算法新动向──"千脑理论"，冯博杰](https://v.youku.com/v_show/id_XMzkwODYxNDUxMg==.html)
 - [10] "证据中心设计"教育评估框架与认知网络分析，彭霁
-- [11] 辛特科技的AGI路线及技术，李乔
-- [12] "Head meets mind"──从费城到孟菲斯，李祥、王洪政
-- [13] NARS教材四、五章──基本推理规则和存储控制，刘凯
-- [14] 2018总结及2019展望，AGI爱好者
-- [15] 医学人工智能专题报告（一），张亚楠、余文婷
+- [11] [辛特科技的AGI路线及技术，李乔](https://v.youku.com/v_show/id_XMzk0NjU3MzkzNg==.html)
+- [12] ["Head meets mind"──从费城到孟菲斯，李祥、王洪政](https://v.youku.com/v_show/id_XMzk1MTE4ODk0OA==.html)
+- [13] [NARS教材四、五章──基本推理规则和存储控制，刘凯](https://v.youku.com/v_show/id_XMzk2MTQ3ODQ3Mg==.html)
+- [14] [2018总结及2019展望，AGI爱好者](https://v.youku.com/v_show/id_XMzk3MjAyNjUyMA==.html)
+- [15] [医学人工智能专题报告（一），张亚楠、余文婷](https://v.youku.com/v_show/id_XNDAxNDY2NTU2MA==.html)
 - [16] 医学人工智能专题报告（二）──AI和自主机器人手术中的法律、法规、道德框架或准则，韦邦龙
-- [17] 数据利维坦与数据统治，沈建铭
-- [18] AGI新军之PAGI（上）：概述，冯博杰
-- [19] 脑科学、精神病学对通用人工智能理论的启示，刘凯
-- [20] 螺旋论与he系统简介──"he"的理论模型与架构，贾晓刚
-- [21] 通用人工智能理论基础系列报告之第九章──建构主义AI，冯博杰
-- [22] 深度神经网络推理的那些事儿──AGI的另类探索，甄景贤
-- [23] 纳思工程解密系列之：街景识别，王洪政
+- [17] [数据利维坦与数据统治，沈建铭](https://v.youku.com/v_show/id_XNDA3OTE3NTMxNg==.html)
+- [18] [AGI新军之PAGI（上）：概述，冯博杰](https://v.youku.com/v_show/id_XNDA4Njk3MDMyNA==.html)
+- [19] [脑科学、精神病学对通用人工智能理论的启示，刘凯](https://v.youku.com/v_show/id_XNDExMzI0OTY2MA==.html)
+- [20] [螺旋论与he系统简介──"he"的理论模型与架构，贾晓刚](https://v.youku.com/v_show/id_XNDEyMzEzNjU2NA==.html)
+- [21] [通用人工智能理论基础系列报告之第九章──建构主义AI，冯博杰](https://v.youku.com/v_show/id_XNDE0MDIyMTMwMA==.html)
+- [22] [深度神经网络推理的那些事儿──AGI的另类探索，甄景贤](https://v.youku.com/v_show/id_XNDE3NTk4ODYyMA==.html)
+- [23] [纳思工程解密系列之：街景识别，王洪政](https://v.youku.com/v_show/id_XNDE3MzEyMTUyMA==.html)
 - [24] 历史拐点及未来走向──通用人工智能对心理学、脑科学及精神病学的影响，刘凯
 - [25] 对冯象《谁害怕人工智能？》的回应，王培、齐海滨
-- [26] 前天高考、后天报告──来自"高三"的AGI思考，李琪琛
-- [27] Learn NARS From Wiki（1）──入门，冯博杰
-- [28] Learn NARS From Wiki（2），那迪
-- [29] Learn NARS From Wiki（3），那迪
-- [30] Learn NARS From Wiki（4），那迪
-- [31] Learn NARS From Wiki（5），那迪
-- [32] Learn NARS From Wiki（6），那迪
+- [26] [前天高考、后天报告──来自"高三"的AGI思考，李琪琛](https://v.youku.com/v_show/id_XNDIzNTY0OTAxMg==.html)
+- [27] [Learn NARS From Wiki（1）──入门，冯博杰](https://v.youku.com/v_show/id_XNDIzNTY1MjkzMg==.html)
+- [28] [Learn NARS From Wiki（2），那迪](https://v.youku.com/v_show/id_XNDI1ODEzMjQxNg==.html)
+- [29] [Learn NARS From Wiki（3），那迪](https://v.youku.com/v_show/id_XNDI2NzMwMDU5Mg==.html)
+- [30] [Learn NARS From Wiki（4），那迪](https://v.youku.com/v_show/id_XNDI3NTg1Nzg3Ng==.html)
+- [31] [Learn NARS From Wiki（5），那迪](https://v.youku.com/v_show/id_XNDI4NDYyNDYzNg==.html)
+- [32] [Learn NARS From Wiki（6），那迪](https://v.youku.com/v_show/id_XNDI4NDYyNDYzNg==.html)
 
 ## 2019-2020 学年
 
@@ -146,13 +146,13 @@ comments: true
 - [11] [Nars工程结构导读，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=14)
 - [12] [基因、认知与经验──命运由己还由天？，刘凯](https://www.bilibili.com/video/BV1hV411t7CG?p=13)
 - [13] [纳思代码分析之"控制"概览，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=12)
-- [14] 旁见侧出，春和景明──从心理学看人工智能（一），刘凯（⚠️ 无 B站 视频）
-- [15] 基于纳思的通用诊断系统，冯博杰（⚠️ 无 B站 视频）
+- [14] [旁见侧出，春和景明──从心理学看人工智能（一），刘凯](https://v.youku.com/v_show/id_XNDYxNTI4MjUyOA==.html)
+- [15] [基于纳思的通用诊断系统，冯博杰](https://v.youku.com/v_show/id_XNDYzMzY4NDQzNg==.html)
 - [16] [基于多模态信息的生成式网络算法及其分类识别测试，孟晓宇](https://www.bilibili.com/video/BV1hV411t7CG?p=11)
-- [17] 类脑系统大战机器僵尸──AIKR假设的心理学透视，刘凯（⚠️ 无 B站 视频）
+- [17] [类脑系统大战机器僵尸──AIKR假设的心理学透视，刘凯](https://v.youku.com/v_show/id_XNDY3MTczNjYwOA==.html)
 - [18] [纳思工程解读之感知透视，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=10)
 - [19] [AGI常识问题大家谈，AGI爱好者](https://www.bilibili.com/video/BV1hV411t7CG?p=9)
-- [20] "昨日重现"──Python重写Nars的尝试与心得，王涛（⚠️ 无 B站 视频）
+- [20] ["昨日重现"──Python重写Nars的尝试与心得，王涛](https://v.youku.com/v_show/id_XNDcyNjMyNDA0MA==.html)
 - [21] [人工意识实现之"新解"──楼飞宝](https://www.bilibili.com/video/BV1hV411t7CG?p=8)
 - [22] [纳思控制代码研读系列（一）──基本理念，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=7)
 - [23] [通用人工智能与神经元网络之比较──那迪](https://www.bilibili.com/video/BV1hV411t7CG?p=6)
@@ -188,7 +188,7 @@ comments: true
 - [22] [多重关系网络的证据路径逻辑，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=20)
 - [23] [计算机视觉流派考，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=21)
 - [24] [朱松纯团队《"暗"，不止于"深"》研读，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=22)
-- [25] AGI决策模型的前提假设，那迪（⚠️ 无 B站 视频）
+- [25] [AGI决策模型的前提假设，那迪](https://v.youku.com/v_show/id_XNDg3Njg0MTQyMA==.html)
 - [26] [纳思控制代码研读系列（五）──自我与情感，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=23)
 - [27] [纳思控制代码研读系列（四）──相关性及预算，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=24)
 - [28] [动物智能──来自黑猩猩和渡鸦的证据，刘凯](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=25)
