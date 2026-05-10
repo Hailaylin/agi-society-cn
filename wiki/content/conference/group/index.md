@@ -13,16 +13,16 @@ comments: true
 
 | 学年 | 场次 | 详情 |
 |------|:--:|------|
-| 2025-2026 | 2+ | [查看](/conference/group/catalogue#_2025-2026-学年-进行中) |
-| 2024-2025 | 4 | [查看](/conference/group/catalogue#_2024-2025-学年) |
-| 2023-2024 | 7 | [查看](/conference/group/catalogue#_2023-2024-学年) |
-| 2022-2023 | 13 | [查看](/conference/group/catalogue#_2022-2023-学年) |
-| 2021-2022 | 8 | [查看](/conference/group/catalogue#_2021-2022-学年) |
-| 2020-2021 | 28 | [查看](/conference/group/catalogue#_2020-2021-学年) |
-| 2019-2020 | 28 | [查看](/conference/group/catalogue#_2019-2020-学年) |
-| 2018-2019 | 32 | [查看](/conference/group/catalogue#_2018-2019-学年) |
-| 2017-2018 | 42 | [查看](/conference/group/catalogue#_2017-2018-学年) |
-| 2016-2017 | 42 | [查看](/conference/group/catalogue#_2016-2017-学年) |
+| 2025-2026 | 2+ | [查看](/conference/group/2025-2026) |
+| 2024-2025 | 4 | [查看](/conference/group/2024-2025) |
+| 2023-2024 | 7 | [查看](/conference/group/2023-2024) |
+| 2022-2023 | 13 | [查看](/conference/group/2022-2023) |
+| 2021-2022 | 8 | [查看](/conference/group/2021-2022) |
+| 2020-2021 | 28 | [查看](/conference/group/2020-2021) |
+| 2019-2020 | 28 | [查看](/conference/group/2019-2020) |
+| 2018-2019 | 32 | [查看](/conference/group/2018-2019) |
+| 2017-2018 | 42 | [查看](/conference/group/2017-2018) |
+| 2016-2017 | 42 | [查看](/conference/group/2016-2017) |
 
 ## 组会合集
 
