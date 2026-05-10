@@ -1,4 +1,5 @@
 ---
+order: 1
 content-order: date
 content-order-reversed: true
 sidebarCollapsed: false

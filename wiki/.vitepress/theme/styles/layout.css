@@ -15,6 +15,7 @@
   background: var(--ag-nav-bg) !important;
   background-color: var(--ag-nav-bg) !important;
 }
+
 .VPNav {
   border-bottom: 1px solid var(--ag-nav-border) !important;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06) !important;
@@ -30,6 +31,7 @@
   background: var(--ag-nav-bg) !important;
   background-color: var(--ag-nav-bg) !important;
 }
+
 .dark .VPNav {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35) !important;
 }
@@ -38,7 +40,7 @@
    内容区宽度
    =========================================================== */
 .VPDoc.has-aside .content-container {
-  max-width: 800px;
+  max-width: 75vh !important;
 }
 
 /* ===========================================================
@@ -54,37 +56,73 @@
 /* 中文标题用中文字体，英文标题用 Cormorant */
 .vp-doc h2 {
   font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 26px; font-weight: 600; letter-spacing: 0;
-  line-height: 1.35; margin: 48px 0 16px 0; color: #1a1a1a;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.35;
+  margin: 48px 0 16px 0;
+  color: #1a1a1a;
   border: none;
 }
+
 .vp-doc h3 {
   font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 20px; font-weight: 600; line-height: 1.4;
-  margin: 32px 0 12px 0; color: #1a1a1a;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 32px 0 12px 0;
+  color: #1a1a1a;
 }
-.vp-doc p { margin: 0 0 0.8em 0; }
-.vp-doc a { color: #1a6b7a; text-decoration: none; transition: color 0.2s; }
-.vp-doc a:hover { color: #248a9c; text-decoration: underline; }
+
+.vp-doc p {
+  margin: 0 0 0.8em 0;
+}
+
+.vp-doc a {
+  color: #1a6b7a;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.vp-doc a:hover {
+  color: #248a9c;
+  text-decoration: underline;
+}
 
 /* 首页分区标题 */
 .section-light h2,
 .section-dark h2 {
   font-family: "Noto Sans SC", "PingFang SC", sans-serif;
-  font-size: 28px; font-weight: 600; letter-spacing: 0;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0;
   margin-bottom: 16px;
 }
 
 /* 英文标题保留 Cormorant 衬线 */
-h2:lang(en), h3:lang(en),
-[lang="en"] h2, [lang="en"] h3 {
+h2:lang(en),
+h3:lang(en),
+[lang="en"] h2,
+[lang="en"] h3 {
   font-family: "Cormorant Garamond", Georgia, serif;
 }
 
 /* ===========================================================
    暗色模式 — 全局文本
    =========================================================== */
-.dark .vp-doc { color: #bcc5d0; }
-.dark .vp-doc h2, .dark .vp-doc h3 { color: #e9eaed; }
-.dark .vp-doc a { color: #5ba8b5; }
-.dark .vp-doc a:hover { color: #7cc4d0; }
+.dark .vp-doc {
+  color: #bcc5d0;
+}
+
+.dark .vp-doc h2,
+.dark .vp-doc h3 {
+  color: #e9eaed;
+}
+
+.dark .vp-doc a {
+  color: #5ba8b5;
+}
+
+.dark .vp-doc a:hover {
+  color: #7cc4d0;
+}

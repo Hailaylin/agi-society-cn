@@ -1,6 +1,7 @@
 ---
 title: 组会
 sidebarTitle: 组会
+order: 2
 content-order: date
 content-order-reversed: false
 sidebarCollapsed: false
