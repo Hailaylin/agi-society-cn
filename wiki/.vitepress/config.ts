@@ -80,8 +80,7 @@ export default defineConfig({
           items: [
             { text: '关于协会', link: '/about/' },
             { text: 'AGI 概述', link: '/about/agi' },
-            { text: '研究团队', link: '/about/team' },
-            { text: '网站架构', link: '/about/web_arch' },
+            { text: '协会成员', link: '/about/team' },
           ],
         },
         {
@@ -195,7 +194,7 @@ export default defineConfig({
           text: '联系我们',
           items: [
             { text: '联系方式', link: '/contact/' },
-            { text: '研究团队', link: '/about/team' },
+            { text: '研究团队', link: '/contact/team' },
             { text: '资料与 QQ 群', link: '/contact/documents_and_qq_group' },
           ],
         },

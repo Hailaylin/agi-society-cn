@@ -17,13 +17,6 @@
 - **GTI**（A General Theory of Intelligence） — 王培教授的英文专著，系统阐述一般智能理论
 - **NAC**（非公理控制） — 中文参考书籍，深入非公理推理的控制机制
 
-## SAI 专用人工智能
-
-关注大语言模型等专用人工智能技术的发展，与 NARS 通用人工智能路径的对比研究。
-
-- [SAI 概述](/research/sai/)
-- [LLMs — 大语言模型](/research/sai/llms)
-
 ## 思想书库
 
 跨学科的 AGI 理论探索，汇聚协会成员的原创思想：
