@@ -15,10 +15,24 @@
    全局组件 — 所有页面生效
    =========================================================== */
 
-/* 导航栏 */
-.VPNav {
+/* 导航栏 — 全站所有层级强制不透明 */
+.VPNav,
+.VPNavBar,
+.VPNavBar.has-sidebar,
+.VPLocalNav,
+.VPLocalNav.has-sidebar {
   background: var(--ag-nav-bg) !important;
+}
+.VPNav {
   border-bottom: 1px solid var(--ag-nav-border) !important;
+}
+/* 暗色模式 */
+.dark .VPNav,
+.dark .VPNavBar,
+.dark .VPNavBar.has-sidebar,
+.dark .VPLocalNav,
+.dark .VPLocalNav.has-sidebar {
+  background: var(--ag-nav-bg) !important;
 }
 
 /* 全局排版

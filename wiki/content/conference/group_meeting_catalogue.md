@@ -8,10 +8,6 @@ comments: true
 
 ## 2016-2017 学年
 
-| # | 日期 | 来源 | 报告人 | 报告标题 |
-|---|------|------|--------|---------|
-
-
 - [1] 教育大科学若干问题的讨论，张杏芳
 - [2] 人工智能对战：通用人工智能VS深度学习，王培
 - [3] 不同的学习观：功能近似与自组织视角的对比，王培
@@ -56,10 +52,6 @@ comments: true
 - [42] 迈向NARS顶峰之旅（二）：NAL-8、9精粹，刘凯
 
 ## 2017-2018 学年
-
-| # | 日期 | 来源 | 报告人 | 报告标题 |
-|---|------|------|--------|---------|
-
 
 - [1] [人工智能哲学与NARS，冯博杰](https://v.youku.com/v_show/id_XMjg2ODQ3MzU5Mg==.html)
 - [2] [AI教育专刊系列报告之一（《走向世界的AI教育》、《人工智能教育》，《MOOCs十问》），刘凯、王涛](https://v.youku.com/v_show/id_XMjg4NDQ1MzkwMA==.html)
@@ -106,10 +98,6 @@ comments: true
 
 ## 2018-2019 学年
 
-| # | 日期 | 来源 | 报告人 | 报告标题 |
-|---|------|------|--------|---------|
-
-
 - [1] NARS教材第一章，黄彧
 - [2] [NARS工程解密系列之一，李祥](https://v.youku.com/v_show/id_XMzgyMTMxNjY2NA==.html)
 - [3] [意识认知理论模型的30年进展，刘凯](https://v.youku.com/v_show/id_XMzgzMDIxNDk0OA==.html)
@@ -145,10 +133,6 @@ comments: true
 
 ## 2019-2020 学年
 
-| # | 日期 | 来源 | 报告人 | 报告标题 |
-|---|------|------|--------|---------|
-
-
 - [1] [耦合之美──NARS系统构造图解，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=24)
 - [2] [智视科技──AGI初心及其无监督学习技术，陆晓](https://www.bilibili.com/video/BV1hV411t7CG?p=23)
 - [3] [AGI基础系列报告之：领军项目OpenCog，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=22)
@@ -179,10 +163,6 @@ comments: true
 - [28] [AI需要私人语言层面的知识表征吗？，徐英瑾](https://www.bilibili.com/video/BV1hV411t7CG?p=1)
 
 ## 2020-2021 学年
-
-| # | 日期 | 来源 | 报告人 | 报告标题 |
-|---|------|------|--------|---------|
-
 
 - [1] [科学流言的形成──脑控阴谋论与非公理知识观，刘凯](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=1)
 - [2] [通用人工智能系统中的功能性情感模型，李祥](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=2)
@@ -215,10 +195,6 @@ comments: true
 
 ## 2021-2022 学年
 
-| # | 日期 | 来源 | 报告人 | 报告标题 |
-|---|------|------|--------|---------|
-
-
 - [1] [七嘴八舌话视觉，群体讨论](https://www.bilibili.com/video/BV1wL4y1B7gm?p=5)
 - [2] [大脑决策选项的选择与维护机制，那迪](https://www.bilibili.com/video/BV1wL4y1B7gm?p=6)
 - [3] [基于NARS的自然语言处理，李汤睿](https://www.bilibili.com/video/BV1wL4y1B7gm?p=7)
@@ -229,10 +205,6 @@ comments: true
 - [8] [机器婴儿的"看见"之道──主动视觉的跨学科理论探新，刘凯](https://www.bilibili.com/video/BV1wL4y1B7gm?p=2)
 
 ## 2022-2023 学年
-
-| # | 日期 | 来源 | 报告人 | 报告标题 |
-|---|------|------|--------|---------|
-
 
 - [1] [智能机器的进化──议通用人工智能种群水平的竞争优化，刘凯](https://www.bilibili.com/video/BV1nP41157Gs?p=1)
 - [2] [非公理逻辑表征方法，那迪](https://www.bilibili.com/video/BV1nP41157Gs?p=2)
@@ -250,10 +222,6 @@ comments: true
 
 ## 2023-2024 学年
 
-| # | 日期 | 来源 | 报告人 | 报告标题 |
-|---|------|------|--------|---------|
-
-
 - [1] [何以停机──论以数据"市场"为外部制约条件的停机机制对AGI的意义，马翰林](https://www.bilibili.com/video/BV1o94y1r7hB?p=1)
 - [2] [通用人工智能的元模型和框架──从理论到实践，那迪](https://www.bilibili.com/video/BV1o94y1r7hB?p=2)
 - [3] [Nal-7通讲之"基于时间的推理规则"，李汤睿](https://www.bilibili.com/video/BV1o94y1r7hB?p=3)
@@ -264,20 +232,12 @@ comments: true
 
 ## 2024-2025 学年
 
-| # | 日期 | 来源 | 报告人 | 报告标题 |
-|---|------|------|--------|---------|
-
-
 - [1] [NARust──兼顾高性能与可集成性的NARS实现方案，Tessergon](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=1)
 - [2] [专用与通用人工智能研究路径之比较及对时间认知的重新思考，王泰然](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=2)
 - [3] [将非符号表征记忆系统融入智能代理终身发展架构，那迪](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=3)
 - [4] [动物也有文化吗？──来自社会学习的现实证据，杨亚亚、吴雨曦、刘凯](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=4)
 
 ## 2025-2026 学年（进行中）
-
-| # | 日期 | 来源 | 报告人 | 报告标题 |
-|---|------|------|--------|---------|
-
 
 - [1] 颜色是什么？──一个千古难题的AGI讨论，刘凯
 - [2] 超越图灵机──《生命传》启示下的AGI能动性与目标生成，林嘉濠、吴震宇
