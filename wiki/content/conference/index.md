@@ -23,4 +23,4 @@ comments: true
 
 ## 组会
 
-[历年组会视频目录](/conference/group_meeting_catalogue)收录了 2016-2025 十学年共 200+ 场组会报告。
+[组会总览](/conference/group_meeting_overview) · [历次组会](/conference/group_meeting_catalogue) — 收录 2016-2025 十学年共 200+ 场报告。

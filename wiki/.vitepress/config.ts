@@ -133,7 +133,7 @@ export default defineConfig({
       ],
       '/conference/': [
         {
-          text: '历次会议',
+          text: '历次年会',
           items: [
             { text: '年会总览', link: '/conference/' },
             { text: '2025 · 第十届', link: '/conference/2025' },
@@ -151,7 +151,8 @@ export default defineConfig({
         {
           text: '组会',
           items: [
-            { text: '组会视频目录', link: '/conference/group_meeting_catalogue' },
+            { text: '组会总览', link: '/conference/group_meeting_overview' },
+            { text: '历次组会', link: '/conference/group_meeting_catalogue' },
           ],
         },
       ],
