@@ -140,12 +140,6 @@ export default defineConfig({
             { text: '2024 · 第九届', link: '/conference/2024' },
             { text: '2023 · 第八届', link: '/conference/2023' },
             { text: '2022 · 第七届', link: '/conference/2022' },
-          ],
-        },
-        {
-          text: '往届年会',
-          collapsed: true,
-          items: [
             { text: '2021 · 第六届', link: '/conference/2021' },
             { text: '2020 · 第五届', link: '/conference/2020' },
             { text: '2019 · 第四届', link: '/conference/2019' },
