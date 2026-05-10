@@ -15,7 +15,7 @@ const nolebaseMD = presetMarkdownIt({
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'AGI Society Wiki',
+  title: 'AGI Society of China',
   description: '中国通用人工智能协会 — 学术知识库',
   srcDir: './content',
   outDir: './public',
@@ -65,9 +65,9 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
+      { text: '会议', link: '/conference/' },
       { text: 'NARS', link: '/nars/' },
       { text: '百科', link: '/other/' },
-      { text: '会议', link: '/conference/' },
       { text: '研究', link: '/sai/' },
       { text: '关于', link: '/about/' },
     ],

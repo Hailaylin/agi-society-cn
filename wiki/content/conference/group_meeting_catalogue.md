@@ -133,34 +133,34 @@ comments: true
 
 ## 2019-2020 学年
 
-- [1] 耦合之美──NARS系统构造图解，冯博杰
-- [2] 智视科技──AGI初心及其无监督学习技术，陆晓
-- [3] AGI基础系列报告之：领军项目OpenCog，冯博杰
-- [4] 电子身份证：数据时代的枢纽，沈建铭
-- [5] "针锋相对"──NARS与CNN之比较，莫克陶
-- [6] AGI基础报告系列之：章鱼的启示，冯博杰
-- [7] 一担双响──《反常识》+《错觉心理学》之"走马观花"，刘凯
-- [8] 脑与阅读──破解人类阅读之谜，尤福林，孟笑楠，陈慧芳，马瑞璟，高红丽
-- [9] 相关/因果看不清？──科研眼镜店的"配镜"指南，刘凯
-- [10] 数据与算法的谎言──大数据时代防骗指南，刘凯
-- [11] Nars工程结构导读，冯博杰
-- [12] 基因、认知与经验──命运由己还由天？，刘凯
-- [13] 纳思代码分析之"控制"概览，冯博杰
-- [14] 旁见侧出，春和景明──从心理学看人工智能（一），刘凯
-- [15] 基于纳思的通用诊断系统，冯博杰
-- [16] 基于多模态信息的生成式网络算法及其分类识别测试，孟晓宇
-- [17] 类脑系统大战机器僵尸──AIKR假设的心理学透视，刘凯
-- [18] 纳思工程解读之感知透视，冯博杰
-- [19] AGI常识问题大家谈，AGI爱好者
-- [20] "昨日重现"──Python重写Nars的尝试与心得，王涛
-- [21] 人工意识实现之"新解"──楼飞宝
-- [22] 纳思控制代码研读系列（一）──基本理念，冯博杰
-- [23] 通用人工智能与神经元网络之比较──那迪
-- [24] 纳思控制代码研读系列（二）──时间，冯博杰
-- [25] NARS可视化，莫克陶
-- [26] 论意识──一种心智操作的建构观，刘凯
-- [27] 纳思控制代码研读系列（三）──任务处理，冯博杰
-- [28] AI需要私人语言层面的知识表征吗？，徐英瑾
+- [1] [耦合之美──NARS系统构造图解，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=24)
+- [2] [智视科技──AGI初心及其无监督学习技术，陆晓](https://www.bilibili.com/video/BV1hV411t7CG?p=23)
+- [3] [AGI基础系列报告之：领军项目OpenCog，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=22)
+- [4] [电子身份证：数据时代的枢纽，沈建铭](https://www.bilibili.com/video/BV1hV411t7CG?p=21)
+- [5] ["针锋相对"──NARS与CNN之比较，莫克陶](https://www.bilibili.com/video/BV1hV411t7CG?p=20)
+- [6] [AGI基础报告系列之：章鱼的启示，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=19)
+- [7] [一担双响──《反常识》+《错觉心理学》之"走马观花"，刘凯](https://www.bilibili.com/video/BV1hV411t7CG?p=18)
+- [8] [脑与阅读──破解人类阅读之谜，尤福林，孟笑楠，陈慧芳，马瑞璟，高红丽](https://www.bilibili.com/video/BV1hV411t7CG?p=17)
+- [9] [相关/因果看不清？──科研眼镜店的"配镜"指南，刘凯](https://www.bilibili.com/video/BV1hV411t7CG?p=16)
+- [10] [数据与算法的谎言──大数据时代防骗指南，刘凯](https://www.bilibili.com/video/BV1hV411t7CG?p=15)
+- [11] [Nars工程结构导读，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=14)
+- [12] [基因、认知与经验──命运由己还由天？，刘凯](https://www.bilibili.com/video/BV1hV411t7CG?p=13)
+- [13] [纳思代码分析之"控制"概览，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=12)
+- [14] 旁见侧出，春和景明──从心理学看人工智能（一），刘凯（⚠️ 无 B站 视频）
+- [15] 基于纳思的通用诊断系统，冯博杰（⚠️ 无 B站 视频）
+- [16] [基于多模态信息的生成式网络算法及其分类识别测试，孟晓宇](https://www.bilibili.com/video/BV1hV411t7CG?p=11)
+- [17] 类脑系统大战机器僵尸──AIKR假设的心理学透视，刘凯（⚠️ 无 B站 视频）
+- [18] [纳思工程解读之感知透视，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=10)
+- [19] [AGI常识问题大家谈，AGI爱好者](https://www.bilibili.com/video/BV1hV411t7CG?p=9)
+- [20] "昨日重现"──Python重写Nars的尝试与心得，王涛（⚠️ 无 B站 视频）
+- [21] [人工意识实现之"新解"──楼飞宝](https://www.bilibili.com/video/BV1hV411t7CG?p=8)
+- [22] [纳思控制代码研读系列（一）──基本理念，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=7)
+- [23] [通用人工智能与神经元网络之比较──那迪](https://www.bilibili.com/video/BV1hV411t7CG?p=6)
+- [24] [纳思控制代码研读系列（二）──时间，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=5)
+- [25] [NARS可视化，莫克陶](https://www.bilibili.com/video/BV1hV411t7CG?p=4)
+- [26] [论意识──一种心智操作的建构观，刘凯](https://www.bilibili.com/video/BV1hV411t7CG?p=3)
+- [27] [纳思控制代码研读系列（三）──任务处理，冯博杰](https://www.bilibili.com/video/BV1hV411t7CG?p=2)
+- [28] [AI需要私人语言层面的知识表征吗？，徐英瑾](https://www.bilibili.com/video/BV1hV411t7CG?p=1)
 
 ## 2020-2021 学年
 
