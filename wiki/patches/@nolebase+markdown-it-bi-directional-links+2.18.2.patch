@@ -1,24 +1,70 @@
+diff --git a/node_modules/@nolebase/markdown-it-bi-directional-links/dist/_relative-fallback.cjs b/node_modules/@nolebase/markdown-it-bi-directional-links/dist/_relative-fallback.cjs
+new file mode 100644
+index 0000000..498eb3e
+--- /dev/null
++++ b/node_modules/@nolebase/markdown-it-bi-directional-links/dist/_relative-fallback.cjs
+@@ -0,0 +1,34 @@
++/**
++ * Shared relative-path fallback for bidirectional links lookup.
++ * Used by both index.cjs and index.mjs to avoid code duplication.
++ *
++ * When a wikilink like [[annual/index|text]] can't be found globally,
++ * this retries the lookup relative to the current file's directory.
++ */
++function tryRelativeFallback(originalHref, osSpecificHref, state, isRelativePath,
++                             possibleBiDirectionalLinksInCleanBaseNameOfFilePaths,
++                             possibleBiDirectionalLinksInFullFilePaths,
++                             findBiDirectionalLinksFn,
++                             dirnameFn, joinFn) {
++  // If the direct lookup already succeeded, return as-is
++  if (originalHref !== null && !(Array.isArray(originalHref) && originalHref.length === 0)) {
++    return originalHref;
++  }
++  // Not using relative paths, or no current file context
++  if (!isRelativePath || !(state && state.env && state.env.relativePath)) {
++    return originalHref;
++  }
++  // Try prepending current file's directory
++  const relHref = joinFn(dirnameFn(state.env.relativePath), osSpecificHref);
++  const relMatch = findBiDirectionalLinksFn(
++    possibleBiDirectionalLinksInCleanBaseNameOfFilePaths,
++    possibleBiDirectionalLinksInFullFilePaths,
++    relHref
++  );
++  if (relMatch !== null && !(Array.isArray(relMatch) && relMatch.length === 0)) {
++    return relMatch;
++  }
++  return originalHref;
++}
++
++module.exports = { tryRelativeFallback };
 diff --git a/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.cjs b/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.cjs
-index f1ee7c0..59220d7 100644
+index f1ee7c0..d00f4e0 100644
 --- a/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.cjs
 +++ b/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.cjs
-@@ -316,7 +316,14 @@ const BiDirectionalLinks = (options) => {
+@@ -3,6 +3,7 @@
+ const node_path = require('node:path');
+ const node_process = require('node:process');
+ const _debug = require('debug');
++const { tryRelativeFallback } = require('./_relative-fallback.cjs');
+ const colorette = require('colorette');
+ const tinyglobby = require('tinyglobby');
+ const Token = require('markdown-it/lib/token.mjs');
+@@ -316,7 +317,12 @@ const BiDirectionalLinks = (options) => {
        if (!isImageRef && !isAudioRef && !isVideoRef && (node_path.extname(osSpecificHref) === "" || node_path.extname(osSpecificHref) !== ".md"))
          osSpecificHref += ".md";
        const matchedHrefSingleOrArray = findBiDirectionalLinks(possibleBiDirectionalLinksInCleanBaseNameOfFilePaths, possibleBiDirectionalLinksInFullFilePaths, osSpecificHref);
 -      if (matchedHrefSingleOrArray === null || Array.isArray(matchedHrefSingleOrArray) && matchedHrefSingleOrArray.length === 0) {
-+      let matchedHrefForRel = matchedHrefSingleOrArray;
-+      if ((matchedHrefForRel === null || Array.isArray(matchedHrefForRel) && matchedHrefForRel.length === 0) && isRelativePath && state.env.relativePath) {
-+        const relHref = node_path.join(node_path.dirname(state.env.relativePath), osSpecificHref);
-+        const relMatch = findBiDirectionalLinks(possibleBiDirectionalLinksInCleanBaseNameOfFilePaths, possibleBiDirectionalLinksInFullFilePaths, relHref);
-+        if (relMatch !== null && !(Array.isArray(relMatch) && relMatch.length === 0))
-+          matchedHrefForRel = relMatch;
-+      }
++      let matchedHrefForRel = tryRelativeFallback(
++        matchedHrefSingleOrArray, osSpecificHref, state, isRelativePath,
++        possibleBiDirectionalLinksInCleanBaseNameOfFilePaths, possibleBiDirectionalLinksInFullFilePaths,
++        findBiDirectionalLinks, node_path.dirname, node_path.join
++      );
 +      if (matchedHrefForRel === null || Array.isArray(matchedHrefForRel) && matchedHrefForRel.length === 0) {
          const relevantPath = findTheMostRelevantOne(possibleBiDirectionalLinksInCleanBaseNameOfFilePaths, possibleBiDirectionalLinksInFullFilePaths, osSpecificHref);
          logNoMatchedFileWarning(rootDir, inputContent, markupTextContent, href, osSpecificHref, state.env.path, !noNoMatchedFileWarning, relevantPath);
          if (stillRenderNoMatched) {
-@@ -326,12 +333,12 @@ const BiDirectionalLinks = (options) => {
+@@ -326,12 +332,12 @@ const BiDirectionalLinks = (options) => {
          return false;
        }
        let matchedHref;
@@ -37,32 +83,35 @@ index f1ee7c0..59220d7 100644
        let resolvedNewHref;
        if (isRelativePath) {
 diff --git a/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.mjs b/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.mjs
-index 4ff433d..a83eaf5 100644
+index 4ff433d..d554d3a 100644
 --- a/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.mjs
 +++ b/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.mjs
-@@ -1,4 +1,4 @@
+@@ -1,8 +1,9 @@
 -import { sep, relative, basename, extname, dirname, posix } from 'node:path';
 +import { sep, relative, basename, extname, dirname, join, posix } from 'node:path';
  import { cwd } from 'node:process';
  import _debug from 'debug';
  import { cyan, gray, yellow } from 'colorette';
-@@ -309,7 +309,14 @@ const BiDirectionalLinks = (options) => {
+ import { globSync } from 'tinyglobby';
++import { tryRelativeFallback } from './_relative-fallback.cjs';
+ import Token from 'markdown-it/lib/token.mjs';
+ 
+ const name = "@nolebase/markdown-it-bi-directional-links";
+@@ -309,7 +310,12 @@ const BiDirectionalLinks = (options) => {
        if (!isImageRef && !isAudioRef && !isVideoRef && (extname(osSpecificHref) === "" || extname(osSpecificHref) !== ".md"))
          osSpecificHref += ".md";
        const matchedHrefSingleOrArray = findBiDirectionalLinks(possibleBiDirectionalLinksInCleanBaseNameOfFilePaths, possibleBiDirectionalLinksInFullFilePaths, osSpecificHref);
 -      if (matchedHrefSingleOrArray === null || Array.isArray(matchedHrefSingleOrArray) && matchedHrefSingleOrArray.length === 0) {
-+      let matchedHrefForRel = matchedHrefSingleOrArray;
-+      if ((matchedHrefForRel === null || Array.isArray(matchedHrefForRel) && matchedHrefForRel.length === 0) && isRelativePath && state.env.relativePath) {
-+        const relHref = join(dirname(state.env.relativePath), osSpecificHref);
-+        const relMatch = findBiDirectionalLinks(possibleBiDirectionalLinksInCleanBaseNameOfFilePaths, possibleBiDirectionalLinksInFullFilePaths, relHref);
-+        if (relMatch !== null && !(Array.isArray(relMatch) && relMatch.length === 0))
-+          matchedHrefForRel = relMatch;
-+      }
++      let matchedHrefForRel = tryRelativeFallback(
++        matchedHrefSingleOrArray, osSpecificHref, state, isRelativePath,
++        possibleBiDirectionalLinksInCleanBaseNameOfFilePaths, possibleBiDirectionalLinksInFullFilePaths,
++        findBiDirectionalLinks, dirname, join
++      );
 +      if (matchedHrefForRel === null || Array.isArray(matchedHrefForRel) && matchedHrefForRel.length === 0) {
          const relevantPath = findTheMostRelevantOne(possibleBiDirectionalLinksInCleanBaseNameOfFilePaths, possibleBiDirectionalLinksInFullFilePaths, osSpecificHref);
          logNoMatchedFileWarning(rootDir, inputContent, markupTextContent, href, osSpecificHref, state.env.path, !noNoMatchedFileWarning, relevantPath);
          if (stillRenderNoMatched) {
-@@ -319,12 +326,12 @@ const BiDirectionalLinks = (options) => {
+@@ -319,12 +325,12 @@ const BiDirectionalLinks = (options) => {
          return false;
        }
        let matchedHref;
