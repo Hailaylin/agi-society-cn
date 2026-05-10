@@ -134,8 +134,27 @@ export default defineConfig({
           text: '历次会议',
           items: [
             { text: '年会总览', link: '/conference/' },
-            { text: '2024 年会', link: '/conference/2024' },
-            { text: '2023 年会', link: '/conference/2023' },
+            { text: '2025 · 第十届', link: '/conference/2025' },
+            { text: '2024 · 第九届', link: '/conference/2024' },
+            { text: '2023 · 第八届', link: '/conference/2023' },
+            { text: '2022 · 第七届', link: '/conference/2022' },
+          ],
+        },
+        {
+          text: '往届年会',
+          collapsed: true,
+          items: [
+            { text: '2021 · 第六届', link: '/conference/2021' },
+            { text: '2020 · 第五届', link: '/conference/2020' },
+            { text: '2019 · 第四届', link: '/conference/2019' },
+            { text: '2018 · 第三届', link: '/conference/2018' },
+            { text: '2017 · 第二届', link: '/conference/2017' },
+            { text: '2016 · 第一届', link: '/conference/2016' },
+          ],
+        },
+        {
+          text: '组会',
+          items: [
             { text: '组会视频目录', link: '/conference/group_meeting_catalogue' },
           ],
         },

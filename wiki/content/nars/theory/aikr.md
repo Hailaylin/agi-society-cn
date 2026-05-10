@@ -16,4 +16,4 @@ comments: true
 
 如下论文对 AIKR 进行了详细的论述（英文）：
 
-[[1]](https://cis.temple.edu/~pwang/Publication/AIKR.pdf)([https://cis.temple.edu/~pwang/Publication/AIKR.pdf](https://cis.temple.edu/~pwang/Publication/AIKR.pdf))
+[1](https://cis.temple.edu/~pwang/Publication/AIKR.pdf)
