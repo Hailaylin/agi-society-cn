@@ -34,4 +34,4 @@ comments: true
 
 ## 本地开发（可选）
 
-如需在本地预览网站效果，请参考[工具配置](/about/contributing/tools)。
+如需在本地预览网站效果，请参考[工具配置](/contact/contributing/tools)。

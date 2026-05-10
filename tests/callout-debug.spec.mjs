@@ -3,7 +3,7 @@ import { chromium } from 'playwright';
 (async () => {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
-  await page.goto('http://localhost:5173/about/contributing/formats', { waitUntil: 'networkidle', timeout: 30000 });
+  await page.goto('http://localhost:5173/contact/contributing/formats', { waitUntil: 'networkidle', timeout: 30000 });
 
   // 检查自定义 CSS 是否加载
   const hasCustomCSS = await page.evaluate(() => {

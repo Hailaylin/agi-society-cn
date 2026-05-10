@@ -237,7 +237,7 @@ AGI 认知科学，人工智能情感
 
 本知识库内容开放编辑。欢迎到 [GitHub](https://github.com/Hailaylin/agi-society-cn) 或 [Gitee](https://gitee.com/Hailay/agi-society-cn) 提交 Pull Request。
 
-查看[贡献者指南](/about/contributing/formats)了解编辑方式。
+查看[贡献者指南](/contact/contributing/formats)了解编辑方式。
 
 </section>
 

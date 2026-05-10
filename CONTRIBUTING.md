@@ -6,7 +6,7 @@
 
 本项目的 `content/` 目录是一个 Obsidian 知识库。你只需安装 Obsidian 并打开该目录即可编辑所有维基内容。
 
-详见 **[Obsidian 编辑指南](content/about/contributing/obsidian.md)**。
+详见 **[Obsidian 编辑指南](content/contact/contributing/obsidian.md)**。
 
 ## 方式二：通过 GitHub 编辑
 
@@ -21,4 +21,4 @@ npm install
 npm run dev
 ```
 
-详见 [工具配置](content/about/contributing/tools.md)。
+详见 [工具配置](content/contact/contributing/tools.md)。

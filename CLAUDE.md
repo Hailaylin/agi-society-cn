@@ -180,7 +180,7 @@ tests/
 | `tests/sidebar.test.ts` | 侧边栏自动化测试 |
 | `tests/` | 所有测试脚本（6 个） |
 | `../CONTRIBUTING.md` | 项目贡献指南（Obsidian / GitHub / 本地构建三种路径） |
-| `content/about/contributing/obsidian.md` | Obsidian 编辑指南 |
+| `content/contact/contributing/obsidian.md` | Obsidian 编辑指南 |
 
 ---
 

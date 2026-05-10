@@ -20,4 +20,4 @@ order: 6
 
 本站内容开放编辑，欢迎提交 Pull Request。
 
-[查看贡献者指南 →](/about/contributing/formats)
+[查看贡献者指南 →](/contact/contributing/formats)

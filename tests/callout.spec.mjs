@@ -8,8 +8,8 @@ import { chromium } from 'playwright';
   page.on('console', msg => { if (msg.type() === 'error') errors.push(msg.text()); });
   page.on('pageerror', err => errors.push(err.message));
 
-  console.log('Loading /about/contributing/formats ...');
-  await page.goto('http://localhost:5173/about/contributing/formats', { waitUntil: 'networkidle', timeout: 30000 });
+  console.log('Loading /contact/contributing/formats ...');
+  await page.goto('http://localhost:5173/contact/contributing/formats', { waitUntil: 'networkidle', timeout: 30000 });
 
   const totalCallouts = await page.locator('.callout').count();
   console.log(`Total .callout elements: ${totalCallouts}`);
