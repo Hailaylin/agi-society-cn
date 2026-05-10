@@ -1,174 +1,469 @@
-/* ==============================================
-   AGI Society Wiki — CSS 变量与品牌视觉
-   学术极简 + 微妙现代感
-   ============================================== */
+/* ===========================================================
+   AGI Society 首页设计 — ALife × AGI Conference 融合风格
 
-/* --- 品牌色：深蓝灰基调 --- */
+   设计 DNA：
+   - ALife:   纯白底色 · 高密度排版 · 实线边框 · 学术克制
+   - AGI Conf: 明暗交替分区 · 2px 点缀分隔线 · Cormorant 衬线
+   - 点缀色:   深青蓝 #1a6b7a（融合 ALife 青绿 + AGI Conf 皇家蓝）
+   =========================================================== */
+
+/* ---- 引入 Cormorant Garamond（英文衬线标题） ---- */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+/* ===========================================================
+   品牌色变量覆盖
+   =========================================================== */
 :root {
-  --vp-c-brand-1: #284b63;
-  --vp-c-brand-2: #3a6b8c;
-  --vp-c-brand-3: #84a59d;
-  --vp-c-brand-soft: rgba(40, 75, 99, 0.14);
+  --vp-c-brand-1: #1a6b7a;
+  --vp-c-brand-2: #248a9c;
+  --vp-c-brand-3: #5ba8b5;
+  --vp-c-brand-soft: rgba(26, 107, 122, 0.10);
 
-  /* Hero 标题渐变（微妙深蓝渐变，非彩色） */
-  --vp-home-hero-name-background: linear-gradient(120deg, #1a3a4f 30%, #284b63);
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #284b63 30%, #84a59d);
-  --vp-home-hero-image-filter: blur(44px);
+  /* 完全移除 VitePress 默认渐变（ALife 风格：无色块） */
+  --vp-home-hero-name-background: none;
+  --vp-home-hero-name-color: #1a1a1a;
+  --vp-home-hero-image-background-image: none;
+  --vp-home-hero-image-filter: none;
 
-  /* Callout 颜色变量（Obsidian 配色方案） */
-  --callout-note:       68, 138, 255;
-  --callout-abstract:   0,  176, 212;
-  --callout-info:       0,  184, 212;
-  --callout-todo:       0,  184, 212;
-  --callout-tip:        0,  200, 83;
-  --callout-success:    0,  200, 83;
-  --callout-question:   100, 221, 23;
-  --callout-warning:    255, 145, 0;
-  --callout-failure:    255, 82,  82;
-  --callout-danger:     255, 82,  82;
-  --callout-bug:        245, 0,   87;
-  --callout-example:    124, 77,  255;
-  --callout-quote:      158, 158, 158;
-  --callout-caution:    255, 145, 0;
-  --callout-important:  68,  138, 255;
-  --callout-check:      0,   200, 83;
-  --callout-done:       0,   200, 83;
-  --callout-help:       68,  138, 255;
-  --callout-faq:        100, 221, 23;
-  --callout-attention:  255, 145, 0;
+  /* 按钮 */
+  --vp-button-brand-bg: #1a1a1a;
+  --vp-button-brand-hover-bg: #1a6b7a;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-alt-bg: transparent;
+  --vp-button-alt-text: #1a1a1a;
+  --vp-button-alt-border: #1a1a1a;
+  --vp-button-alt-hover-text: #1a6b7a;
+  --vp-button-alt-hover-border: #1a6b7a;
+  --vp-button-alt-hover-bg: transparent;
 }
 
 .dark {
-  --vp-c-brand-1: #7b97aa;
-  --vp-c-brand-2: #84a59d;
-  --vp-c-brand-3: #284b63;
+  --vp-c-brand-1: #5ba8b5;
+  --vp-c-brand-2: #248a9c;
+  --vp-c-brand-3: #1a6b7a;
+  --vp-home-hero-name-color: #e9eaed;
+  --vp-button-brand-bg: #1a6b7a;
+  --vp-button-alt-text: #e9eaed;
+  --vp-button-alt-border: #e9eaed;
 }
 
-/* ==============================================
-   Obsidian Callout 完整样式
-   ============================================== */
-
-.callout {
-  --callout-color: var(--callout-note);
-  border-radius: 8px;
-  margin: 1rem 0;
-  padding: 0;
-  border: 1px solid rgba(var(--callout-color), 0.25);
-  background: rgba(var(--callout-color), 0.1);
-  overflow: hidden;
-}
-
-/* 类型颜色映射 */
-.callout[data-callout="note"]      { --callout-color: var(--callout-note); }
-.callout[data-callout="abstract"]  { --callout-color: var(--callout-abstract); }
-.callout[data-callout="info"]      { --callout-color: var(--callout-info); }
-.callout[data-callout="todo"]      { --callout-color: var(--callout-todo); }
-.callout[data-callout="tip"]       { --callout-color: var(--callout-tip); }
-.callout[data-callout="success"]   { --callout-color: var(--callout-success); }
-.callout[data-callout="question"]  { --callout-color: var(--callout-question); }
-.callout[data-callout="warning"]   { --callout-color: var(--callout-warning); }
-.callout[data-callout="failure"]   { --callout-color: var(--callout-failure); }
-.callout[data-callout="danger"]    { --callout-color: var(--callout-danger); }
-.callout[data-callout="bug"]       { --callout-color: var(--callout-bug); }
-.callout[data-callout="example"]   { --callout-color: var(--callout-example); }
-.callout[data-callout="quote"]     { --callout-color: var(--callout-quote); }
-.callout[data-callout="caution"]   { --callout-color: var(--callout-caution); }
-.callout[data-callout="important"] { --callout-color: var(--callout-important); }
-.callout[data-callout="check"]     { --callout-color: var(--callout-check); }
-.callout[data-callout="done"]      { --callout-color: var(--callout-done); }
-.callout[data-callout="help"]      { --callout-color: var(--callout-help); }
-.callout[data-callout="faq"]       { --callout-color: var(--callout-faq); }
-.callout[data-callout="attention"] { --callout-color: var(--callout-attention); }
-
-/* Callout 标题栏 */
-.callout-title {
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-  padding: 0.75em 1em;
-  font-weight: 600;
-  font-size: 0.95em;
-  color: rgb(var(--callout-color));
-  background: rgba(var(--callout-color), 0.1);
-  border-bottom: 1px solid rgba(var(--callout-color), 0.15);
-  user-select: none;
-  cursor: default;
-}
-
-/* foldable callout */
-details.callout > .callout-title {
-  cursor: pointer;
-  list-style: none;
-}
-details.callout > .callout-title::-webkit-details-marker {
-  display: none;
-}
-
-/* 折叠箭头 */
-.callout-fold {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  opacity: 0.6;
-  transition: transform 0.2s;
-}
-.callout-fold::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 6px solid currentColor;
-}
-details.callout[open] > .callout-title .callout-fold::after {
-  transform: rotate(-180deg);
-}
-
-/* 标题图标 */
-.callout-title-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-.callout-title-icon svg {
-  width: 1.2em;
-  height: 1.2em;
-  color: rgb(var(--callout-color));
-}
-
-.callout-title-inner { line-height: 1.4; }
-
-/* Callout 内容 */
-.callout-content {
-  padding: 0.75em 1em;
-  color: inherit;
-}
-.callout-content > *:first-child { margin-top: 0; }
-.callout-content > *:last-child  { margin-bottom: 0; }
-.callout-content p { margin: 0.5em 0; }
-
-/* 嵌套 callout */
-.callout .callout { margin: 0.5em 0; }
-
-/* ==============================================
-   中文字体优化
-   ============================================== */
+/* ===========================================================
+   全局排版
+   =========================================================== */
 .vp-doc {
   font-family: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif;
-}
-.vp-doc h1, .vp-doc h2, .vp-doc h3 {
-  font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #1a1a1a;
 }
 
-/* ==============================================
-   首页微交互
-   ============================================== */
-.VPFeature {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+/* 英文衬线标题（AGI Conference 风格） */
+.vp-doc h2 {
+  font-family: "Cormorant Garamond", "Noto Serif SC", Georgia, serif;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  margin-bottom: 0.75em;
+  color: #1a1a1a;
+  border: none; /* 移除 VitePress 默认下边框 */
 }
-.VPFeature:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(40, 75, 99, 0.12);
+
+.vp-doc h3 {
+  font-family: "Cormorant Garamond", "Noto Serif SC", Georgia, serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #1a1a1a;
+}
+
+.vp-doc p {
+  margin: 0 0 1em 0;
+}
+
+.vp-doc a {
+  color: #1a6b7a;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.vp-doc a:hover {
+  color: #248a9c;
+  text-decoration: underline;
+}
+
+/* ===========================================================
+   Hero 区域 — 极简克制（ALife 风格）
+   =========================================================== */
+.VPHero {
+  padding: 80px 24px 60px 24px !important;
+  text-align: left !important;
+}
+
+.VPHero .container {
+  max-width: 960px !important;
+  margin: 0 auto !important;
+}
+
+.VPHero .main {
+  max-width: 100% !important;
+}
+
+.VPHero .name {
+  font-family: "Cormorant Garamond", "Noto Serif SC", Georgia, serif !important;
+  font-size: 52px !important;
+  font-weight: 700 !important;
+  line-height: 1.15 !important;
+  letter-spacing: -0.02em !important;
+  color: #1a1a1a !important;
+  background: none !important;
+  -webkit-text-fill-color: #1a1a1a !important;
+  max-width: 100% !important;
+  text-align: left !important;
+}
+
+.VPHero .text {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  font-style: italic !important;
+  color: #5a5a5a !important;
+  margin-top: 8px !important;
+  line-height: 1.3 !important;
+  text-align: left !important;
+}
+
+.VPHero .tagline {
+  font-family: "Noto Sans SC", sans-serif !important;
+  font-size: 16px !important;
+  color: #6b7280 !important;
+  margin-top: 16px !important;
+  line-height: 1.6 !important;
+  text-align: left !important;
+}
+
+/* — 暗色模式 Hero — */
+.dark .VPHero .name {
+  color: #f5f1eb !important;
+  -webkit-text-fill-color: #f5f1eb !important;
+}
+.dark .VPHero .text { color: #b0b8c1 !important; }
+.dark .VPHero .tagline { color: #8899a6 !important; }
+.dark .VPHero .VPButton.brand {
+  background: #1a6b7a !important;
+  border-color: #1a6b7a !important;
+}
+.dark .VPHero .VPButton.brand:hover {
+  background: #248a9c !important;
+  border-color: #248a9c !important;
+}
+.dark .VPHero .VPButton.alt {
+  color: #f5f1eb !important;
+  border-color: #f5f1eb !important;
+}
+.dark .VPHero .VPButton.alt:hover {
+  color: #5ba8b5 !important;
+  border-color: #5ba8b5 !important;
+}
+
+.VPHero .actions {
+  justify-content: flex-start !important;
+  margin-top: 32px !important;
+  gap: 16px !important;
+}
+
+/* CTA 按钮 — 方正黑底白字 + 线框 */
+.VPHero .VPButton.brand {
+  background: #1a1a1a !important;
+  border: 1px solid #1a1a1a !important;
+  border-radius: 2px !important;
+  font-family: "Noto Sans SC", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  padding: 12px 28px !important;
+  transition: background 0.2s, border-color 0.2s !important;
+}
+.VPHero .VPButton.brand:hover {
+  background: #1a6b7a !important;
+  border-color: #1a6b7a !important;
+}
+
+.VPHero .VPButton.alt {
+  background: transparent !important;
+  border: 1px solid #1a1a1a !important;
+  border-radius: 2px !important;
+  font-family: "Noto Sans SC", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  padding: 12px 28px !important;
+  color: #1a1a1a !important;
+  transition: border-color 0.2s, color 0.2s !important;
+}
+.VPHero .VPButton.alt:hover {
+  border-color: #1a6b7a !important;
+  color: #1a6b7a !important;
+}
+
+/* 隐藏 Hero 配图区域（无 Logo） */
+.VPHero .image {
+  display: none !important;
+}
+
+/* ===========================================================
+   隐藏 Features 卡片（改用自定义分区）
+   =========================================================== */
+.VPFeatures {
+  display: none !important;
+}
+
+/* ===========================================================
+   分区样式 — 明暗交替（AGI Conference 风格）
+   =========================================================== */
+.section-light,
+.section-dark {
+  padding: 72px 24px;
+}
+
+.section-light {
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+.section-dark {
+  background: #f6f7f8;
+  color: #1a1a1a;
+}
+
+.section-light > *,
+.section-dark > * {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---- 2px 点缀分隔线（AGI Conference 标志性元素） ---- */
+.section-divider {
+  width: 80px;
+  height: 2px;
+  background: #1a6b7a;
+  margin: 0 auto;
+}
+
+/* ===========================================================
+   研究卡片（双列）
+   =========================================================== */
+.research-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 32px;
+}
+
+.research-card {
+  padding: 32px;
+  border: 1px solid #d1d5db;
+  border-radius: 0;
+  background: #ffffff;
+  transition: border-color 0.2s;
+}
+
+.research-card:hover {
+  border-color: #1a6b7a;
+}
+
+.research-card h3 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.research-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.research-card a {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* ===========================================================
+   会议区块
+   =========================================================== */
+.conference-highlight {
+  padding: 32px;
+  border-left: 3px solid #1a6b7a;
+  margin-bottom: 40px;
+  background: #f9fafb;
+}
+
+.conference-highlight h3 {
+  margin-top: 0;
+}
+
+.conference-highlight p {
+  color: #4a4a4a;
+  margin-bottom: 12px;
+}
+
+.conference-highlight strong {
+  color: #1a1a1a;
+}
+
+/* 往届会议表格 */
+.conference-archive table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.conference-archive th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #6b7280;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.conference-archive td {
+  padding: 6px 0;
+  border-bottom: 1px solid #f3f4f6;
+  color: #4a4a4a;
+}
+
+/* ===========================================================
+   知识库卡片（三列）
+   =========================================================== */
+.knowledge-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.knowledge-card {
+  padding: 28px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  transition: border-color 0.2s;
+}
+
+.knowledge-card:hover {
+  border-color: #1a6b7a;
+}
+
+.knowledge-card h3 {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.knowledge-card p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #4a4a4a;
+  margin-bottom: 16px;
+}
+
+.knowledge-card a {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* ===========================================================
+   团队成员网格
+   =========================================================== */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.team-member {
+  padding: 20px 0;
+  border-top: 1px solid #e5e7eb;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.team-member strong {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.team-member em {
+  display: block;
+  font-style: normal;
+  color: #6b7280;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+/* ===========================================================
+   参与贡献
+   =========================================================== */
+.section-dark:last-of-type {
+  text-align: center;
+  padding: 48px 24px;
+}
+
+/* ===========================================================
+   页脚
+   =========================================================== */
+.home-footer {
+  text-align: center;
+  padding: 32px 24px 48px;
+  font-size: 13px;
+  color: #9ca3af;
+  line-height: 1.8;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.home-footer a {
+  color: #6b7280;
+  text-decoration: none;
+}
+
+.home-footer a:hover {
+  color: #1a6b7a;
+}
+
+/* ===========================================================
+   响应式
+   =========================================================== */
+@media (max-width: 768px) {
+  .VPHero .name { font-size: 36px !important; }
+  .VPHero .text { font-size: 22px !important; }
+  .research-grid,
+  .team-grid { grid-template-columns: 1fr; }
+  .knowledge-grid { grid-template-columns: 1fr; }
+  .section-light,
+  .section-dark { padding: 48px 20px; }
+}
+
+/* ===========================================================
+   Callout 保留原有样式
+   =========================================================== */
+.callout {
+  --callout-color: var(--callout-note);
+  border-radius: 2px;
+  margin: 1rem 0;
+  padding: 0;
+  border: 1px solid rgba(var(--callout-color), 0.3);
+  border-left: 3px solid rgb(var(--callout-color));
+  background: rgba(var(--callout-color), 0.06);
+  overflow: hidden;
 }

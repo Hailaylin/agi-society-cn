@@ -1,64 +1,231 @@
 ---
 layout: home
+sidebar: false
 
 hero:
   name: 中国通用人工智能协会
-  text: AGI Society CN
-  tagline: 基于 NARS 理论与开源实现的知识库
+  text: AGI Society of China
+  tagline: 非公理推理系统 · 通用人工智能理论 · 开源实现
   actions:
     - theme: brand
-      text: 了解 NARS
+      text: 探索知识库
       link: /nars/
-    - theme: alt
-      text: 浏览百科
-      link: /other/
     - theme: alt
       text: 最新会议
       link: /conference/
-
-features:
-  - title: NARS 理论
-    details: 非公理推理系统，基于 AIKR 不足预设与 3C 原则的通用人工智能理论框架
-    link: /nars/
-    icon: 🧠
-  - title: NARS 工程
-    details: 12 种开源实现覆盖多语言：OpenNARS、PyNARS、NARust、ONA 等
-    link: /nars/impl/
-    icon: ⚙️
-  - title: 学术会议
-    details: 2016-2024 九届中国通用人工智能年会记录与历年组会视频
-    link: /conference/
-    icon: 🎓
-  - title: 思想书库
-    details: 意义片网、拟态操作、Lazero、智能同一观等跨学科思想探索
-    link: /other/
-    icon: 📚
-  - title: 前沿研究
-    details: 大语言模型、认知架构、意识理论等人工智能前沿议题
-    link: /sai/
-    icon: 🔬
-  - title: 关于我们
-    details: 王培教授领衔，六位跨学科核心成员组成的 AGI 研究团队
-    link: /about/
-    icon: 👥
 ---
 
-## 关于本协会
+<!-- 协会简介 -->
+<section class="section-light">
 
-中国通用人工智能协会（AGI Society CN）是由王培教授及其团队发起创立的学术组织，致力于推动通用人工智能理论与开源实现的研究与应用。
+## 关于协会
 
-本知识库收录 **NARS**（Non-Axiomatic Reasoning System，非公理推理系统）理论体系、多语言工程实现、年度学术会议记录、历年组会视频目录，以及跨学科思想探索文章。欢迎相关领域学者与开发者参与贡献。
+中国通用人工智能协会（AGI Society CN）由**王培教授**发起创立，致力于推动通用人工智能理论与开源实现的研究、教育与交流。协会以 **NARS**（Non-Axiomatic Reasoning System，非公理推理系统）为核心理论锚点，汇聚哲学、计算机科学、认知科学、教育科学等多学科力量。
 
-## 最新动态
+自 2016 年起，协会已连续举办**九届**中国通用人工智能年会，并组织超过百场学术组会。
 
-- **2024 年 7 月**：[第九届中国通用人工智能年会](/conference/2024) 在南京举行
-- **2024 年 8 月**：[NARS Workshop 2024](https://cis.temple.edu/tagit/events/workshop2024/) 在天普大学举办
-- **持续更新**：[历年组会视频目录](/conference/group_meeting_catalogue)（2016-2025）
+</section>
 
-## 共建共享
+<!-- 分隔线 -->
+<div class="section-divider"></div>
 
-本站内容开放编辑，欢迎到 [GitHub](https://github.com/Hailaylin/agi-society-cn) 或 [Gitee](https://gitee.com/Hailay/agi-society-cn) 提交 Pull Request。查看[贡献者指南](/about/contributing/formats)了解编辑方式。
+<!-- 核心研究方向 -->
+<section class="section-dark">
+
+## 核心研究
+
+<div class="research-grid">
+
+<div class="research-card">
+
+### NARS 理论
+
+基于 **AIKR**（不足知识与资源预设）与 **3C 原则**（正确性、具体性、紧凑性），NARS 是一种不同于主流机器学习的通用人工智能路径。它强调在**实时、开放、资源有限**的条件下进行自适应推理。
+
+[探索 NARS 理论 →](/nars/)
+
+</div>
+
+<div class="research-card">
+
+### NARS 工程实现
+
+全球开发者社区已实现 **12 种**跨语言 NARS 版本，覆盖 C、Clojure、Java、JavaScript、Julia、Python、Rust、Swift 等主流语言。
+
+[查看实现列表 →](/nars/impl/)
+
+</div>
+
+</div>
+
+</section>
+
+<!-- 分隔线 -->
+<div class="section-divider"></div>
+
+<!-- 学术会议 -->
+<section class="section-light">
+
+## 学术会议
+
+<div class="conference-highlight">
+
+### 第九届中国通用人工智能年会
+
+**2024 年 7 月 · 南京理工大学**
+
+中国通用人工智能年会是国内 AGI 领域最具影响力的学术会议之一，每年汇聚国内外 AGI 研究者、开发者和哲学学者，围绕通用人工智能的理论基础、工程实践与跨学科影响展开深度讨论。
+
+[查看年会详情 →](/conference/2024)
+
+</div>
+
+<div class="conference-archive">
+
+### 往届年会
+
+| 届次 | 年份 | 地点 |
+|------|------|------|
+| 第九届 | 2024 | 南京理工大学 |
+| 第八届 | 2023 | 上海复旦大学 |
+| 第七届 | 2022 | 线上会议 |
+| 第六届 | 2021 | 线上会议 |
+| 第五届 | 2020 | 线上会议 |
+| 第四届 | 2019 | 厦门大学 |
+| 第三届 | 2018 | 西安交通大学 |
+| 第二届 | 2017 | 北京大学 |
+| 第一届 | 2016 | 华中师范大学 |
+
+[查看全部年会记录 →](/conference/)
+
+</div>
+
+</section>
+
+<!-- 分隔线 -->
+<div class="section-divider"></div>
+
+<!-- 知识库入口 -->
+<section class="section-dark">
+
+## 知识库
+
+<div class="knowledge-grid">
+
+<div class="knowledge-card">
+
+### 思想书库
+
+意义片网思想、拟态操作、Lazero、类脑智能意识系统、智能同一观——跨学科的 AGI 理论探索。
+
+[浏览思想书库 →](/other/)
+
+</div>
+
+<div class="knowledge-card">
+
+### 组会视频
+
+2016–2025 历年组会视频目录，覆盖 NARS 理论研读、论文分享、工程进展报告，全部 B 站可看。
+
+[查看组会目录 →](/conference/group_meeting_catalogue)
+
+</div>
+
+<div class="knowledge-card">
+
+### 前沿研究
+
+大语言模型、认知架构、意识理论、计算精神病学——AGI 关联前沿议题的持续追踪。
+
+[浏览前沿研究 →](/sai/)
+
+</div>
+
+</div>
+
+</section>
+
+<!-- 分隔线 -->
+<div class="section-divider"></div>
+
+<!-- 核心成员 -->
+<section class="section-light">
+
+## 核心成员
+
+<div class="team-grid">
+
+<div class="team-member">
+
+**王培** · 教授
+*美国天普大学计算机系*
+NARS 理论创始人，AGI 协会发起人
+
+</div>
+
+<div class="team-member">
+
+**刘凯** · 博士
+*渤海大学教育科学学院*
+协会召集人，通用人工智能与教育
+
+</div>
+
+<div class="team-member">
+
+**徐英瑾** · 教授
+*复旦大学哲学学院*
+人工智能哲学，心灵哲学
+
+</div>
+
+<div class="team-member">
+
+**那迪** · 博士
+*西北民族大学*
+智能决策，数据科学，AGI 理论
+
+</div>
+
+<div class="team-member">
+
+**魏屹东** · 教授
+*山西大学哲学学院*
+适应性表征，认知哲学
+
+</div>
+
+<div class="team-member">
+
+**李祥** · 博士
+*辽宁工业大学*
+AGI 认知科学，人工智能情感
+
+</div>
+
+</div>
+
+</section>
+
+<!-- 分隔线 -->
+<div class="section-divider"></div>
+
+<!-- 参与贡献 -->
+<section class="section-dark">
+
+## 参与贡献
+
+本知识库内容开放编辑。欢迎到 [GitHub](https://github.com/Hailaylin/agi-society-cn) 或 [Gitee](https://gitee.com/Hailay/agi-society-cn) 提交 Pull Request。
+
+查看[贡献者指南](/about/contributing/formats)了解编辑方式。
+
+</section>
 
 ---
 
-*本知识库基于 [Nólëbase](https://github.com/nolebase/nolebase) (VitePress) 构建，内容采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 许可。*
+<div class="home-footer">
+
+*本知识库基于 Nólëbase (VitePress) 构建 · 内容采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 许可 · 粤ICP备2021145979号-1*
+
+</div>
