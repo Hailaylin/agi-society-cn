@@ -41,6 +41,16 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
+extra:
+  comments:
+    repo: Hailaylin/agi-society-cn
+    repo-id: R_kgDOMYy4WA
+    category: Announcements
+    category-id: DIC_kwDOMYy4WM4ChCII
+    mapping: pathname
+    theme: preferred_color_scheme
+    lang: zh-CN
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
