@@ -14,6 +14,23 @@
   --vp-c-brand-3: #5ba8b5;
   --vp-c-brand-soft: rgba(26, 107, 122, 0.10);
 
+  /* 分区色系统（ALife × AGI Conference 融合） */
+  --ag-hero-bg:           #0a1929;
+  --ag-hero-text:         #f5f1eb;
+  --ag-hero-subtitle:     #8899a6;
+  --ag-section-bg:        #ffffff;
+  --ag-section-alt-bg:    #f4f5f7;
+  --ag-divider:           #1a6b7a;
+  --ag-divider-dark:      #3c6cdd;
+  --ag-card-bg:           #ffffff;
+  --ag-card-border:       #e5e7eb;
+  --ag-card-hover-border: #1a6b7a;
+  --ag-text:              #1a1a1a;
+  --ag-text-secondary:    #555;
+  --ag-text-muted:        #8a8f96;
+  --ag-nav-bg:            #ffffff;
+  --ag-nav-border:        #e5e7eb;
+
   /* Callout 颜色变量（Obsidian 配色方案） */
   --callout-note:       68, 138, 255;
   --callout-abstract:   0,  176, 212;
@@ -62,4 +79,20 @@
   --vp-button-brand-bg: #1a6b7a;
   --vp-button-alt-text: #e9eaed;
   --vp-button-alt-border: #e9eaed;
+
+  /* 分区色 — 暗色模式 */
+  --ag-hero-bg:           #080f1a;
+  --ag-hero-text:         #f5f1eb;
+  --ag-hero-subtitle:     #6b7888;
+  --ag-section-bg:        #121926;
+  --ag-section-alt-bg:    #0f1621;
+  --ag-divider:           #3c6cdd;
+  --ag-card-bg:           #182232;
+  --ag-card-border:       #253044;
+  --ag-card-hover-border: #3c6cdd;
+  --ag-text:              #bcc5d0;
+  --ag-text-secondary:    #8899a6;
+  --ag-text-muted:        #6b7888;
+  --ag-nav-bg:            #0b1019;
+  --ag-nav-border:        #1e293b;
 }
