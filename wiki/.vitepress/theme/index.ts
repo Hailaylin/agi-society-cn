@@ -10,7 +10,7 @@ import './styles/custom.css'
 const nolebase = presetClient({
   enhancedReadabilities: true,
   highlightTargetedHeading: true,
-  inlineLinkPreview: true,
+  inlineLinkPreview: false,
   enhancedMark: true,
   pageProperties: true,
   gitChangelog: false,

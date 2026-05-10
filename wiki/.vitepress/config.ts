@@ -9,6 +9,7 @@ const nolebaseMD = presetMarkdownIt({
     options: { dir: process.cwd() },
   },
   unlazyImages: false,
+  inlineLinkPreview: false,
 })
 
 export default defineConfig({
