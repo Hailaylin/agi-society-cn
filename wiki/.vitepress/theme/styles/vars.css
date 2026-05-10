@@ -8,6 +8,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 :root {
+  /* 全宽布局 — 取消 VitePress 默认 1440px 限制 */
+  --vp-layout-max-width: 100%;
   /* 品牌色（VitePress） */
   --vp-c-brand-1: #1a6b7a;
   --vp-c-brand-2: #248a9c;
