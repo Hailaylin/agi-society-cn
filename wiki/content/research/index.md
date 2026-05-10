@@ -16,13 +16,3 @@
 
 - **GTI**（A General Theory of Intelligence） — 王培教授的英文专著，系统阐述一般智能理论
 - **NAC**（非公理控制） — 中文参考书籍，深入非公理推理的控制机制
-
-## 思想书库
-
-跨学科的 AGI 理论探索，汇聚协会成员的原创思想：
-
-- [意义片网思想](/research/thought_library/meaning_network)
-- [拟态操作](/research/thought_library/mimicry_operation)
-- [Lazero](/projects/lazero)
-- [类脑智能意识系统](/research/thought_library/bingfengdecao)
-- [智能同一观](/research/thought_library/identity_of_intelligence)

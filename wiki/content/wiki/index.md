@@ -15,4 +15,15 @@ AGI 领域的知识库，汇集 NARS 及其相关工程的实施细节与参考�
 - [Narjure](/wiki/nars_impl/impls/narjure) — Clojure
 - [更多实现...](/wiki/nars_impl/)
 
+## 思想书库
+
+跨学科的 AGI 理论探索，汇聚协会成员的原创思想：
+
+- [总览](/research/thought_library/)
+- [意义片网思想](/research/thought_library/meaning_network)
+- [拟态操作](/research/thought_library/mimicry_operation)
+- [Lazero](/projects/lazero)
+- [类脑智能意识系统](/research/thought_library/bingfengdecao)
+- [智能同一观](/research/thought_library/identity_of_intelligence)
+
 > 更多详细的维基内容正在整理中。
