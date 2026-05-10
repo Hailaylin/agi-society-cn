@@ -76,14 +76,39 @@ export default defineConfig({
       { text: '联系我们', link: '/contact/' },
     ],
 
-    sidebar: calculateSidebar([
-      'content/about',
-      'content/research',
-      'content/conference',
-      'content/wiki',
-      'content/projects',
-      'content/contact',
-    ]),
+    sidebar: (() => {
+      const items = calculateSidebar([
+        'content/about',
+        'content/research',
+        'content/conference',
+        'content/wiki',
+        'content/projects',
+        'content/contact',
+      ])
+      // Unwrap top-level 'content' wrapper, build path-keyed sidebar object
+      let sections = Array.isArray(items) ? items : (items.items || [])
+      if (sections.length === 1 && sections[0].index === 'content') {
+        sections = sections[0].items || []
+      }
+      function fixLink(link) {
+        return link ? link.replace('/content', '') : link
+      }
+      function fixItems(arr) {
+        return arr.map(item => {
+          const fixed = { ...item }
+          if (fixed.link) fixed.link = fixLink(fixed.link)
+          if (fixed.items) fixed.items = fixItems(fixed.items)
+          return fixed
+        })
+      }
+      // Build path-keyed object: { '/about/': [...], '/research/': [...], ... }
+      const result = {}
+      for (const section of sections) {
+        const key = '/' + section.index + '/'
+        result[key] = fixItems(section.items || [])
+      }
+      return result
+    })(),
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Hailaylin/agi-society-cn' },
