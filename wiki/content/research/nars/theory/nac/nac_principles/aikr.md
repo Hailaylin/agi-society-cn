@@ -8,4 +8,4 @@ TODO: 🚧有待填坑，欢迎贡献内容
 
 ## 参考资料
 
-- [NARS理论之AIKR](./../../aikr.md)
+- [[aikr|NARS理论之AIKR]]

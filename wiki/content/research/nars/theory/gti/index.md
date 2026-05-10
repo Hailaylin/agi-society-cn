@@ -6,13 +6,13 @@ comments: true
 
 [英文原文↗](https://cis.temple.edu/~pwang/GTI-book/)
 
-[🔙上一级](../index.md)
+[[../index|🔙上一级]]
 
 a developing eBook by [Pei Wang](http://www.cis.temple.edu/~pwang/PeiWangCV.html)
 
 * * *
 
-## [Preface](preface.md)
+## [[preface|Preface]]
 
 _The preface explains the subject and format of this book._
 
@@ -24,7 +24,7 @@ This eBook consists of a main text and many sidebars. The main text is organized
 
 * * *
 
-## [Chapter 1. Information System](chapter1/index.md)
+## [[chapter1/index|Chapter 1. Information System]]
 
 _This chapter introduces the basic terminology used in this book to describe various systems._
 
@@ -36,7 +36,7 @@ An information system carries out its actions to achieve its goals, following th
 
 * * *
 
-## [Chapter 2. Intelligent System](chapter2/index.md)
+## [[chapter2/index|Chapter 2. Intelligent System]]
 
 _This chapter clarifies the central concept of this theory — intelligence._
 
@@ -48,7 +48,7 @@ In an intelligent system, all major components and their relations are adaptive 
 
 * * *
 
-## [Chapter 3. Inference System](chapter3/index.md)
+## [[chapter3/index|Chapter 3. Inference System]]
 
 _This chapter describes the structures and procedures of an inference system, as a concrete model of intelligent systems._
 
@@ -60,7 +60,7 @@ As a model of intelligent systems, a concrete inference system, NARS, is designe
 
 * * *
 
-## [Chapter 4. Self-Organizing Process](chapter4/index.md)
+## [[chapter4/index|Chapter 4. Self-Organizing Process]]
 
 _This chapter describes the running and evolving processes in an intelligent reasoning system._
 
@@ -76,7 +76,7 @@ Self-organization of concepts provides an intermediate structure between the who
 
 * * *
 
-[Chapter 5. Experience and Socialization](chapter5/index.md)
+[[chapter5/index|Chapter 5. Experience and Socialization]]
 
 _This chapter describes the interaction between an intelligent system and its environment._
 
@@ -88,7 +88,7 @@ Socialization is the process for a system to adapt to a society, which shapes th
 
 * * *
 
-## [Chapter 6. Community and Science](chapter6/index.md)
+## [[chapter6/index|Chapter 6. Community and Science]]
 
 _This chapter treats a community of systems as an information system, and analyses its intelligence._
 
@@ -102,14 +102,14 @@ A science of intelligence should properly clarify the notion of intelligence, so
 
 * * *
 
-## [Topic List](topics/index.md)
+## [[topics/index|Topic List]]
 
 * * *
 
-## [Acknowledgment](acknowledgment.md)
+## [[acknowledgment|Acknowledgment]]
 
 * * *
 
-## [Bibliography](bibliography.md)
+## [[bibliography|Bibliography]]
 
 * * *

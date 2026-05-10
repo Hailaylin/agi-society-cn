@@ -6,11 +6,11 @@ comments: true
 
 [英文原文↗](https://cis.temple.edu/~pwang/GTI-book/GTI-TOPICS/GTI-TopicList.html)
 
-[🔙上一级](../index.md)
+[[index|🔙上一级]]
 
-- [AI or AGI](ai_or_agi.md)
-- [amount of information](amount_of_information.md)
-- [intelligence and evolution](intelligence_and_evolution.md)
+- [[ai_or_agi|AI or AGI]]
+- [[amount_of_information|amount of information]]
+- [[intelligence_and_evolution|intelligence and evolution]]
 - NARS and probability theory
 - Occam and Mach
-- [working definition](working_definition.md)
+- [[working_definition|working definition]]

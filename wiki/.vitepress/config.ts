@@ -4,11 +4,11 @@ import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { GitChangelog } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { PageProperties } from '@nolebase/vitepress-plugin-page-properties/vite'
 import obsidianCallouts from 'markdown-it-obsidian-callouts'
-import { generateSidebar } from './sidebar'
+import { generateSidebar, pollAndRefresh } from './sidebar'
 
 const nolebaseMD = presetMarkdownIt({
   bidirectionalLinks: {
-    options: { dir: path.join(process.cwd(), 'content') },
+    options: { dir: path.join(process.cwd(), 'content'), isRelativePath: true },
   },
   unlazyImages: false,
   inlineLinkPreview: false,
@@ -33,6 +33,22 @@ export default defineConfig({
       },
     },
     plugins: [
+      // Dev: poll content/ mtime every 2s, restart server on sidebar change
+      {
+        name: 'sidebar-dev-watch',
+        configureServer(server) {
+          let restarting = false
+          setInterval(async () => {
+            if (restarting) return
+            if (pollAndRefresh()) {
+              restarting = true
+              server.ws.send({ type: 'full-reload' })
+              await server.restart()
+              restarting = false
+            }
+          }, 2000)
+        },
+      },
       GitChangelog({
         include: ['**/*.md', '!node_modules'],
         repoURL: 'https://github.com/Hailaylin/agi-society-cn',

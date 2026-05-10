@@ -198,3 +198,7 @@ npm run serve
 > [!question] 端口 5173 被占用？
 >
 > VitePress 会自动尝试下一个可用端口（5174、5175...）。观察终端输出的实际地址即可。
+
+> [!info] 新增或重命名文档后侧边栏没更新？
+>
+> 这是 VitePress 架构限制——侧边栏在启动时静态计算。新增/重命名 `.md` 文件后，需重启 dev server（`Ctrl+C` → `npm run dev`，约 3 秒）。编辑已有文件的内容、标题、frontmatter 均可通过 HMR 实时热更新。

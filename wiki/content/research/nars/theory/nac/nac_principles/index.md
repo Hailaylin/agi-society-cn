@@ -6,6 +6,6 @@ comments: true
 
 TODO: 🚧有待填坑，欢迎贡献内容
 
-- [知识资源相对不足](aikr.md)
-- [常数时间的单步推理](inference_step_o_n.md)
+- [[aikr|知识资源相对不足]]
+- [[inference_step_o_n|常数时间的单步推理]]
 - …

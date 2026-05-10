@@ -4,7 +4,7 @@ comments: true
 
 # AIKR / 不足预设
 
-**[[nars/index|NARS]]** 系统理论当中 **最核心的假设**:
+**[[../index|NARS]]** 系统理论当中 **最核心的假设**:
 
 **A**ssumption of **I**nsufficient **K**nowledgeand **R**esources:
 

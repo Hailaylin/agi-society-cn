@@ -153,7 +153,7 @@ $$
 Nólëbase 支持 Obsidian 风格的 `[[wikilinks]]` 双向链接：
 
 ```markdown
-[[nars/index|NARS 概述]]
+[[index|NARS 概述]]
 ```
 
 这会在构建时自动转换为指向对应页面的链接，并生成反向链接关系。

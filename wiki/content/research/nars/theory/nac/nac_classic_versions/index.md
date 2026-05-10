@@ -12,14 +12,14 @@ TODO: 🚧有待填坑，欢迎贡献内容
 
 TODO: 🚧有待完善，欢迎贡献内容
 
-- [1.5.x](./opennars_15x.md)
-- [3.0.x](./opennars_30x.md)
-- [3.1.x](./opennars_31x.md)
+- [[opennars_15x|1.5.x]]
+- [[opennars_30x|3.0.x]]
+- [[opennars_31x|3.1.x]]
 
 ## ONA——OpenNARS应用版
 
-[📄详细内容](./ona.md)
+[[ona|📄详细内容]]
 
 ## PyNARS——OpenNARS 4
 
-[📄详细内容](./pynars.md)
+[[pynars|📄详细内容]]

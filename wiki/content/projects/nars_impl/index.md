@@ -20,38 +20,38 @@ comments: true
 
 ### C
 
-- [ONA](impls/ona.md "OpenNARS for Applications") (OpenNARS for Applications)
+- [[impls/ona|ONA]] (OpenNARS for Applications)
 
 ### Clojure
 
-- [Narjure](impls/narjure.md "OpenNARS 2.x") (OpenNARS 2.x)
+- [[narjure|Narjure]] (OpenNARS 2.x)
 
 ### Java
 
-- [OpenNARS](impls/opennars.md "OpenNARS 1.x / 3.x") (OpenNARS 1.x / 3.x)
+- [[opennars|OpenNARS]] (OpenNARS 1.x / 3.x)
 
 ### JavaScript/TypeScript
 
-- [NARS CXin Py to TS](impls/nars_cxin_py_to_ts.md)
+- [[nars_cxin_py_to_ts|NARS CXin Py to TS]]
 
 ### Julia
 
-- [OpenJunars](impls/openjunars.md)
+- [[openjunars|OpenJunars]]
 
 ### Python
 
-- [NARS-Python](impls/nars_python.md)
-- [PyNARS](impls/pynars.md)
+- [[nars_python|NARS-Python]]
+- [[pynars|PyNARS]]
 
 ### Rust
 
-- [20NAR1](impls/20nar1.md)
-- [Narst](impls/narst.md)（截止至2024-07-26，尚不完整）
-- [NARust](impls/narust.md)
+- [[20nar1|20NAR1]]
+- [[narst|Narst]]（截止至2024-07-26，尚不完整）
+- [[narust|NARust]]
 
 ### Swift
 
-- [NARS-Swift](impls/nars_swift.md)
+- [[nars_swift|NARS-Swift]]
 
 ## 版本收录&投稿
 
