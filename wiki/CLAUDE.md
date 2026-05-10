@@ -160,7 +160,7 @@ tests/
 
 - **vitest**：`npx vitest run tests/sidebar.test.ts`（需要 dev server 已启动）
 - **Playwright**：`node tests/<name>.spec.mjs`
-- **插件单元测试**：`NODE_PATH=./node_modules node tests/wikilink-plugin.spec.mjs`
+- **插件单元测试**：`NODE_PATH=./node_modules node tests/wikilink-plugin.spec.mjs`（Unix 系列命令，无 Unix 环境则需使用等价命令）
 
 ### 构建验证
 
@@ -226,7 +226,7 @@ tests/
 1. 写最小复现测试钉住问题（`temp/test-xxx.js`）
 2. 修改 `node_modules` 中对应文件
 3. 测试通过后，运行 `npx patch-package <package-name>` 生成 patch
-4. `rm -rf node_modules && npm install` 验证 patch 自动生效
+4. `rm -rf node_modules && npm install` 验证 patch 自动生效（Unix 系列命令，无 Unix 环境则需使用等价命令）
 
 ### 共享逻辑提取
 
@@ -271,6 +271,8 @@ rm -rf dist .vitepress/cache node_modules/.vite
 npx vitepress build
 ```
 
+> 注：以上为 Unix 系列命令，无 Unix 环境则需使用等价命令。
+
 ---
 
 ## 13. 内容补全
@@ -302,11 +304,11 @@ npx vitepress build
 
 ### 重大决策前用结构化提问对齐认知
 
-涉及文件结构重组、Git 策略、命名规范时，启动 `/super-questioning /popup-ask` 提供结构化选项。
+涉及文件结构重组、Git 策略、命名规范时，使用结构化提问方式（如 Socratic 式提问、弹窗选项等）与用户对齐认知，确认意图后再执行。
 
 ### 专注询问，不做盲目修改
 
-`/super-questioning` 激活后暂停写入性操作，专注于通过提问明确意图。
+进入提问模式后暂停写入性操作，专注于通过提问明确意图。
 
 ---
 
