@@ -1,9 +1,7 @@
 node_modules/
 public/
-wiki/dist/
-wiki/public/
-wiki/.vitepress/cache/
-.quartz-cache/
+dist/
+.vitepress/cache/
 temp/
 prof/
 tsconfig.tsbuildinfo
@@ -12,4 +10,4 @@ tsconfig.tsbuildinfo
 bash.exe.stackdump
 
 # Obsidian 个人配置（每个协作者自行设置）
-wiki/content/.obsidian/
+content/.obsidian/

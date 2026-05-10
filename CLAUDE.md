@@ -293,7 +293,7 @@ npx vitepress build
 
 ## 14. 协作基础设施
 
-- `.obsidian/` 全部 Git 忽略（`wiki/content/.obsidian/`），各协作者自行配置
+- `.obsidian/` 全部 Git 忽略（`content/.obsidian/`），各协作者自行配置
 - `CONTRIBUTING.md` 在项目根目录，提供多种贡献路径
 - 关键 Obsidian 语法（wikilink、callout、`==高亮==`）确保网站渲染支持
 - `wiki/content/` 即为 Obsidian vault，协作者无需 `npm run dev` 即可编辑

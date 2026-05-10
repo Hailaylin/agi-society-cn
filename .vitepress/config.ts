@@ -130,7 +130,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/Hailaylin/agi-society-cn/edit/main/wiki/content/:path',
+      pattern: 'https://github.com/Hailaylin/agi-society-cn/edit/main/content/:path',
       text: '在 GitHub 上编辑此页',
     },
 
