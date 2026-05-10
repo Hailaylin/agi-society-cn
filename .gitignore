@@ -1,7 +1,12 @@
 node_modules/
 public/
+wiki/dist/
+wiki/public/
+wiki/.vitepress/cache/
 .quartz-cache/
+temp/
 prof/
 tsconfig.tsbuildinfo
 .DS_Store
 *.log
+bash.exe.stackdump
