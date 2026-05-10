@@ -65,18 +65,21 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '会议', link: '/conference/' },
-      { text: 'NARS书库', link: '/nars/' },
-      { text: '百科', link: '/other/' },
-      { text: '关于', link: '/about/' },
+      { text: '协会简介', link: '/about/' },
+      { text: '学术研究', link: '/research/' },
+      { text: '学术会议', link: '/conference/' },
+      { text: '维基百科', link: '/wiki/' },
+      { text: '项目介绍', link: '/projects/' },
+      { text: '联系我们', link: '/contact/' },
     ],
 
     sidebar: {
       '/about/': [
         {
-          text: '关于我们',
+          text: '协会简介',
           items: [
             { text: '关于协会', link: '/about/' },
+            { text: 'AGI 概述', link: '/about/agi' },
             { text: '研究团队', link: '/about/team' },
             { text: '网站架构', link: '/about/web_arch' },
           ],
@@ -87,84 +90,121 @@ export default defineConfig({
           items: [
             { text: '格式规范', link: '/about/contributing/formats' },
             { text: '工具配置', link: '/about/contributing/tools' },
+            { text: '内容搬运', link: '/about/contributing/carrying' },
           ],
         },
       ],
-      '/agi/': [
+      '/research/': [
         {
-          text: 'AGI 通用人工智能',
+          text: '学术研究',
           items: [
-            { text: '概述', link: '/agi/' },
-            { text: 'NARS 简介', link: '/nars/' },
+            { text: '研究总览', link: '/research/' },
           ],
         },
-      ],
-      '/nars/': [
         {
           text: 'NARS 理论',
           items: [
-            { text: 'NARS 概述', link: '/nars/' },
-            { text: 'AIKR 不足预设', link: '/nars/theory/aikr' },
-            { text: '3C 原则', link: '/nars/theory/3c' },
-            { text: '学习资源', link: '/nars/theory/learning_resources' },
-            { text: '最新动态', link: '/nars/news' },
+            { text: 'NARS 概述', link: '/research/nars/' },
+            { text: 'AIKR 不足预设', link: '/research/nars/theory/aikr' },
+            { text: '3C 原则', link: '/research/nars/theory/3c' },
+            { text: '学习资源', link: '/research/nars/theory/learning_resources' },
+            { text: '最新动态', link: '/research/nars/news' },
           ],
         },
         {
-          text: 'NARS 工程',
+          text: 'GTI · 一般智能理论',
+          collapsed: true,
           items: [
-            { text: '实现总览', link: '/nars/impl/' },
-            { text: '实现介绍', link: '/nars/impl/introduction' },
-            { text: 'OpenNARS', link: '/nars/impl/impls/opennars' },
-            { text: 'PyNARS', link: '/nars/impl/impls/pynars' },
-            { text: 'NARust', link: '/nars/impl/impls/narust' },
-            { text: 'ONA', link: '/nars/impl/impls/ona' },
+            { text: 'GTI 目录', link: '/research/nars/theory/gti/' },
+            { text: '前言', link: '/research/nars/theory/gti/preface' },
+            { text: '第1章', link: '/research/nars/theory/gti/chapter1/' },
+            { text: '第2章', link: '/research/nars/theory/gti/chapter2/' },
+            { text: '第3章', link: '/research/nars/theory/gti/chapter3/' },
+            { text: '第4章', link: '/research/nars/theory/gti/chapter4/' },
+            { text: '第5章', link: '/research/nars/theory/gti/chapter5/' },
+            { text: '第6章', link: '/research/nars/theory/gti/chapter6/' },
           ],
         },
         {
-          text: 'NARS 衍生项目',
+          text: 'NAC · 非公理控制',
+          collapsed: true,
           items: [
-            { text: '衍生项目介绍', link: '/nars/derivative_project/introduction' },
-            { text: 'NACE', link: '/nars/derivative_project/nace' },
+            { text: 'NAC 目录', link: '/research/nars/theory/nac/' },
+            { text: '概述', link: '/research/nars/theory/nac/nac_overview/' },
+            { text: '原理', link: '/research/nars/theory/nac/nac_principles/' },
+            { text: 'NAL 与 NAC', link: '/research/nars/theory/nac/nal_and_nac/' },
+          ],
+        },
+        {
+          text: '思想书库',
+          collapsed: true,
+          items: [
+            { text: '总览', link: '/research/thought_library/' },
+            { text: '意义片网思想', link: '/research/thought_library/meaning_network' },
+            { text: '拟态操作', link: '/research/thought_library/mimicry_operation' },
+            { text: 'Lazero', link: '/projects/lazero' },
+            { text: '类脑智能意识系统', link: '/research/thought_library/bingfengdecao' },
+            { text: '智能同一观', link: '/research/thought_library/identity_of_intelligence' },
           ],
         },
       ],
       '/conference/': [
         {
-          text: '历次年会',
+          text: '学术会议',
           items: [
-            { text: '年会总览', link: '/conference/' },
-            { text: '2025 · 第十届', link: '/conference/2025' },
-            { text: '2024 · 第九届', link: '/conference/2024' },
-            { text: '2023 · 第八届', link: '/conference/2023' },
-            { text: '2022 · 第七届', link: '/conference/2022' },
-            { text: '2021 · 第六届', link: '/conference/2021' },
-            { text: '2020 · 第五届', link: '/conference/2020' },
-            { text: '2019 · 第四届', link: '/conference/2019' },
-            { text: '2018 · 第三届', link: '/conference/2018' },
-            { text: '2017 · 第二届', link: '/conference/2017' },
-            { text: '2016 · 第一届', link: '/conference/2016' },
-          ],
-        },
-        {
-          text: '组会',
-          items: [
-            { text: '组会总览', link: '/conference/group_meeting_overview' },
-            { text: '历次组会', link: '/conference/group_meeting_catalogue' },
+            { text: '会议总览', link: '/conference/' },
+            { text: '2025 年会', link: '/conference/2025' },
+            { text: '2024 年会', link: '/conference/2024' },
+            { text: '2023 年会', link: '/conference/2023' },
+            { text: '组会视频目录', link: '/conference/group_meeting_overview' },
           ],
         },
       ],
-      '/other/': [
+      '/wiki/': [
         {
-          text: '思想书库',
+          text: '维基百科',
           items: [
-            { text: '总览', link: '/other/' },
-            { text: '意义片网思想', link: '/other/meaning_network' },
-            { text: '拟态操作', link: '/other/mimicry_operation' },
-            { text: 'Lazero', link: '/other/lazero' },
-            { text: '类脑智能意识系统', link: '/other/bingfengdecao' },
-            { text: '智能同一观', link: '/other/identity_of_intelligence' },
-            { text: '资料和Q群', link: '/other/documents_and_qq_group' },
+            { text: '维基总览', link: '/wiki/' },
+          ],
+        },
+        {
+          text: 'NARS 实现',
+          items: [
+            { text: '实现介绍', link: '/wiki/nars_impl/introduction' },
+            { text: '实现总览', link: '/wiki/nars_impl/' },
+            { text: 'OpenNARS', link: '/wiki/nars_impl/impls/opennars' },
+            { text: 'PyNARS', link: '/wiki/nars_impl/impls/pynars' },
+            { text: 'NARust', link: '/wiki/nars_impl/impls/narust' },
+            { text: 'ONA', link: '/wiki/nars_impl/impls/ona' },
+          ],
+        },
+      ],
+      '/projects/': [
+        {
+          text: '项目介绍',
+          items: [
+            { text: '项目总览', link: '/projects/' },
+            { text: 'NARS 衍生项目', link: '/projects/nars_derivatives/introduction' },
+            { text: 'NACE', link: '/projects/nars_derivatives/nace' },
+            { text: 'Lazero', link: '/projects/lazero' },
+          ],
+        },
+      ],
+      '/contact/': [
+        {
+          text: '联系我们',
+          items: [
+            { text: '联系方式', link: '/contact/' },
+            { text: '研究团队', link: '/about/team' },
+            { text: '资料与 QQ 群', link: '/contact/documents_and_qq_group' },
+          ],
+        },
+        {
+          text: '贡献指南',
+          collapsed: true,
+          items: [
+            { text: '格式规范', link: '/about/contributing/formats' },
+            { text: '工具配置', link: '/about/contributing/tools' },
           ],
         },
       ],

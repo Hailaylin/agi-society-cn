@@ -5,15 +5,33 @@ sidebar: false
 hero:
   name: 中国通用人工智能协会
   text: AGI Society of China
-  tagline: 非公理推理系统 · 通用人工智能理论 · 开源实现
+  tagline: 第十一届中国通用人工智能年会 · 2026 · 筹备中
   actions:
     - theme: brand
-      text: 探索知识库
-      link: /nars/
+      text: 了解 NARS 理论
+      link: /research/nars/
     - theme: alt
-      text: 最新会议
+      text: 2026 年会信息
       link: /conference/
+    - theme: alt
+      text: 浏览维基百科
+      link: /wiki/
 ---
+
+<!-- 2026 年会公告 -->
+<section class="section">
+
+## AGI-26 · 第十一届中国通用人工智能年会
+
+中国通用人工智能年会是由中国通用人工智能协会主办的年度学术会议。自 2016 年起，已连续举办十届（2016-2025）。**第十一届年会（AGI-26）** 正在筹备中。
+
+会议汇聚国内外 AGI 研究者、计算机科学家、哲学家与认知科学学者，围绕通用人工智能的理论基础、工程实践与跨学科影响展开深度讨论。
+
+[查看会议详情 →](/conference/)
+
+</section>
+
+<div class="section-divider"></div>
 
 <!-- 协会简介 -->
 <section class="section">
@@ -22,7 +40,7 @@ hero:
 
 中国通用人工智能协会（AGI Society CN）由**王培教授**发起创立，致力于推动通用人工智能理论与开源实现的研究、教育与交流。协会以 **NARS**（Non-Axiomatic Reasoning System，非公理推理系统）为核心理论锚点，汇聚哲学、计算机科学、认知科学、教育科学等多学科力量。
 
-自 2016 年起，协会已连续举办**九届**中国通用人工智能年会，并组织超过百场学术组会。
+自 2016 年起，协会已连续举办**十届**中国通用人工智能年会，并组织超过百场学术组会。
 
 </section>
 
@@ -42,7 +60,7 @@ hero:
 
 基于 **AIKR**（不足知识与资源预设）与 **3C 原则**（正确性、具体性、紧凑性），NARS 是一种不同于主流机器学习的通用人工智能路径。它强调在**实时、开放、资源有限**的条件下进行自适应推理。
 
-[探索 NARS 理论 →](/nars/)
+[探索 NARS 理论 →](/research/nars/)
 
 </div>
 
@@ -52,7 +70,7 @@ hero:
 
 全球开发者社区已实现 **12 种**跨语言 NARS 版本，覆盖 C、Clojure、Java、JavaScript、Julia、Python、Rust、Swift 等主流语言。
 
-[查看实现列表 →](/nars/impl/)
+[查看实现列表 →](/wiki/nars_impl/)
 
 </div>
 
@@ -118,7 +136,7 @@ hero:
 
 意义片网思想、拟态操作、Lazero、类脑智能意识系统、智能同一观——跨学科的 AGI 理论探索。
 
-[浏览思想书库 →](/other/)
+[浏览思想书库 →](/research/thought_library/)
 
 </div>
 
@@ -138,7 +156,7 @@ hero:
 
 大语言模型、认知架构、意识理论、计算精神病学——AGI 关联前沿议题的持续追踪。
 
-[浏览前沿研究 →](/sai/)
+[浏览前沿研究 →](/research/sai/)
 
 </div>
 
