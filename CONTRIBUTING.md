@@ -17,7 +17,6 @@
 ## 方式三：本地构建预览
 
 ```bash
-cd wiki
 npm install
 npm run dev
 ```
