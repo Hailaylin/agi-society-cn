@@ -14,8 +14,8 @@ content/
 │   ├── nars/         NARS 理论（theory/, news.md）
 │   └── thought_library/  思想书库
 ├── conference/       学术会议
-│   ├── annual/       年会（2016.md-2025.md）
-│   └── group/        组会（index.md, catalogue.md）
+│   ├── annual/       年会（2016.md-2025.md + index.md）
+│   └── group/        组会（2016-2017.md-2025-2026.md + index.md）
 ├── wiki/             维基百科
 │   └── nars_impl/    NARS 实现（12 个 .md）
 ├── projects/         项目介绍
@@ -27,6 +27,7 @@ content/
 ```
 
 **规则**：
+
 - 新增页面放对应板块目录，不要放在 `content/` 根目录
 - 目录名保持英文，标题通过 frontmatter 设为中文
 - 不要恢复旧 `agi/` `sai/` `other/` `nars/` 文件夹
@@ -56,6 +57,7 @@ comments:              # true = 显示 Giscus 评论区
 ```
 
 ### 排序规则
+
 - 优先级：`order` > `date` > 字母序（`name`）
 - 无对应字段的文件排最后，按字母序
 - 普通内容页（aikr.md、3c.md 等）只需 `title`，不需要排序字段
@@ -65,6 +67,7 @@ comments:              # true = 显示 Giscus 评论区
 ## 3. 侧边栏系统
 
 ### 架构
+
 - `sidebar.ts` — 三个公共导出，**不要手写侧边栏**
 - `config.ts` 只有一行：`sidebar: generateSidebar()`
 
@@ -77,6 +80,7 @@ comments:              # true = 显示 Giscus 评论区
 | `commitSidebarUpdate()` | 更新缓存 + 记录指纹 | 写缓存 |
 
 ### 热更新流程
+
 ```
 .md 文件变更
   → hasSidebarChanged()（指纹比对）
@@ -85,6 +89,7 @@ comments:              # true = 显示 Giscus 评论区
 ```
 
 ### 关键实现细节
+
 - `sidebarCache` 是一个对象引用——VitePress 在 `resolveConfig` 时拿到这个引用
 - `commitSidebarUpdate()` 用 `Object.assign` + `delete` 原地更新，保持同一个引用
 - 轮询间隔 2 秒，在 `config.ts` 的 `sidebar-dev-watch` 插件中实现
@@ -100,21 +105,23 @@ styles/
 ├── vars.css     ← CSS 变量（颜色、callout、按钮）
 ├── homepage.css ← 首页（Hero、分区、卡片、团队、页脚）
 ├── callout.css  ← Obsidian Callout 完整样式
-└── layout.css   ← 导航栏、排版、暗色模式
+└── layout.css   ← 导航栏、排版、暗色模式、<mark> 荧光笔
 ```
 
-**规则**：新增样式到对应文件，不要写到 `custom.css`
+**规则**：新增样式到对应文件，不要写到 `custom.css`。`mark` 荧光笔样式当前在 `custom.css`（历史遗留，后续迁移到 `layout.css`）。
 
 ---
 
 ## 5. 开发服务器
 
 ### 行为
+
 - **编辑已有 .md 内容/frontmatter** → VitePress HMR 即时刷新（不触发 reload）
 - **新增/重命名 .md 文件** → 2 秒内自动检测 + 全量 reload
 - `npm run dev` 在 `wiki/` 目录下运行，端口默认 5173
 
 ### 不要做的事
+
 - `server.restart()` — Vite 5 不存在此 API
 - `require()` 在 ESM 模块内 — 用顶层 `import`
 - `fs.watch` / `handleHotUpdate` / `transformPageData` 做侧边栏热更新 — 全部验证失败
@@ -137,13 +144,26 @@ styles/
 
 ## 7. 测试规范
 
-### 侧边栏测试（`sidebar.test.ts`）
-- 框架：vitest + Playwright
-- 覆盖：条目数量、排序、sidebarTitle、sidebarCollapsed
-- 过滤条件必须精确（如 `/^20\d{2} · /` 而非 `/^20/`）
-- 运行：`npx vitest run sidebar.test.ts`（需要 dev server 已启动）
+所有测试脚本统一放在 `tests/` 目录：
+
+```
+tests/
+├── sidebar.test.ts           vitest + Playwright — 侧边栏自动化
+├── callout.spec.mjs          Playwright — Callout 渲染验证
+├── callout-debug.spec.mjs    Playwright — Callout 调试
+├── nav-consistency.spec.mjs  Playwright — 导航一致性
+├── wiki.spec.mjs             Playwright — 维基页面
+└── wikilink-plugin.spec.mjs  Node — 双向链接插件 TDD
+```
+
+### 运行方式
+
+- **vitest**：`npx vitest run tests/sidebar.test.ts`（需要 dev server 已启动）
+- **Playwright**：`node tests/<name>.spec.mjs`
+- **插件单元测试**：`NODE_PATH=./node_modules node tests/wikilink-plugin.spec.mjs`
 
 ### 构建验证
+
 - 每次改动后运行 `npx vitepress build`
 - `ignoreDeadLinks: true` 已配置，但仍需关注构建警告
 
@@ -157,7 +177,10 @@ styles/
 | `.vitepress/sidebar.ts` | 侧边栏生成+检测+更新 |
 | `.vitepress/head.ts` | HTML 元数据 |
 | `.vitepress/theme/index.ts` | 主题入口（Nólëbase 插件 + 自定义组件） |
-| `sidebar.test.ts` | 侧边栏自动化测试 |
+| `tests/sidebar.test.ts` | 侧边栏自动化测试 |
+| `tests/` | 所有测试脚本（6 个） |
+| `../CONTRIBUTING.md` | 项目贡献指南（Obsidian / GitHub / 本地构建三种路径） |
+| `content/about/contributing/obsidian.md` | Obsidian 编辑指南 |
 
 ---
 
@@ -217,19 +240,6 @@ styles/
 ---
 
 ## 11. Agent 行为边界
-
-### 只能碰的文件
-
-- `wiki/content/` 下所有 `.md` 文件
-- `wiki/.vitepress/theme/styles/` 下所有 `.css` 文件
-- `wiki/.vitepress/config.ts`、`head.ts`（在用户明确要求时）
-- `wiki/package.json`（在用户明确要求时）
-
-### 严禁触碰
-
-- **非 Markdown 文件**：`.vue`、`.ts`（除上述授权外）、`.js`
-- **构建问题**：构建报错时报告用户，不自行修复
-- **node_modules**：除非 TDD 流程中临时修改以验证补丁
 
 ### 脚本纪律
 
