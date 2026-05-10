@@ -164,34 +164,34 @@ comments: true
 
 ## 2020-2021 学年
 
-- [1] 科学流言的形成──脑控阴谋论与非公理知识观，刘凯
-- [2] 通用人工智能系统中的功能性情感模型，李祥
-- [3] AGI应用领域展望系列之"AI与游戏漫谈"，冯博杰
-- [4] 章鱼的心智，刘凯
-- [5] NARS在Game A(G)I中的应用尝试──让NARS玩飞机大战，徐博洋
-- [6] AGI应用领域展望系列之"自动驾驶"，刘凯
-- [7] 纳思代码讲解之组成规则，冯博杰
-- [8] 类脑启发的通用人工智能，许铁
-- [9] 贝叶斯主义之"掩耳盗铃"，那迪
-- [10] 贝叶斯主义之"只手遮天"，那迪
-- [11] AGI怕什么？──人类如何惩罚AGI系统，刘凯
-- [12] 纳思代码讲解之结构规则，冯博杰
-- [13] 智能决策理论研究概况，那迪
-- [14] 机器教育：开往AGI春天的列车──基于OpenNARS的实证研究，刘凯，贾敏
-- [15] "看见"──基于NARS的视觉之道，王培
-- [16] 纳思代码讲解之本地规则，冯博杰
-- [17] "深度医疗"刍议，刘凯
-- [18] "思维语言"之争，那迪
-- [19] 纳思代码讲解之三段论规则，冯博杰
-- [20] 人是猴子进化来的吗？──对进化论的诸多质疑，刘凯
-- [21] OpenNARS之答疑解惑，王培
-- [22] 多重关系网络的证据路径逻辑，冯博杰
-- [23] 计算机视觉流派考，冯博杰
-- [24] 朱松纯团队《"暗"，不止于"深"》研读，冯博杰
-- [25] AGI决策模型的前提假设，那迪
-- [26] 纳思控制代码研读系列（五）──自我与情感，冯博杰
-- [27] 纳思控制代码研读系列（四）──相关性及预算，冯博杰
-- [28] 动物智能──来自黑猩猩和渡鸦的证据，刘凯
+- [1] [科学流言的形成──脑控阴谋论与非公理知识观，刘凯](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=1)
+- [2] [通用人工智能系统中的功能性情感模型，李祥](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=2)
+- [3] [AGI应用领域展望系列之"AI与游戏漫谈"，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=3)
+- [4] [章鱼的心智，刘凯](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=4)
+- [5] [NARS在Game A(G)I中的应用尝试──让NARS玩飞机大战，徐博洋](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=5)
+- [6] AGI应用领域展望系列之"自动驾驶"，刘凯（⚠️ 无 B站 视频）
+- [7] [纳思代码讲解之组成规则，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=6)
+- [8] [类脑启发的通用人工智能，许铁](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=7)
+- [9] [贝叶斯主义之"掩耳盗铃"，那迪](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=8)
+- [10] [贝叶斯主义之"只手遮天"，那迪](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=9)
+- [11] [AGI怕什么？──人类如何惩罚AGI系统，刘凯](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=10)
+- [12] [纳思代码讲解之结构规则，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=11)
+- [13] [智能决策理论研究概况，那迪](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=12)
+- [14] 机器教育：开往AGI春天的列车──基于OpenNARS的实证研究，刘凯，贾敏（⚠️ 无 B站 视频）
+- [15] ["看见"──基于NARS的视觉之道，王培](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=13)
+- [16] [纳思代码讲解之本地规则，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=14)
+- [17] ["深度医疗"刍议，刘凯](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=15)
+- [18] ["思维语言"之争，那迪](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=16)
+- [19] [纳思代码讲解之三段论规则，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=17)
+- [20] [人是猴子进化来的吗？──对进化论的诸多质疑，刘凯](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=18)
+- [21] [OpenNARS之答疑解惑，王培](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=19)
+- [22] [多重关系网络的证据路径逻辑，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=20)
+- [23] [计算机视觉流派考，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=21)
+- [24] [朱松纯团队《"暗"，不止于"深"》研读，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=22)
+- [25] AGI决策模型的前提假设，那迪（⚠️ 无 B站 视频）
+- [26] [纳思控制代码研读系列（五）──自我与情感，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=23)
+- [27] [纳思控制代码研读系列（四）──相关性及预算，冯博杰](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=24)
+- [28] [动物智能──来自黑猩猩和渡鸦的证据，刘凯](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=25)
 
 ## 2021-2022 学年
 
@@ -252,6 +252,7 @@ comments: true
 | 2023-2024 | [BV1o94y1r7hB](https://www.bilibili.com/video/BV1o94y1r7hB) | 11 场 |
 | 2022-2023 | [BV1nP41157Gs](https://www.bilibili.com/video/BV1nP41157Gs) | 12 场 |
 | 2021-2022 | [BV1wL4y1B7gm](https://www.bilibili.com/video/BV1wL4y1B7gm) | 8 场 |
+| 2020-2021 | [BV1wf4y1k7Yh](https://www.bilibili.com/video/BV1wf4y1k7Yh) | 25 场 |
 
 ### 组会合集详情
 
