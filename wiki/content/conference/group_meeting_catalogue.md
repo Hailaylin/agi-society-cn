@@ -195,29 +195,30 @@ comments: true
 
 ## 2021-2022 学年
 
-- [1] 七嘴八舌话视觉，群体讨论
-- [2] 大脑决策选项的选择与维护机制，那迪
-- [3] 基于NARS的自然语言处理，李汤睿
-- [4] 内隐学习与智能，刘凯课题组
-- [5] Math in NARS──非公立系统vs公理化经验，王培
-- [6] 时间的本质──宇宙的客观存在还是大脑的主观感受？，刘凯
-- [7] NARS"弈棋"初探──兼论推理效率之改进，徐川皓
+- [1] [七嘴八舌话视觉，群体讨论](https://www.bilibili.com/video/BV1wL4y1B7gm?p=5)
+- [2] [大脑决策选项的选择与维护机制，那迪](https://www.bilibili.com/video/BV1wL4y1B7gm?p=6)
+- [3] [基于NARS的自然语言处理，李汤睿](https://www.bilibili.com/video/BV1wL4y1B7gm?p=7)
+- [4] [内隐学习与智能，刘凯课题组](https://www.bilibili.com/video/BV1wL4y1B7gm?p=8)
+- [5] [Math in NARS──非公立系统vs公理化经验，王培](https://www.bilibili.com/video/BV1wL4y1B7gm?p=4)
+- [6] [时间的本质──宇宙的客观存在还是大脑的主观感受？，刘凯](https://www.bilibili.com/video/BV1wL4y1B7gm?p=3)
+- [7] [NARS"弈棋"初探──兼论推理效率之改进，徐川皓](https://www.bilibili.com/video/BV1wL4y1B7gm?p=1)
+- [8] [机器婴儿的"看见"之道──主动视觉的跨学科理论探新，刘凯](https://www.bilibili.com/video/BV1wL4y1B7gm?p=2)
 
 ## 2022-2023 学年
 
-- [1] 智能机器的进化──议通用人工智能种群水平的竞争优化，刘凯
-- [2] 非公理逻辑表征方法，那迪
-- [3] 面向个体偏好的推荐──一种基于证据的方法，那迪
-- [4] 发展型机器人(C0)──由人类婴儿启发的机器人，刘凯
-- [5] 发展型机器人(C1)──成长中的婴儿与机器人，刘凯
-- [6] 因果推理研究进展（一），那迪
-- [7] 发展型机器人(C2)──婴儿机器人，刘凯
-- [8] 因果推理研究进展（二），冯博杰
-- [9] 发展型机器人（C3）──新奇、好奇与惊奇，刘凯
-- [10] 国内AGI课题组2022总结及2023年计划，那迪、李祥、刘凯
-- [11] 欺骗的艺术──巫术、深夜广告与智能迷思，刘凯
-- [12] ChatGPT是通用人工智能系统吗？，刘凯
-- [13] 智能决策的可解释性──基于经验语义学，那迪
+- [1] [智能机器的进化──议通用人工智能种群水平的竞争优化，刘凯](https://www.bilibili.com/video/BV1nP41157Gs?p=1)
+- [2] [非公理逻辑表征方法，那迪](https://www.bilibili.com/video/BV1nP41157Gs?p=2)
+- [3] [面向个体偏好的推荐──一种基于证据的方法，那迪](https://www.bilibili.com/video/BV1nP41157Gs?p=3)
+- [4] [发展型机器人(C0)──由人类婴儿启发的机器人，刘凯](https://www.bilibili.com/video/BV1nP41157Gs?p=4)
+- [5] [发展型机器人(C1)──成长中的婴儿与机器人，刘凯](https://www.bilibili.com/video/BV1nP41157Gs?p=5)
+- [6] [因果推理研究进展（一），那迪](https://www.bilibili.com/video/BV1nP41157Gs?p=6)
+- [7] [发展型机器人(C2)──婴儿机器人，刘凯](https://www.bilibili.com/video/BV1nP41157Gs?p=7)
+- [8] [因果推理研究进展（二），冯博杰](https://www.bilibili.com/video/BV1nP41157Gs?p=8)
+- [9] [发展型机器人（C3）──新奇、好奇与惊奇，刘凯](https://www.bilibili.com/video/BV1nP41157Gs?p=9)
+- [10] [国内AGI课题组2022总结及2023年计划，那迪、李祥、刘凯](https://www.bilibili.com/video/BV1nP41157Gs?p=10)
+- [11] 欺骗的艺术──巫术、深夜广告与智能迷思，刘凯（⚠️ 无 B站 视频）
+- [12] [ChatGPT是通用人工智能系统吗？，刘凯](https://www.bilibili.com/video/BV1nP41157Gs?p=11)
+- [13] [智能决策的可解释性──基于经验语义学，那迪](https://www.bilibili.com/video/BV1nP41157Gs?p=12)
 
 ## 2023-2024 学年
 
