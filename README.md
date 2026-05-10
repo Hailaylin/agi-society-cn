@@ -2,7 +2,7 @@
 
 中国通用人工智能协会（AGI Society CN）官方网站。基于 **VitePress + Nólëbase** 构建的学术知识库。
 
-🔗 在线访问：https://hailaylin.github.io/agi-society-cn/
+🔗 在线访问：<https://hailaylin.github.io/agi-society-cn/>
 
 ---
 
