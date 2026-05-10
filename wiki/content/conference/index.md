@@ -1,8 +1,8 @@
 ---
 order: 3
-comments: true
 content-order: order
 content-order-reversed: false
+comments: true
 ---
 
 # 学术会议

@@ -1,9 +1,9 @@
 ---
+sidebarTitle: "年会"
 order: 1
 content-order: date
 content-order-reversed: true
 sidebarCollapsed: false
-sidebarTitle: "年会"
 comments: true
 ---
 

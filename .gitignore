@@ -10,3 +10,6 @@ tsconfig.tsbuildinfo
 .DS_Store
 *.log
 bash.exe.stackdump
+
+# Obsidian 个人配置（每个协作者自行设置）
+wiki/content/.obsidian/
