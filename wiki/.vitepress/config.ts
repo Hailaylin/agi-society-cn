@@ -87,7 +87,6 @@ export default defineConfig({
           items: [
             { text: '格式规范', link: '/about/contributing/formats' },
             { text: '工具配置', link: '/about/contributing/tools' },
-            { text: '内容搬运', link: '/about/contributing/carrying' },
           ],
         },
       ],
