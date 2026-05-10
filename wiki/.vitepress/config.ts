@@ -8,7 +8,6 @@ const nolebaseMD = presetMarkdownIt({
   unlazyImages: false,
 })
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
   title: 'AGI Society Wiki',
@@ -17,6 +16,7 @@ export default defineConfig({
   outDir: './public',
   ignoreDeadLinks: true,
 
+  // CRITICAL: optimizeDeps.exclude 避免 Vite dev 模式预打包含 virtual module 的 Nólëbase 包
   vite: {
     plugins: [
       GitChangelog({
@@ -26,6 +26,20 @@ export default defineConfig({
       }),
       PageProperties(),
     ],
+    optimizeDeps: {
+      exclude: [
+        '@nolebase/integrations',
+        '@nolebase/ui',
+        '@nolebase/vitepress-plugin-git-changelog',
+        '@nolebase/vitepress-plugin-page-properties',
+        '@nolebase/vitepress-plugin-enhanced-readabilities',
+        '@nolebase/vitepress-plugin-enhanced-mark',
+        '@nolebase/vitepress-plugin-highlight-targeted-heading',
+        '@nolebase/vitepress-plugin-inline-link-preview',
+        '@nolebase/vitepress-plugin-index',
+        '@nolebase/vitepress-plugin-thumbnail-hash',
+      ],
+    },
     ssr: {
       noExternal: ['@nolebase/**'],
     },

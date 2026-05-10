@@ -1,8 +1,9 @@
 # Nólëbase 首页逆向分析与学术风格参考
 
 > 调研日期：2026-05-10
-> 方法：浏览器实地访问 + HTML/CSS 逆向 + 源码仓库分析
+> 方法：浏览器实地访问 + HTML/CSS 逆向 + 官方仓库源码分析 + fork 对比分析
 > 目标：理解如何复刻 Nólëbase 式首页，融入学术风格，用于 AGI Society 首页过渡方案
+> 源码仓库：`nolebase/nolebase`（官方） + `nyovelt/nolebase`（fork 参考）
 
 ---
 
@@ -158,7 +159,256 @@ app.provide(NolebaseEnhancedReadabilitiesInjectionKey, {
 
 ---
 
-### 1.2 学术风格参考 — https://alife.org/
+### 1.2 Nólëbase 官方仓库源码分析 — `nolebase/nolebase`
+
+> 深入官方仓库的 ⭐ 完整源码，理解官方推荐的最佳实践。
+
+#### 1.2.1 项目结构总览
+
+```
+nolebase/nolebase/
+├── index.md                      ← 🔑 根首页（重定向到 /zh-CN/）
+├── zh-CN/
+│   └── index.md                  ← 🔑 中文首页（layout: home）
+├── metadata/
+│   └── index.ts                  ← 🔑 站点元数据 + 创作者配置
+├── .vitepress/
+│   ├── config.ts                 ← 🔑 VitePress 主配置（多语言）
+│   ├── head.ts                   ← HTML head 元标签
+│   ├── styles/
+│   │   ├── vars.css              ← 🔑 CSS 变量（Hero 渐变、品牌色）
+│   │   ├── main.css              ← 🔑 全局样式（Hero 排版、按钮样式）
+│   │   └── kbd.css               ← 键盘快捷键展示样式
+│   └── theme/
+│       ├── index.ts              ← 🔑 主题入口（presetClient + Layout Slots）
+│       └── components/
+│           ├── HomePage.vue       ← 🔑 团队展示 + Sponsors
+│           ├── Share.vue          ← 短链分享
+│           ├── DocFooter.vue      ← CC 协议页脚
+│           └── AppContainer.vue   ← 应用容器
+├── vite.config.ts                ← Vite 配置（presetVite）
+├── uno.config.ts                 ← UnoCSS 配置
+├── public/logo.svg                ← Logo
+└── package.json
+```
+
+#### 1.2.2 官方 vs Fork 的关键差异
+
+| 方面 | 官方 `nolebase/nolebase` | Fork `nyovelt/nolebase` |
+|------|------|------|
+| **插件注册方式** | `presetClient()` + `presetVite()` 一行导入全部 | 逐个 `app.use()` 手写注册 |
+| **主题扩展方式** | `nolebase.enhanceLayout()` 自动注入 | 手动 `h()` 每个插件 |
+| **首页语言** | `zh-CN/index.md`（多语言架构） | 根 `index.md`（单语言） |
+| **Hero 标题** | Tengwar 精灵语字体 + 渐变色 | 无特殊字体 |
+| **HomePage 组件** | 团队 + Sponsors + 贡献者墙 | 仅团队展示 |
+| **CSS 变量** | 完整的 `--vp-home-hero-*` 系列 | 使用 VitePress 默认值 |
+| **Discord 按钮** | 自定义 Discord 品牌色按钮 | 无 |
+| **GitHub 按钮** | 自定义 GitHub 暗色按钮 | 标准 alt 按钮 |
+| **多语言** | `locales` 配置（zh-CN root） | 单语言 |
+| **Plausible 分析** | 通过 Netlify 代理 | 无 |
+| **自动组件导入** | `unplugin-vue-components` | 手动注册 |
+
+**结论**：官方仓库使用了更现代、模块化的 `presetClient/presetVite`，代码量少 50% 以上，维护性更好。**AGI Society 首页应参考官方模式而非 fork 模式。**
+
+#### 1.2.3 核心文件源码分析
+
+**metadata/index.ts — 站点元数据单文件管理**
+
+```typescript
+// 所有可配置项集中在一处，修改方便
+export const siteName = 'Nólëbase'
+export const siteDescription = '记录回忆，知识和畅想的地方'
+export const githubRepoLink = 'https://github.com/nolebase/nolebase'
+export const discordLink = 'https://discord.gg/XuNFDcDZGj'
+export const plainTargetDomain = 'nolebase.ayaka.io'
+export const targetDomain = `https://${plainTargetDomain}`
+
+// 创作者数组驱动 HomePage 组件
+export const creators: Creator[] = [
+  {
+    name: '絢香猫',
+    username: 'nekomeowww',
+    title: 'Nólëbase 原始创作者',
+    desc: '开发者，专注于基础设施维护，数据分析，后端、DevOps 开发',
+    links: [
+      { type: 'github', icon: 'github', link: 'https://github.com/nekomeowww' },
+      { type: 'twitter', icon: 'twitter', link: 'https://twitter.com/ayakaneko' },
+    ],
+  },
+  // ...更多创作者
+]
+```
+
+**vars.css — Hero 区域渐变魔法**
+
+```css
+/* ⭐ 这是 Nólëbase 首页视觉的关键 */
+:root {
+  /* Hero 标题渐变色 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #8d6fc7 40%,   /* 紫色 */
+    #4fc4d8         /* 青色 */
+  );
+
+  /* Hero Logo 背景光晕 */
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #8d73bf90 30%,  /* 半透明紫色 */
+    #d6c0e890       /* 半透明粉色 */
+  );
+  --vp-home-hero-image-filter: blur(30px);  /* 光晕模糊半径 */
+
+  /* 品牌色 — 天蓝色系 */
+  --vp-c-brand-1: var(--vp-c-sky-1);
+  --vp-c-brand-2: var(--vp-c-sky-2);
+  --vp-c-brand-3: var(--vp-c-sky-3);
+  --vp-c-brand-soft: var(--vp-c-sky-soft);
+}
+
+/* 大屏光晕更大 */
+@media (min-width: 640px)  { --vp-home-hero-image-filter: blur(56px); }
+@media (min-width: 960px)  { --vp-home-hero-image-filter: blur(72px); }
+```
+
+**main.css — 自定义按钮与 Hero 排版**
+
+```css
+/* Hero 标题使用 Tengwar 精灵语字体，5rem 超大字号 */
+.VPHomeHero > .container > .main > h1 {
+  font-size: 5rem;
+  font-family: 'tengwarannatar-bold';
+}
+
+/* 自定义 Discord 按钮品牌色 */
+.VPHero.VPHomeHero .actions a[href="https://discord.gg/..."] {
+  color: #6972d4;
+  border: 2px #6972d4 solid;
+}
+.VPHero.VPHomeHero .actions a[href="https://discord.gg/..."]:hover {
+  color: white;
+  background-color: #6975f2;
+}
+
+/* 自定义 GitHub 按钮暗色 */
+.VPHero.VPHomeHero .actions a[href="https://github.com/nolebase/nolebase"] {
+  color: #616161;
+  border: 2px #616161 solid;
+}
+```
+
+**theme/index.ts — presetClient 一行注册全部插件**
+
+```typescript
+import { presetClient } from '@nolebase/integrations/vitepress/client'
+
+// ⭐ 一行代码注册所有 Nólëbase 插件
+const nolebase = presetClient({
+  enhancedReadabilities: {
+    options: {
+      layoutSwitch: { defaultMode: 4 },    // 侧边栏宽度可调
+      spotlight: {
+        defaultToggle: true,
+        hoverBlockColor: 'rgb(240 197 52 / 7%)',  // 阅读聚光灯色
+      },
+    },
+  },
+})
+
+const ExtendedTheme: Theme = {
+  extends: DefaultTheme,
+  Layout: () => {
+    // ⭐ enhanceLayout 自动注入所有插件 UI 到 Layout Slots
+    const slots = nolebase.enhanceLayout?.() ?? {}
+    return h(DefaultTheme.Layout, null, {
+      'doc-top': () => slots['doc-top'].map(slot => slot()),
+      'nav-bar-content-after': () => [
+        h(Share),
+        ...slots['nav-bar-content-after'].map(slot => slot()),
+      ],
+    })
+  },
+  async enhanceApp(ctx) {
+    // ⭐ 一行注册所有插件
+    await nolebase?.enhanceApp?.(ctx)
+    app.component('HomePage', HomePage)
+    // ...
+  },
+}
+```
+
+**vite.config.ts — presetVite 一行注册构建时插件**
+
+```typescript
+import { presetVite } from '@nolebase/integrations/vitepress/vite'
+
+const nolebase = presetVite({
+  gitChangelog: {
+    options: {
+      gitChangelog: {
+        repoURL: () => githubRepoLink,
+        mapAuthors: creators,     // ← 将提交者映射到创作者信息
+      },
+      markdownSection: {
+        excludes: ['zh-CN/toc.md', 'zh-CN/index.md'],  // ← 排除不需要变更历史的页面
+      },
+    },
+  },
+  pageProperties: { /* ... */ },
+})
+
+export default defineConfig(async () => {
+  return {
+    plugins: [
+      UnoCSS(),
+      nolebase,               // ← 注册构建时插件
+      ...nolebase.plugins(),  // ← 展开所有子插件
+    ],
+  }
+})
+```
+
+#### 1.2.4 官方 HomePage 组件完整结构
+
+```vue
+<script setup lang="ts">
+import { VPTeamMembers } from 'vitepress/theme'
+import { creators, siteName } from '../../../metadata'
+</script>
+
+<template>
+  <div class="content">
+    <main class="main">
+      <div class="vp-doc" mt-10 flex flex-col items-center>
+
+        <!-- 1. 创作者团队 -->
+        <h2 font-normal op50 p="t-10 b-2">
+          {{ siteName }} 的创作者
+        </h2>
+        <VPTeamMembers size="small" :members="creators" />
+
+        <!-- 2. Sponsors 赞助墙 -->
+        <h2 mt-11 pb-2 text-center>Sponsors</h2>
+        <img src="https://cdn.jsdelivr.net/gh/nolebase/sponsors/sponsors.wide.svg">
+        <p text-center>
+          这个项目得以实现，要感谢所有支持我们的 Sponsors
+        </p>
+
+        <!-- 3. 贡献者墙 -->
+        <h2 text="center lg" my-5 font-bold>💕 感谢所有贡献者！</h2>
+        <a href="https://github.com/nolebase/nolebase/graphs/contributors">
+          <img src="https://contrib.rocks/image?repo=nolebase/nolebase">
+        </a>
+      </div>
+    </main>
+  </div>
+</template>
+```
+
+---
+
+### 1.3 学术风格参考 — https://alife.org/
 
 #### 技术栈
 
@@ -267,7 +517,9 @@ AGI Society 首页 = Nólëbase 式的 Hero + Features + Team 布局
 
 ### 2.3 配置实现方案
 
-#### index.md（首页 Markdown 文件）
+> **基于官方 `presetClient/presetVite` 模式**，代码量更少，维护性更好。
+
+#### metadata/index.ts（站点元数据）
 
 ```yaml
 ---
@@ -413,48 +665,75 @@ Phase 3 (切换):   无缝替换 Nólëbase → Astro
 
 ## 5. 附录
 
-### 5.1 参考仓库文件清单（nyovelt/nolebase）
+### 5.1 参考仓库文件清单
+
+#### 官方仓库 `nolebase/nolebase`（推荐参考）
 
 ```
-.
-├── index.md                          ← 首页（Hero + Features YAML）
+nolebase/nolebase/
+├── index.md                          ← 根首页（重定向到 /zh-CN/）
+├── zh-CN/
+│   └── index.md                      ← 中文首页（layout: home）
+├── metadata/
+│   └── index.ts                      ← 站点元数据 + 创作者配置
 ├── .vitepress/
-│   ├── config.ts                     ← VitePress 配置
-│   ├── creators.ts                   ← 团队成员数据
+│   ├── config.ts                     ← VitePress 配置（多语言 + presetMarkdownIt）
+│   ├── head.ts                       ← HTML head 元标签
+│   ├── styles/
+│   │   ├── vars.css                  ← CSS 变量（Hero 渐变 + 品牌色）
+│   │   ├── main.css                  ← 全局样式（Hero 排版 + 按钮自定义）
+│   │   └── kbd.css                   ← 键盘快捷键样式
 │   └── theme/
-│       ├── index.ts                  ← 主题入口（插件注册 + Layout Slots）
+│       ├── index.ts                  ← 主题入口（presetClient + Layout Slots）
 │       └── components/
-│           ├── HomePage.vue           ← 团队展示组件
-│           ├── Share.vue             ← 分享按钮
-│           ├── DocFooter.vue         ← 自定义页脚
+│           ├── HomePage.vue           ← 团队 + Sponsors + 贡献者墙
+│           ├── Share.vue             ← 短链分享按钮
+│           ├── DocFooter.vue         ← CC 协议页脚
 │           └── AppContainer.vue      ← App 容器
-├── metadata/                         ← 站点元数据
-├── public/logo.svg                   ← Logo
-├── package.json                      ← 依赖管理
+├── vite.config.ts                    ← Vite 配置（presetVite + UnoCSS + Components）
 ├── uno.config.ts                     ← UnoCSS 配置
-└── vite.config.ts                    ← Vite 配置
+├── public/logo.svg                   ← Logo
+└── package.json
 ```
 
-### 5.2 关键依赖（package.json 参考）
+#### Fork 仓库 `nyovelt/nolebase`（仅作对比参考）
+
+```
+nyovelt/nolebase/
+├── index.md                          ← 首页（layout: home）
+├── .vitepress/
+│   ├── config.ts                     ← VitePress 配置（单语言 + 逐个 markdown-it 插件注册）
+│   ├── creators.ts                   ← 独立的创作者配置（官方已合并到 metadata/）
+│   └── theme/
+│       ├── index.ts                  ← 逐个插件注册（不如 presetClient 简洁）
+│       └── components/
+│           ├── HomePage.vue           ← 仅团队展示
+│           ├── Share.vue
+│           ├── DocFooter.vue
+│           ├── TocList.vue
+│           └── AppContainer.vue
+├── metadata/                         ← 简化的元数据
+├── vite.config.ts
+├── uno.config.ts
+└── public/logo.svg
+```
+
+### 5.2 关键依赖（推荐使用官方 preset 模式）
 
 ```json
 {
   "devDependencies": {
     "@nolebase/integrations": "^2.18.0",
-    "@nolebase/markdown-it-bi-directional-links": "^2.18.0",
-    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.18.0",
-    "@nolebase/vitepress-plugin-inline-link-preview": "^2.18.0",
-    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.18.0",
-    "@nolebase/vitepress-plugin-git-changelog": "^2.18.0",
-    "@nolebase/vitepress-plugin-page-properties": "^2.18.0",
-    "@nolebase/vitepress-plugin-og-image": "^2.18.0",
-    "@nolebase/vitepress-plugin-meta": "^2.18.0",
     "vitepress": "^2.0.0-alpha",
     "vue": "^3.5",
-    "unocss": "^66.0"
+    "unocss": "^66.0",
+    "unplugin-vue-components": "^30.0",
+    "vite": "^7.0"
   }
 }
 ```
+
+> ⚠️ **注意**：官方使用 `@nolebase/integrations` 包中的 `presetClient()` 和 `presetVite()` 即可覆盖所有常用插件，无需逐个安装 `@nolebase/vitepress-plugin-*` 等分包。这比 fork 中逐个安装十几个包的方式简洁得多。
 
 ### 5.3 参考链接
 

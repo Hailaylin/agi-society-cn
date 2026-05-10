@@ -14,7 +14,9 @@ agi-society-cn/
 │       ├── index.md                   ← 本文件（总览）
 │       ├── website-research.md        ← 原网站调研
 │       ├── framework-comparison.md    ← 框架交叉分析
-│       └── nolebase-homepage-reverse-engineering.md ← Nólëbase 首页逆向分析
+│       ├── nolebase-homepage-reverse-engineering.md ← Nólëbase 首页逆向分析
+│       ├── tech-dissect-nolebase-knowledge-base.md  ← Nólëbase 知识库技术拆解
+│       └── content-organization-analysis.md ← 内容组织结构调研
 ├── original-contents/                 ← 原 MkDocs 源码（克隆自 GitHub）
 │   └── agi-society-cn/
 ├── wiki/                              ← Quartz 4.5.2 项目（知识库）
@@ -81,7 +83,19 @@ Wiki：图谱 + 内容 > 呈现    → Quartz
 
 → 详见 [nolebase-homepage-reverse-engineering.md](./nolebase-homepage-reverse-engineering.md)
 
-### 3. 为什么首页不用文档框架
+### 4. 技术拆解
+
+用 tech-dissect 方法论对 Nólëbase 知识库首页进行了模块级拆解（P1-P5 评估），识别出 5 个可立即复用的 A 类模块（Hero、Features、Team、CSS Variables、Footer）。
+
+→ 详见 [tech-dissect-nolebase-knowledge-base.md](./tech-dissect-nolebase-knowledge-base.md)
+
+### 5. 内容组织架构
+
+分析了 Nólëbase（知识库组织）和 ALife（学术学会组织）的内容结构，抽象出「学术信息 + 知识库」双轨合一的 AGI Society 内容架构蓝图。
+
+→ 详见 [content-organization-analysis.md](./content-organization-analysis.md)
+
+### 6. 为什么首页不用文档框架
 
 文档框架（MkDocs、VitePress、Quartz）的本质是把 Markdown 变成可导航的文档。但首页不是文档，首页是品牌的视觉陈述。需要自由布局、动画、Hero 区域、极致性能——这些是 Astro 的强项，文档框架的弱项。
 
@@ -93,34 +107,39 @@ Wiki：图谱 + 内容 > 呈现    → Quartz
 
 | # | 任务 | 位置 | 优先级 |
 |---|------|------|:---:|
-| 1 | 搭建 Nólëbase 项目 | `homepage/` | P0 |
+| 1 | 搭建 Nólëbase 项目（presetClient 模式） | `homepage/` | P0 |
 | 2 | 配置首页导航（精简，导向 wiki） | Nólëbase config | P0 |
 | 3 | 补充 Quartz wiki 缺失内容 | `wiki/content/` | P0 |
 | 4 | 迁移图片资源到 wiki | `wiki/content/**/image/` | P0 |
 | 5 | MkDocs Admonition → Obsidian Callout 转换 | `wiki/content/` | P0 |
-| 6 | 统一两站视觉（配色、字体） | 全局 | P1 |
-| 7 | 配置 Quartz 图谱参数 | `wiki/quartz.layout.ts` | P1 |
-| 8 | 集成 Giscus 评论系统 | Quartz config | P1 |
-| 9 | 部署：GitHub Actions + 自定义域名 | CI/CD | P1 |
+| 6 | 创建出版物专区（`publications/`） | `wiki/content/publications/` | P1 |
+| 7 | 创建协会动态（`news/`） | `wiki/content/news/` | P1 |
+| 8 | 整合在线资源页面 | `wiki/content/` | P1 |
+| 9 | 统一两站视觉（配色、字体） | 全局 CSS | P1 |
+| 10 | 配置 Quartz 图谱参数 | `wiki/quartz.layout.ts` | P1 |
+| 11 | 集成 Giscus 评论系统 | Quartz config | P1 |
+| 12 | 部署：GitHub Actions + 自定义域名 | CI/CD | P1 |
 
 ### Phase 2：首页升级（Astro 替换 Nólëbase）
 
 | # | 任务 | 位置 | 优先级 |
 |---|------|------|:---:|
-| 10 | 首页视觉设计（Hero、卡片、动画） | 设计稿 | P1 |
-| 11 | Astro 项目初始化 | `homepage/` | P1 |
-| 12 | 开发交互组件（时间线、团队展示等） | Astro 组件 | P2 |
-| 13 | 性能优化（Lighthouse 100） | Astro build | P2 |
-| 14 | 替换 Nólëbase 首页上线 | 部署切换 | P2 |
+| 13 | 首页视觉设计（Hero、卡片、动画） | 设计稿 | P1 |
+| 14 | Astro 项目初始化 | `homepage/` | P1 |
+| 15 | 开发交互组件（时间线、团队展示等） | Astro 组件 | P2 |
+| 16 | 性能优化（Lighthouse 100） | Astro build | P2 |
+| 17 | 替换 Nólëbase 首页上线 | 部署切换 | P2 |
 
 ### Phase 3：持续迭代
 
 | # | 任务 | 位置 | 优先级 |
 |---|------|------|:---:|
-| 15 | 首页动画增强（视差、微交互） | Astro 组件 | P3 |
-| 16 | Wiki 图谱参数持续调优 | Quartz config | P3 |
-| 17 | 补全 NARust WASM 在线 Demo | `wiki/static/` | P3 |
-| 18 | SEO + 性能监控 | 全局 | P3 |
+| 18 | 首页动画增强（视差、微交互） | Astro 组件 | P3 |
+| 19 | Wiki 图谱参数持续调优 | Quartz config | P3 |
+| 20 | 补全 NARust WASM 在线 Demo | `wiki/static/` | P3 |
+| 21 | 创建 AGI 术语词典（`glossary/`） | `wiki/content/glossary/` | P3 |
+| 22 | 创建学术机会页面（`opportunities/`） | `wiki/content/opportunities/` | P3 |
+| 23 | SEO + 性能监控 | 全局 | P3 |
 
 ---
 

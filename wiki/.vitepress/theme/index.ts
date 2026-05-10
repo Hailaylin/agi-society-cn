@@ -2,8 +2,6 @@ import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
 import { presetClient } from '@nolebase/integrations/vitepress/client'
 
-import './styles/custom.css'
-
 const nolebase = presetClient({
   enhancedReadabilities: true,
   highlightTargetedHeading: true,
