@@ -8,4 +8,5 @@ comments: true
 
 索引页面请参照[[index|这里]]
 
-TODO：具体内容如NARS-GPT
+> [!todo] 有待补充具体内容
+> 如NARS-GPT

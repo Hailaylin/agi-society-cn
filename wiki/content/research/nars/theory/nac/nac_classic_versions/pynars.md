@@ -4,7 +4,8 @@ comments: true
 
 # PyNARS的控制机制
 
-TODO: 🚧有待填坑，欢迎贡献内容
+> [!todo] 有待填充
+> 有待填坑，欢迎贡献
 
 ## 参考资料
 

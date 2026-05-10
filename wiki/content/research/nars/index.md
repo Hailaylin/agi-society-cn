@@ -1,9 +1,11 @@
 ---
-title: NARS 理论
-sidebarTitle: NARS 理论
+title: NARS
+sidebarTitle: NARS
+content-order: order
+content-order-reversed: false
 ---
 
-# NARS 理论
+# NARS
 
 **NARS**（Non-Axiomatic Reasoning System，非公理推理系统）是由王培教授提出的通用人工智能理论框架。与主流机器学习范式不同，NARS 强调在**实时、开放、知识与资源不足**的条件下进行自适应推理。
 

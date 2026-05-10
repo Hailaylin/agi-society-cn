@@ -6,11 +6,13 @@ comments: true
 
 ## 概述
 
-TODO: 🚧有待填坑，欢迎贡献内容
+> [!todo] 有待填充
+> 有待填坑，欢迎贡献
 
 ## OpenNARS Java系列——1.x/3.x
 
-TODO: 🚧有待完善，欢迎贡献内容
+> [!todo] 有待填充
+> 有待填坑，欢迎贡献
 
 - [[opennars_15x|1.5.x]]
 - [[opennars_30x|3.0.x]]

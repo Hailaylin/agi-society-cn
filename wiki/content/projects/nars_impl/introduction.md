@@ -24,4 +24,5 @@ opennars经过发展后有3.0.4、3.1.1等几个大版本，
 
 4.0版本大改了控制机制，增加了多通道输入和对时间事件的感知与预测。整体实现由python实现，性能部分对接C++编写的cNARS作为运算单元，加快python代码运行速度。
 
-- TODO：还有更多版本 见[天普大学AGI团队](https://cis.temple.edu/tagit/#projects)。
+> [!todo] 有待扩充
+> 更多版本详见[天普大学AGI团队](https://cis.temple.edu/tagit/#projects)。
