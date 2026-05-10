@@ -8,7 +8,7 @@
    Hero — 深色全屏（AGI Conference 风格）
    =========================================================== */
 .VPHero {
-  min-height: calc(100vh - 64px) !important;
+  min-height: calc(100vh) !important;
   display: flex !important;
   align-items: center !important;
   padding: 0 24px !important;
