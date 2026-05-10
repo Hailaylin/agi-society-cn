@@ -253,6 +253,7 @@ comments: true
 | 2022-2023 | [BV1nP41157Gs](https://www.bilibili.com/video/BV1nP41157Gs) | 12 场 |
 | 2021-2022 | [BV1wL4y1B7gm](https://www.bilibili.com/video/BV1wL4y1B7gm) | 8 场 |
 | 2020-2021 | [BV1wf4y1k7Yh](https://www.bilibili.com/video/BV1wf4y1k7Yh) | 25 场 |
+| 2019-2020 | [BV1hV411t7CG](https://www.bilibili.com/video/BV1hV411t7CG) | 24 场 |
 
 ### 组会合集详情
 
