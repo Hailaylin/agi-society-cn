@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import path from 'node:path'
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { GitChangelog } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { PageProperties } from '@nolebase/vitepress-plugin-page-properties/vite'
@@ -6,7 +7,7 @@ import obsidianCallouts from 'markdown-it-obsidian-callouts'
 
 const nolebaseMD = presetMarkdownIt({
   bidirectionalLinks: {
-    options: { dir: process.cwd() },
+    options: { dir: path.join(process.cwd(), 'content') },
   },
   unlazyImages: false,
   inlineLinkPreview: false,

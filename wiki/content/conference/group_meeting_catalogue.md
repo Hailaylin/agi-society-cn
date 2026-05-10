@@ -221,20 +221,20 @@ comments: true
 
 ## 2023-2024 学年
 
-- [1] 何以停机──论以数据"市场"为外部制约条件的停机机制对AGI的意义，马翰林
-- [2] 通用人工智能的元模型和框架──从理论到实践，那迪
-- [3] Nal-7通讲之"基于时间的推理规则"，李汤睿
-- [4] NARS之8-9层通讲，李汤睿
-- [5] AGI爱好者的进阶之路：NARS接口及衍生实验，Tessorgon
-- [6] AGI新春茶话会
-- [7] 登峰方能造极──披露NARS九层之"秘"，李汤睿
+- [1] [何以停机──论以数据"市场"为外部制约条件的停机机制对AGI的意义，马翰林](https://www.bilibili.com/video/BV1o94y1r7hB?p=1)
+- [2] [通用人工智能的元模型和框架──从理论到实践，那迪](https://www.bilibili.com/video/BV1o94y1r7hB?p=2)
+- [3] [Nal-7通讲之"基于时间的推理规则"，李汤睿](https://www.bilibili.com/video/BV1o94y1r7hB?p=3)
+- [4] [NARS之8-9层通讲，李汤睿](https://www.bilibili.com/video/BV1o94y1r7hB?p=4)
+- [5] [AGI爱好者的进阶之路：NARS接口及衍生实验，Tessorgon](https://www.bilibili.com/video/BV1o94y1r7hB?p=5)
+- [6] [AGI新春茶话会](https://www.bilibili.com/video/BV1o94y1r7hB?p=6)
+- [7] [登峰方能造极──披露NARS九层之"秘"，李汤睿](https://www.bilibili.com/video/BV1o94y1r7hB?p=7)
 
 ## 2024-2025 学年
 
-- [1] NARust──兼顾高性能与可集成性的NARS实现方案，Tessergon
-- [2] 专用与通用人工智能研究路径之比较及对时间认知的重新思考，王泰然
-- [3] 将非符号表征记忆系统融入智能代理终身发展架构，那迪
-- [4] 动物也有文化吗？──来自社会学习的现实证据，杨亚亚、吴雨曦、刘凯
+- [1] [NARust──兼顾高性能与可集成性的NARS实现方案，Tessergon](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=1)
+- [2] [专用与通用人工智能研究路径之比较及对时间认知的重新思考，王泰然](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=2)
+- [3] [将非符号表征记忆系统融入智能代理终身发展架构，那迪](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=3)
+- [4] [动物也有文化吗？──来自社会学习的现实证据，杨亚亚、吴雨曦、刘凯](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=4)
 
 ## 2025-2026 学年（进行中）
 
