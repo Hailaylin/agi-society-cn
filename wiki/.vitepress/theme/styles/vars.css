@@ -18,12 +18,14 @@
   --ag-hero-bg:           #0a1929;
   --ag-hero-text:         #f5f1eb;
   --ag-hero-subtitle:     #8899a6;
-  --ag-section-bg:        #ffffff;
-  --ag-section-alt-bg:    #f4f5f7;
+  --ag-hero-btn-brand-bg: #f5f1eb;
+  --ag-hero-btn-brand-text: #0a1929;
+  --ag-section-bg:        #f9fafb;
+  --ag-section-alt-bg:    #eef1f4;
   --ag-divider:           #1a6b7a;
   --ag-divider-dark:      #3c6cdd;
   --ag-card-bg:           #ffffff;
-  --ag-card-border:       #e5e7eb;
+  --ag-card-border:       #e0e3e7;
   --ag-card-hover-border: #1a6b7a;
   --ag-text:              #1a1a1a;
   --ag-text-secondary:    #555;

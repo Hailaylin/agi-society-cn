@@ -16,7 +16,7 @@ hero:
 ---
 
 <!-- 协会简介 -->
-<section class="section-light">
+<section class="section">
 
 ## 关于协会
 
@@ -30,7 +30,7 @@ hero:
 <div class="section-divider"></div>
 
 <!-- 核心研究方向 -->
-<section class="section-dark">
+<section class="section section-alt">
 
 ## 核心研究
 
@@ -64,7 +64,7 @@ hero:
 <div class="section-divider"></div>
 
 <!-- 学术会议 -->
-<section class="section-light">
+<section class="section">
 
 ## 学术会议
 
@@ -106,7 +106,7 @@ hero:
 <div class="section-divider"></div>
 
 <!-- 知识库入口 -->
-<section class="section-dark">
+<section class="section section-alt">
 
 ## 知识库
 
@@ -150,7 +150,7 @@ hero:
 <div class="section-divider"></div>
 
 <!-- 核心成员 -->
-<section class="section-light">
+<section class="section">
 
 ## 核心成员
 
@@ -212,7 +212,7 @@ AGI 认知科学，人工智能情感
 <div class="section-divider"></div>
 
 <!-- 参与贡献 -->
-<section class="section-dark">
+<section class="section section-alt">
 
 ## 参与贡献
 

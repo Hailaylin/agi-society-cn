@@ -12,7 +12,16 @@
 @import './callout.css';
 
 /* ===========================================================
-   全局排版
+   全局组件 — 所有页面生效
+   =========================================================== */
+
+/* 导航栏 */
+.VPNav {
+  background: var(--ag-nav-bg) !important;
+  border-bottom: 1px solid var(--ag-nav-border) !important;
+}
+
+/* 全局排版
    =========================================================== */
 .vp-doc {
   font-family: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif;
