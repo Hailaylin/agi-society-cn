@@ -12,27 +12,48 @@ const CONTENT_SECTIONS = [
   'content/contact',
 ]
 
-/** VitePress holds a reference to this object — mutate in-place on content changes. */
+// ====  Public API  ====
+
+/** VitePress holds a reference to this object — mutated in-place by commitSidebarUpdate(). */
 const sidebarCache = {}
 
-/** Recompute sidebar and update sidebarCache in-place. */
-export function refreshSidebar() {
-  const fresh = computeSidebar()
-  for (const k of Object.keys(sidebarCache)) delete sidebarCache[k]
-  Object.assign(sidebarCache, fresh)
-}
-
-/** Called once by VitePress config. Returns the persistent cache object. */
+/** VitePress config calls this once at startup. Returns the persistent cache object. */
 export function generateSidebar() {
-  refreshSidebar()
+  commitSidebarUpdate()
   return sidebarCache
 }
 
+// ====  Detection: check whether the sidebar structure has changed since last commit  ====
 
-let _lastContentMtime = 0
+let _lastMtime = 0
+let _lastFingerprint = ''
 
-/** Check if content/ .md files changed; if so, refresh sidebar. Returns true if changed. */
-export function pollAndRefresh(): boolean {
+/** Pure detection — no mutation. Returns true if the sidebar would be different. */
+export function hasSidebarChanged() {
+  const mtime = latestContentMtime()
+  if (!_lastMtime || mtime <= _lastMtime + 100) {
+    _lastMtime = mtime
+    return false
+  }
+  _lastMtime = mtime
+  // Compute what the new sidebar would look like, compare to last committed fingerprint
+  const fresh = computeSidebar()
+  return structureFingerprint(fresh) !== _lastFingerprint
+}
+
+// ====  Action: commit the current sidebar state into the cache (triggers config reload)  ====
+
+/** Mutate sidebarCache in-place and record the new fingerprint. Call after hasSidebarChanged() returns true. */
+export function commitSidebarUpdate() {
+  const fresh = computeSidebar()
+  for (const k of Object.keys(sidebarCache)) delete sidebarCache[k]
+  Object.assign(sidebarCache, fresh)
+  _lastFingerprint = structureFingerprint(sidebarCache)
+}
+
+// ====  Internal helpers  ====
+
+function latestContentMtime() {
   try {
     const entries = readdirSync(join(process.cwd(), 'content'), { recursive: true })
     let max = 0
@@ -40,17 +61,23 @@ export function pollAndRefresh(): boolean {
       if (!e.endsWith('.md')) continue
       try { const s = statSync(join(process.cwd(), 'content', e)); if (s.mtimeMs > max) max = s.mtimeMs } catch {}
     }
-    if (_lastContentMtime && max > _lastContentMtime + 100) {
-      refreshSidebar()
-      _lastContentMtime = max
-      return true
-    }
-    _lastContentMtime = max
-  } catch {}
-  return false
+    return max
+  } catch { return Date.now() }
 }
 
-// ---- internal ----
+function structureFingerprint(sidebar) {
+  const strip = (item) => {
+    const { _sortVal, ...rest } = item
+    const clean = {}
+    for (const k of Object.keys(rest).sort()) {
+      if (k === 'items') clean[k] = rest[k]?.map(strip)
+      else clean[k] = rest[k]
+    }
+    return clean
+  }
+  const keys = Object.keys(sidebar).sort()
+  return JSON.stringify(keys.map(k => ({ k, v: sidebar[k].map(strip) })))
+}
 
 function computeSidebar() {
   const items = calc(CONTENT_SECTIONS)

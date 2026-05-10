@@ -5,7 +5,7 @@ import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { GitChangelog } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { PageProperties } from '@nolebase/vitepress-plugin-page-properties/vite'
 import obsidianCallouts from 'markdown-it-obsidian-callouts'
-import { generateSidebar, pollAndRefresh } from './sidebar'
+import { generateSidebar, hasSidebarChanged, commitSidebarUpdate } from './sidebar'
 
 const nolebaseMD = presetMarkdownIt({
   bidirectionalLinks: {
@@ -34,14 +34,16 @@ export default defineConfig({
       },
     },
     plugins: [
-      // Dev: poll .md mtime every 2s; on change: refresh sidebar + touch sidebar.ts to trigger config reload
+      // Dev: poll every 2s; if sidebar changed → update cache + touch sidebar.ts → config reload
       {
         name: 'sidebar-dev-watch',
         configureServer(server) {
           const sidebarPath = path.join(process.cwd(), '.vitepress', 'sidebar.ts')
           setInterval(() => {
-            if (pollAndRefresh()) {
-              // Touch sidebar.ts to trigger Vite config re-evaluation
+            // 1. Detection: has the sidebar structure actually changed?
+            if (hasSidebarChanged()) {
+              // 2. Action: commit the new sidebar + trigger reload
+              commitSidebarUpdate()
               const content = readFileSync(sidebarPath, 'utf-8')
               writeFileSync(sidebarPath, content)
               server.ws.send({ type: 'full-reload' })

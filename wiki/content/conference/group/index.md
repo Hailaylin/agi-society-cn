@@ -2,7 +2,7 @@
 title: 组会
 sidebarTitle: 组会
 content-order: date
-content-order-reversed: true
+content-order-reversed: false
 sidebarCollapsed: false
 comments: true
 ---
