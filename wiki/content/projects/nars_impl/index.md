@@ -20,7 +20,7 @@ comments: true
 
 ### C
 
-- [[impls/ona|ONA]] (OpenNARS for Applications)
+- [[ona|ONA]] (OpenNARS for Applications)
 
 ### Clojure
 
