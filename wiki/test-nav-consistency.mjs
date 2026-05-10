@@ -17,14 +17,19 @@ const TIMEOUT = 60000;
 
       const nav = await page.locator('.VPNav').evaluate(el => getComputedStyle(el).backgroundColor);
       const navBar = await page.locator('.VPNavBar').evaluate(el => getComputedStyle(el).backgroundColor);
+      const cbCount = await page.locator('.content-body').count();
+      const contentBody = cbCount > 0
+        ? await page.locator('.content-body').evaluate(el => getComputedStyle(el).backgroundColor)
+        : 'N/A';
 
       const navOk = nav === 'rgb(255, 255, 255)';
       const barOk = navBar === 'rgb(255, 255, 255)';
+      const cbOk = contentBody === 'N/A' || contentBody === 'rgb(255, 255, 255)';
 
-      results.push({ path, nav, navBar, navOk, barOk });
-      console.log(`${path}: VPNav=${nav} ${navOk ? '✅' : '❌'} | VPNavBar=${navBar} ${barOk ? '✅' : '❌'}`);
+      results.push({ path, nav, navBar, contentBody, navOk, barOk, cbOk });
+      console.log(`${path}: VPNav=${nav} ${navOk ? '✅' : '❌'} | VPNavBar=${navBar} ${barOk ? '✅' : '❌'} | content-body=${contentBody} ${cbOk ? '✅' : '❌'}`);
 
-      if (!navOk || !barOk) allPassed = false;
+      if (!navOk || !barOk || !cbOk) allPassed = false;
     } catch (err) {
       results.push({ path, error: err.message });
       console.log(`${path}: ❌ ERROR — ${err.message}`);
