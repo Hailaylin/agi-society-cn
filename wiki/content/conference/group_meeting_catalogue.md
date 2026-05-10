@@ -106,23 +106,23 @@ comments: true
 
 | # | 日期 | 来源 | 报告人 | 报告标题 |
 |---|------|------|--------|---------|
-| 1 | — | — | NARS教材第一章，黄彧 | NARS教材第一章，黄彧 |
+| 1 | — | — | 黄彧 | NARS教材第一章 |
 | 2 | 2018-09-18 | [优酷](https://v.youku.com/v_show/id_XMzgyMTMxNjY2NA==.html) | 李祥 | NARS工程解密系列之一 |
 | 3 | 2018-09-25 | [优酷](https://v.youku.com/v_show/id_XMzgzMDIxNDk0OA==.html) | 刘凯 | 意识认知理论模型的30年进展 |
 | 4 | 2018-10-09 | [优酷](https://v.youku.com/v_show/id_XMzgzODg5OTY1Mg==.html) | 王洪政 | NARS工程解密系列之二 |
 | 5 | 2018-10-16 | [优酷](https://v.youku.com/v_show/id_XMzg1NzE0MjQ1Mg==.html) | 李祥 | NARS工程解密系列之三：医疗系统那些事儿 |
-| 6 | — | — | 系统论三部曲，刘凯 | 系统论三部曲，刘凯 |
+| 6 | — | — | 刘凯 | 系统论三部曲 |
 | 7 | 2018-10-30 | [优酷](https://v.youku.com/v_show/id_XMzg4NTY4NTM5Mg==.html) | 王洪政 | NARS工程解密系列之四：时间推理 |
-| 8 | 2018-11-06 | [优酷](https://v.youku.com/v_show/id_XMzg5NzE5NjI1Mg==.html) | 黄彧，徐鼎 | 《Non-Axiomatic Logic》教材第二、三章 |
+| 8 | 2018-11-06 | [优酷](https://v.youku.com/v_show/id_XMzg5NzE5NjI1Mg==.html) | 黄彧、徐鼎 | 《Non-Axiomatic Logic》教材第二、三章 |
 | 9 | 2018-11-13 | [优酷](https://v.youku.com/v_show/id_XMzkwODYxNDUxMg==.html) | 冯博杰 | HTM脑皮质学习算法新动向──"千脑理论" |
 | 10 | — | — | 彭霁 | "证据中心设计"教育评估框架与认知网络分析 |
 | 11 | 2018-11-28 | [优酷](https://v.youku.com/v_show/id_XMzk0NjU3MzkzNg==.html) | 李乔 | 辛特科技的AGI路线及技术 |
-| 12 | 2018-12-04 | [优酷](https://v.youku.com/v_show/id_XMzk1MTE4ODk0OA==.html) | — | "Head meets mind"──从费城到孟菲斯，李祥、王洪政 |
+| 12 | 2018-12-04 | [优酷](https://v.youku.com/v_show/id_XMzk1MTE4ODk0OA==.html) | 李祥、王洪政 | "Head meets mind"──从费城到孟菲斯 |
 | 13 | 2018-12-11 | [优酷](https://v.youku.com/v_show/id_XMzk2MTQ3ODQ3Mg==.html) | 刘凯 | NARS教材四、五章──基本推理规则和存储控制 |
 | 14 | 2018-12-19 | [优酷](https://v.youku.com/v_show/id_XMzk3MjAyNjUyMA==.html) | AGI爱好者 | 2018总结及2019展望 |
-| 15 | 2019-01-16 | [优酷](https://v.youku.com/v_show/id_XNDAxNDY2NTU2MA==.html) | — | 医学人工智能专题报告（一），张亚楠、余文婷 |
+| 15 | 2019-01-16 | [优酷](https://v.youku.com/v_show/id_XNDAxNDY2NTU2MA==.html) | 张亚楠、余文婷 | 医学人工智能专题报告（一） |
 | 16 | — | — | 韦邦龙 | 医学人工智能专题报告（二）──AI和自主机器人手术中的法律、法规、道德框架或准则 |
-| 17 | 2019-03-12 | [优酷](https://v.youku.com/v_show/id_XNDA3OTE3NTMxNg==.html) | 数据利维坦与数据统治，沈建铭 | 数据利维坦与数据统治，沈建铭 |
+| 17 | 2019-03-12 | [优酷](https://v.youku.com/v_show/id_XNDA3OTE3NTMxNg==.html) | 沈建铭 | 数据利维坦与数据统治 |
 | 18 | 2019-03-05 | [优酷](https://v.youku.com/v_show/id_XNDA4Njk3MDMyNA==.html) | 冯博杰 | AGI新军之PAGI（上）：概述 |
 | 19 | 2019-03-26 | [优酷](https://v.youku.com/v_show/id_XNDExMzI0OTY2MA==.html) | 刘凯 | 脑科学、精神病学对通用人工智能理论的启示 |
 | 20 | 2019-04-02 | [优酷](https://v.youku.com/v_show/id_XNDEyMzEzNjU2NA==.html) | 贾晓刚 | 螺旋论与he系统简介──"he"的理论模型与架构 |
@@ -130,7 +130,7 @@ comments: true
 | 22 | 2019-05-07 | [优酷](https://v.youku.com/v_show/id_XNDE3NTk4ODYyMA==.html) | 甄景贤 | 深度神经网络推理的那些事儿──AGI的另类探索 |
 | 23 | 2019-05-07 | [优酷](https://v.youku.com/v_show/id_XNDE3MzEyMTUyMA==.html) | 王洪政 | 纳思工程解密系列之：街景识别 |
 | 24 | — | — | 刘凯 | 历史拐点及未来走向──通用人工智能对心理学、脑科学及精神病学的影响 |
-| 25 | — | — | — | 对冯象《谁害怕人工智能？》的回应，王培、齐海滨 |
+| 25 | — | — | 王培、齐海滨 | 对冯象《谁害怕人工智能？》的回应 |
 | 26 | 2019-06-18 | [优酷](https://v.youku.com/v_show/id_XNDIzNTY0OTAxMg==.html) | 李琪琛 | 前天高考、后天报告──来自"高三"的AGI思考 |
 | 27 | 2019-06-18 | [优酷](https://v.youku.com/v_show/id_XNDIzNTY1MjkzMg==.html) | 冯博杰 | Learn NARS From Wiki（1）──入门 |
 | 28 | 2019-07-02 | [优酷](https://v.youku.com/v_show/id_XNDI1ODEzMjQxNg==.html) | 那迪 | Learn NARS From Wiki（2） |
@@ -154,7 +154,7 @@ comments: true
 | 8 | 2021-01-15 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=17) | 尤福林，孟笑楠，陈慧芳，马瑞璟，高红丽 | 脑与阅读──破解人类阅读之谜 |
 | 9 | 2021-01-29 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=16) | 刘凯 | 相关/因果看不清？──科研眼镜店的"配镜"指南 |
 | 10 | 2020-01-22 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=15) | 刘凯 | 数据与算法的谎言──大数据时代防骗指南 |
-| 11 | 2020-02-19 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=14) | Nars工程结构导读，冯博杰 | Nars工程结构导读，冯博杰 |
+| 11 | 2020-02-19 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=14) | 冯博杰 | Nars工程结构导读 |
 | 12 | 2020-03-04 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=13) | 刘凯 | 基因、认知与经验──命运由己还由天？ |
 | 13 | 2020-03-18 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=12) | 冯博杰 | 纳思代码分析之"控制"概览 |
 | 14 | 2020-04-01 | [优酷](https://v.youku.com/v_show/id_XNDYxNTI4MjUyOA==.html) | 刘凯 | 旁见侧出，春和景明──从心理学看人工智能（一） |
@@ -162,13 +162,13 @@ comments: true
 | 16 | 2020-04-22 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=11) | 孟晓宇 | 基于多模态信息的生成式网络算法及其分类识别测试 |
 | 17 | 2020-05-13 | [优酷](https://v.youku.com/v_show/id_XNDY3MTczNjYwOA==.html) | 刘凯 | 类脑系统大战机器僵尸──AIKR假设的心理学透视 |
 | 18 | 2020-05-20 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=10) | 冯博杰 | 纳思工程解读之感知透视 |
-| 19 | 2020-06-03 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=9) | AGI常识问题大家谈，AGI爱好者 | AGI常识问题大家谈，AGI爱好者 |
+| 19 | 2020-06-03 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=9) | AGI爱好者 | AGI常识问题大家谈 |
 | 20 | 2020-06-24 | [优酷](https://v.youku.com/v_show/id_XNDcyNjMyNDA0MA==.html) | 王涛 | "昨日重现"──Python重写Nars的尝试与心得 |
 | 21 | 2020-07-01 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=8) | — | 人工意识实现之"新解"──楼飞宝 |
 | 22 | 2020-07-08 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=7) | 冯博杰 | 纳思控制代码研读系列（一）──基本理念 |
 | 23 | 2020-07-15 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=6) | — | 通用人工智能与神经元网络之比较──那迪 |
 | 24 | 2020-07-22 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=5) | 冯博杰 | 纳思控制代码研读系列（二）──时间 |
-| 25 | 2020-07-29 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=4) | NARS可视化，莫克陶 | NARS可视化，莫克陶 |
+| 25 | 2020-07-29 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=4) | 莫克陶 | NARS可视化 |
 | 26 | 2020-08-05 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=3) | 刘凯 | 论意识──一种心智操作的建构观 |
 | 27 | 2020-08-12 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=2) | 冯博杰 | 纳思控制代码研读系列（三）──任务处理 |
 | 28 | 2020-08-19 | [B站](https://www.bilibili.com/video/BV1hV411t7CG?p=1) | 徐英瑾 | AI需要私人语言层面的知识表征吗？ |
@@ -181,7 +181,7 @@ comments: true
 | 1 | 2021-07-21 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=1) | 刘凯 | 科学流言的形成──脑控阴谋论与非公理知识观 |
 | 2 | 2021-07-07 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=2) | 李祥 | 通用人工智能系统中的功能性情感模型 |
 | 3 | 2021-06-23 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=3) | 冯博杰 | AGI应用领域展望系列之"AI与游戏漫谈" |
-| 4 | 2021-06-02 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=4) | 章鱼的心智，刘凯 | 章鱼的心智，刘凯 |
+| 4 | 2021-06-02 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=4) | 刘凯 | 章鱼的心智 |
 | 5 | 2021-05-19 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=5) | 徐博洋 | NARS在Game A(G)I中的应用尝试──让NARS玩飞机大战 |
 | 6 | — | — | 刘凯 | AGI应用领域展望系列之"自动驾驶" |
 | 7 | 2021-04-21 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=6) | 冯博杰 | 纳思代码讲解之组成规则 |
@@ -190,7 +190,7 @@ comments: true
 | 10 | 2021-03-31 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=9) | 那迪 | 贝叶斯主义之"只手遮天" |
 | 11 | 2021-03-24 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=10) | 刘凯 | AGI怕什么？──人类如何惩罚AGI系统 |
 | 12 | 2021-03-10 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=11) | 冯博杰 | 纳思代码讲解之结构规则 |
-| 13 | 2021-02-25 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=12) | 智能决策理论研究概况，那迪 | 智能决策理论研究概况，那迪 |
+| 13 | 2021-02-25 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=12) | 那迪 | 智能决策理论研究概况 |
 | 14 | — | — | 刘凯，贾敏 | 机器教育：开往AGI春天的列车──基于OpenNARS的实证研究 |
 | 15 | 2021-01-27 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=13) | 王培 | "看见"──基于NARS的视觉之道 |
 | 16 | 2021-01-20 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=14) | 冯博杰 | 纳思代码讲解之本地规则 |
@@ -200,7 +200,7 @@ comments: true
 | 20 | 2020-11-11 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=18) | 刘凯 | 人是猴子进化来的吗？──对进化论的诸多质疑 |
 | 21 | 2020-10-28 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=19) | 王培 | OpenNARS之答疑解惑 |
 | 22 | 2020-10-21 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=20) | 冯博杰 | 多重关系网络的证据路径逻辑 |
-| 23 | 2020-10-14 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=21) | 计算机视觉流派考，冯博杰 | 计算机视觉流派考，冯博杰 |
+| 23 | 2020-10-14 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=21) | 冯博杰 | 计算机视觉流派考 |
 | 24 | 2020-09-30 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=22) | 冯博杰 | 朱松纯团队《"暗"，不止于"深"》研读 |
 | 25 | 2020-09-23 | [优酷](https://v.youku.com/v_show/id_XNDg3Njg0MTQyMA==.html) | 那迪 | AGI决策模型的前提假设 |
 | 26 | 2020-09-16 | [B站](https://www.bilibili.com/video/BV1wf4y1k7Yh?p=23) | 冯博杰 | 纳思控制代码研读系列（五）──自我与情感 |
@@ -212,10 +212,10 @@ comments: true
 
 | # | 日期 | 来源 | 报告人 | 报告标题 |
 |---|------|------|--------|---------|
-| 1 | 2022-01-21 | [B站](https://www.bilibili.com/video/BV1wL4y1B7gm?p=5) | 七嘴八舌话视觉，群体讨论 | 七嘴八舌话视觉，群体讨论 |
+| 1 | 2022-01-21 | [B站](https://www.bilibili.com/video/BV1wL4y1B7gm?p=5) | 群体讨论 | 七嘴八舌话视觉 |
 | 2 | 2021-11-24 | [B站](https://www.bilibili.com/video/BV1wL4y1B7gm?p=6) | 那迪 | 大脑决策选项的选择与维护机制 |
 | 3 | 2021-11-03 | [B站](https://www.bilibili.com/video/BV1wL4y1B7gm?p=7) | 李汤睿 | 基于NARS的自然语言处理 |
-| 4 | 2021-10-13 | [B站](https://www.bilibili.com/video/BV1wL4y1B7gm?p=8) | 内隐学习与智能，刘凯课题组 | 内隐学习与智能，刘凯课题组 |
+| 4 | 2021-10-13 | [B站](https://www.bilibili.com/video/BV1wL4y1B7gm?p=8) | 刘凯课题组 | 内隐学习与智能 |
 | 5 | 2022-03-10 | [B站](https://www.bilibili.com/video/BV1wL4y1B7gm?p=4) | 王培 | Math in NARS──非公立系统vs公理化经验 |
 | 6 | 2022-03-16 | [B站](https://www.bilibili.com/video/BV1wL4y1B7gm?p=3) | 刘凯 | 时间的本质──宇宙的客观存在还是大脑的主观感受？ |
 | 7 | 2022-06-22 | [B站](https://www.bilibili.com/video/BV1wL4y1B7gm?p=1) | 徐川皓 | NARS"弈棋"初探──兼论推理效率之改进 |
@@ -227,7 +227,7 @@ comments: true
 | # | 日期 | 来源 | 报告人 | 报告标题 |
 |---|------|------|--------|---------|
 | 1 | 2022-08-24 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=1) | 刘凯 | 智能机器的进化──议通用人工智能种群水平的竞争优化 |
-| 2 | 2022-09-02 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=2) | 非公理逻辑表征方法，那迪 | 非公理逻辑表征方法，那迪 |
+| 2 | 2022-09-02 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=2) | 那迪 | 非公理逻辑表征方法 |
 | 3 | 2022-09-28 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=3) | 那迪 | 面向个体偏好的推荐──一种基于证据的方法 |
 | 4 | 2022-09-28 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=4) | 刘凯 | 发展型机器人(C0)──由人类婴儿启发的机器人 |
 | 5 | 2022-10-19 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=5) | 刘凯 | 发展型机器人(C1)──成长中的婴儿与机器人 |
@@ -235,7 +235,7 @@ comments: true
 | 7 | 2022-11-16 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=7) | 刘凯 | 发展型机器人(C2)──婴儿机器人 |
 | 8 | 2022-11-24 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=8) | 冯博杰 | 因果推理研究进展（二） |
 | 9 | 2022-12-08 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=9) | 刘凯 | 发展型机器人（C3）──新奇、好奇与惊奇 |
-| 10 | 2023-02-02 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=10) | — | 国内AGI课题组2022总结及2023年计划，那迪、李祥、刘凯 |
+| 10 | 2023-02-02 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=10) | 那迪、李祥、刘凯 | 国内AGI课题组2022总结及2023年计划 |
 | 11 | — | — | 刘凯 | 欺骗的艺术──巫术、深夜广告与智能迷思 |
 | 12 | 2023-05-24 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=11) | 刘凯 | ChatGPT是通用人工智能系统吗？ |
 | 13 | 2023-06-14 | [B站](https://www.bilibili.com/video/BV1nP41157Gs?p=12) | 那迪 | 智能决策的可解释性──基于经验语义学 |
@@ -261,7 +261,7 @@ comments: true
 | 1 | 2024-08-21 | [B站](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=1) | Tessergon | NARust──兼顾高性能与可集成性的NARS实现方案 |
 | 2 | 2024-09-04 | [B站](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=2) | 王泰然 | 专用与通用人工智能研究路径之比较及对时间认知的重新思考 |
 | 3 | 2024-10-16 | [B站](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=3) | 那迪 | 将非符号表征记忆系统融入智能代理终身发展架构 |
-| 4 | 2025-05-28 | [B站](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=4) | — | 动物也有文化吗？──来自社会学习的现实证据，杨亚亚、吴雨曦、刘凯 |
+| 4 | 2025-05-28 | [B站](https://www.bilibili.com/video/BV1LxWYeBEiZ?p=4) | 杨亚亚、吴雨曦、刘凯 | 动物也有文化吗？──来自社会学习的现实证据 |
 
 
 ## 2025-2026 学年（进行中）
@@ -269,4 +269,4 @@ comments: true
 | # | 日期 | 来源 | 报告人 | 报告标题 |
 |---|------|------|--------|---------|
 | 1 | — | — | 刘凯 | 颜色是什么？──一个千古难题的AGI讨论 |
-| 2 | — | — | — | 超越图灵机──《生命传》启示下的AGI能动性与目标生成，林嘉濠、吴震宇 |
+| 2 | — | — | 林嘉濠、吴震宇 | 超越图灵机──《生命传》启示下的AGI能动性与目标生成 |
