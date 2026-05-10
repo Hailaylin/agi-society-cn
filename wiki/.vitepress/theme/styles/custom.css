@@ -27,6 +27,7 @@
 }
 .VPNav {
   border-bottom: 1px solid var(--ag-nav-border) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06) !important;
 }
 /* 暗色模式 */
 .dark .VPNav,
@@ -37,6 +38,9 @@
 .dark .content-body {
   background: var(--ag-nav-bg) !important;
   background-color: var(--ag-nav-bg) !important;
+}
+.dark .VPNav {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35) !important;
 }
 
 /* 全局排版
