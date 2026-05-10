@@ -1,6 +1,6 @@
 # AGI Society Wiki 开发规范
 
-> 本文件写给后续 Agent 和维护者。内容是 87 轮对话验证过的实践，不要绕过。
+> 本文件写给后续 Agent 和维护者。内容经多轮对话验证，不要绕过。
 
 ---
 
@@ -158,3 +158,82 @@ styles/
 | `.vitepress/head.ts` | HTML 元数据 |
 | `.vitepress/theme/index.ts` | 主题入口（Nólëbase 插件 + 自定义组件） |
 | `sidebar.test.ts` | 侧边栏自动化测试 |
+
+---
+
+## 9. Wikilink 编写规范
+
+### 死命令
+
+**Obsidian 中能正常打开的链接，部署到网站必须同样有效并能打开。**
+
+### 命名原则
+
+- **能不用路径就不用路径**：`[[ona|ONA]]` 而非 `[[impls/ona|ONA]]`
+- 同名文件（如 `index.md` 有 29 个、`ona.md` 有 2 个）必须保留最小父目录前缀消歧义：`[[impls/ona|ONA]]`
+- 跨目录引用父级：`[[../index|NARS]]`
+- 全站统一使用 `[[wikilink]]`，**禁止**写 `[text](./path/to/file.md)` 形式的 Markdown 内链
+
+### 表格内的 wikilink
+
+表格中 `[[target|display]]` 的 `|` 会被 Markdown 解析为列分隔符，必须用反斜杠转义：
+
+```markdown
+| 届次 | 详情 |
+|------|------|
+| [[2016\|第一届]] | ... |
+```
+
+### 全站内链转换
+
+- 所有指向 `.md` 文件的内链必须转为 `[[wikilink]]` 格式
+- 外部链接（B站、GitHub、优酷）保持 `[text](url)` 不变
+- 图片链接保持 `![alt](url)` 不变
+
+---
+
+## 10. Patch 规范（node_modules 修补）
+
+### 何时使用
+
+依赖包的 Bug 或缺失功能影响业务需求，且不适合 fork/等上游修复时。
+
+### TDD 流程
+
+1. 写最小复现测试钉住问题（`temp/test-xxx.js`）
+2. 修改 `node_modules` 中对应文件
+3. 测试通过后，运行 `npx patch-package <package-name>` 生成 patch
+4. `rm -rf node_modules && npm install` 验证 patch 自动生效
+
+### 共享逻辑提取
+
+如果需要修改双入口包（`.cjs` + `.mjs`），将公共逻辑提取到一个 `.cjs` 文件，两个入口分别导入。**CJS 可以作为 CJS 和 ESM 的共同导入目标。**
+
+### 配置
+
+- `package.json` 的 `postinstall` 脚本已配置 `patch-package`，无需手动执行
+- `patches/` 目录随仓库提交
+
+---
+
+## 11. Agent 行为边界
+
+### 只能碰的文件
+
+- `wiki/content/` 下所有 `.md` 文件
+- `wiki/.vitepress/theme/styles/` 下所有 `.css` 文件
+- `wiki/.vitepress/config.ts`、`head.ts`（在用户明确要求时）
+- `wiki/package.json`（在用户明确要求时）
+
+### 严禁触碰
+
+- **非 Markdown 文件**：`.vue`、`.ts`（除上述授权外）、`.js`
+- **构建问题**：构建报错时报告用户，不自行修复
+- **node_modules**：除非 TDD 流程中临时修改以验证补丁
+
+### 脚本纪律
+
+- 临时脚本写完后必须告知用户其用途和生命周期
+- 一次性转换脚本运行后即可丢弃，**不要设计成需要维护的文件列表**
+- 批量操作前先检查影响范围，用户确认后再执行
+- 当用户说"你亲自改"时，不用脚本，逐条手工编辑
