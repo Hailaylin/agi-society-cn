@@ -1,7 +1,7 @@
 # 内容组织结构调研：学术信息 + 知识库双轨架构
 
 > 调研日期：2026-05-10
-> 参考站点：Nólëbase（知识库组织） + ALife（学术学会组织）
+> 参考站点：ALife（学术学会） + CSS Society（学术学会） + Nólëbase（知识库）
 > 目标：抽象出「学术信息与知识库兼备」的 AGI Society 网站内容架构
 
 ---
@@ -134,9 +134,147 @@ ALife 使用了**机构职能驱动**的单层树状结构：
 
 ---
 
-## 3. 当前 AGI Society 内容盘点
+## 3. CSS Society 学术学会的内容组织模式
 
-### 3.1 Wiki 已有内容（`wiki/content/`）
+> 参考站点：https://cssociety.org/ (Complex Systems Society)
+> 技术栈：自定义 CMS（推测 Django）+ Tailwind CSS + Vanilla JS
+> 开发者：Smart Systems (https://www.smart-systems.mx/)
+
+CSS Society 与 ALife 同为国际学术学会，但其网站的信息架构更丰富，提供了学会运营层面的更多参考维度。
+
+### 3.1 整体结构
+
+```
+cssociety.org/
+├── Home                             ← 🏠 首页
+│   ├── Hero：学会标语 + 使命
+│   ├── Events 板块（近期会议）
+│   ├── News 板块（最新动态）
+│   ├── Calls 板块（奖项征集 + 征稿）
+│   ├── Membership CTA（加入学会）
+│   ├── Newsletter 订阅
+│   └── Twitter Feed（社交媒体嵌入）
+├── About                            ← 🏛️ 学会治理
+│   ├── Contacts                     ← 联系方式
+│   ├── Council                      ← 理事会
+│   ├── Executive Committee          ← 执行委员会
+│   ├── Statutes                     ← 学会章程（法律文件）
+│   ├── By Laws                      ← 实施细则
+│   └── Manifesto                    ← 学会宣言（出版体制改革）
+├── News                             ← 📰 新闻动态
+├── Events                           ← 📅 学术活动
+│   ├── 近期活动（NetLogo/CCS/ComplexNetworks...）
+│   ├── 往届活动（AJAX 加载）
+│   └── 活动详情（UUID 独立页面）
+├── Job Openings                     ← 💼 学术招聘
+├── Calls                            ← 📢 征集公告
+│   ├── 奖项征集（Emerging/Junior/Senior Awards）
+│   ├── 会议申办（CCS 2028 host bids）
+│   ├── 征稿（Special Issues）
+│   └── 暑期学校（Tutors/Workshops）
+├── Community                        ← 👥 社区
+│   ├── Awards                       ← 学会奖项
+│   ├── Local Chapters               ← 各地分会
+│   └── Members                      ← 会员名录
+├── YRCSS                            ← 🌱 青年研究者分会
+├── CCS                              ← 🏗️ 旗舰会议
+│   ├── By Laws
+│   └── Steering Committee
+├── Join Us / Membership             ← 💳 会员系统
+│   ├── 4 级会员费用（€20–€110/年）
+│   ├── 会员权益列表
+│   ├── 注册流程（账户 + 付费）
+│   └── 会议附带会员（(E)CCS 参会者自动获得）
+└── Login / Register                 ← 🔐 账户系统
+```
+
+### 3.2 组织模式亮点
+
+| 特点 | ALife | CSS Society | 对 AGI Society 的启发 |
+|------|:---:|:---:|------|
+| **会员系统** | ✅ 有 | ✅ 完整（4 级费用 + 线上注册付费） | 可考虑简化版（研究会/学生/普通） |
+| **招聘板块** | ✅ Jobs | ✅ Job Openings | 研究生招生 + 合作项目招募 |
+| **征集公告(Calls)** | ❌ 揉在 News 里 | ✅ 独立板块（奖项+征稿+会议申办） | 年会征文 + 奖项通知 |
+| **治理文档** | ⚠️ 只有 CoC | ✅ 完整（Statutes+By Laws+Manifesto） | 协会章程（如有） |
+| **青年分会** | ✅ Emerging Researchers | ✅ YRCSS（独立一级栏目） | 学生/青年研究者小组 |
+| **分会体系** | ❌ | ✅ Local Chapters | 各地 AGI 研究小组（如有） |
+| **社交媒体集成** | ✅ 社交图标 | ✅ Twitter Feed 嵌入首页 | B站/知乎/微信公众号 |
+| **Newsletter** | ❌ | ✅ 首页订阅框 | 邮件/微信订阅 |
+| **AJAX 分页** | ❌ | ✅ "Show More" 加载更多 | 年会/动态列表的无限滚动 |
+
+### 3.3 CSS Society 的独特设计决策
+
+**1. 首页 = 聚合仪表盘**
+CSS Society 的首页不是一个"欢迎页"，而是一个信息聚合面板：Events + News + Calls + Membership CTA + Newsletter + Twitter Feed 六块内容同时展示。这是学会网站的高效模式——访问者不需要深入导航就能看到学会的全部近期活动。
+
+**2. Calls 独立为一级板块**
+Calls（征集公告）在 CSS Society 中是独立的顶级导航项，与 News/Events 并列。这反映了学会运营的现实——奖项征集、会议申办、征稿、暑期学校招募是持续性的运营活动。
+
+**3. 会员系统深度集成**
+CSS Society 有完整的账户系统（注册/登录）、4 级付费会员、会议附带会员机制。这是 CMS 深度定制的产物。对 AGI Society 的启发是——即使短期内不需要付费会员，也可以有"注册→关注→参与"的简化流程。
+
+**4. UUID 内容模型**
+所有 Event/Job/News/Call 都通过 UUID slug 访问（如 `/event/48d831be-...`），说明内容是数据库驱动的，而非静态文件。这是 CMS 模式相对于静态站点生成器的优势——动态内容管理。
+
+**5. 学会宣言 (Manifesto)**
+CSS Society 发布了一份关于学术出版体制改革的宣言，并获得了 ISAL 等学会的背书。这是一种"学会作为行业引领者"的品牌定位——不仅组织会议，还推动学术文化变革。AGI Society 也可以有类似的定位声明。
+
+### 3.4 技术实现要点
+
+| 方面 | 实现 | 评价 |
+|------|------|------|
+| CSS 框架 | Tailwind CSS（utility-first） | 与 UnoCSS 理念相通，学术克制风格 |
+| JS | Vanilla JS（无框架） | 极致轻量，仅用于菜单切换 + AJAX 分页 |
+| CMS | 推测 Django（UUID slug + 登录/注册 URL 模式） | 数据库驱动，动态内容管理 |
+| 部署 | 推测 VPS/云服务器 | 传统部署模式 |
+| 性能 | 无 SPA，传统 MPA | 每次导航整页刷新，但 JS 体积极小 |
+| 开发方 | Smart Systems（墨西哥代理） | 外包开发，非自建 |
+
+---
+
+## 4. 三站内容架构对比
+
+| 内容板块 | ALife (WordPress) | CSS Society (Custom CMS) | Nólëbase (VitePress) | AGI Society 建议 |
+|------|:---:|:---:|:---:|------|
+| **首页类型** | 静态介绍页 | 聚合仪表盘 | Hero + Features 卡片 | CSS 聚合模式 + Nólëbase Hero |
+| **关于/治理** | About + Board + CoC | About + Statutes + By Laws + Manifesto | Team + Web Arch | 协会简介 + 团队 + 章程 |
+| **会议** | Conferences（未来 + 往届） | Events（近期 + 往届 + AJAX） | — | 年会列表 + 详细议程页 |
+| **新闻/动态** | News + Newsletter | News + Newsletter 订阅 | toc.md（最近更新） | 协会动态 + 组会更新 |
+| **出版物** | Publications + Journal | —（无独立板块） | 笔记/（知识库文章） | 出版物专区 + 年会论文 |
+| **招聘/机会** | Jobs | Job Openings | — | 研究生招生 + 合作项目 |
+| **征集公告** | —（混在 News） | Calls（独立一级） | — | 年会征文 + 奖项通知 |
+| **会员** | Membership（有付费） | Membership（4 级付费 + 线上注册） | — | 简化版（QQ群/注册关注） |
+| **青年/学生** | Emerging Researchers | YRCSS（独立一级） | — | 学生/青年研究者页面 |
+| **分会** | — | Local Chapters | — | 各地研究组（如有） |
+| **知识库/Wiki** | Encyclopedia | — | 笔记/ + 编目 Catalog/ | NARS 理论 + 工程 + 术语词典 |
+| **在线资源** | Online Resources | — | 🔌 插件列表 | B站/知乎/外部链接聚合 |
+| **社交媒体** | Header 社交图标 | Twitter Feed 嵌入首页 | Discord 链接 | B站视频嵌入 + 知乎/微信 |
+
+### 4.1 关键发现
+
+```
+1. 【CSS Society 是更完整的"学会运营"参考】
+   ALife 偏学术展示（出版物、会议、百科），
+   CSS Society 偏学会运营（会员、招聘、征集、宣言、分会）。
+   AGI Society 应该取两者的交集。
+
+2. 【两份学会参考的共有板块 = 学会网站的最低必备】
+   About + Events/Conferences + News + Membership + Contact = 5 个必备板块。
+   这 5 个是任何学术学会网站都需要的基础内容类型。
+
+3. 【Nólëbase 补充了"知识库"维度】
+   两份学会参考都没有知识库/Wiki 功能。
+   Nólëbase 的笔记 + 编目 + TOC 三维组织模式是 AGI Society Wiki 的核心参考。
+
+4. 【CSS Society 的 UUID 事件模型 vs 我们的 Markdown 事件模型】
+   CSS Society 用数据库管理事件（适合频繁增删改），
+   我们用 Markdown 文件管理内容（适合版本控制 + 社区贡献）。
+   对于年会这种低频高价值内容，Markdown 文件更合适（Git 历史 = 天然的版本追踪）。
+```
+
+---
+
+### 5.2 当前 Wiki 已有内容（`wiki/content/`）
 
 ```
 wiki/content/
@@ -161,7 +299,7 @@ wiki/content/
     └── contributing/            ← 贡献指南（3 页）
 ```
 
-### 3.2 缺口分析
+### 5.3 缺口分析
 
 对比 ALife 模式，当前 AGI Society 缺失的内容类型：
 
@@ -181,9 +319,11 @@ wiki/content/
 
 ---
 
-## 4. 目标架构：「学术信息 + 知识库」双轨合一
+## 5. 修订后的目标架构：「学术信息 + 知识库」双轨合一
 
-### 4.1 设计原则
+> 基于 ALife + CSS Society + Nólëbase 三站参考的综合方案。
+
+### 5.1 设计原则
 
 ```
 1. 学术信息（机构维度）+ 知识库（主题维度）双轨并行
@@ -192,7 +332,7 @@ wiki/content/
 4. 首页聚合两个维度的精华（最新动态 + 知识入口）
 ```
 
-### 4.2 内容架构蓝图
+#### 5.2 当前 Wiki 已有内容（`wiki/content/`）
 
 ```
 agi-society.cn
@@ -267,7 +407,7 @@ agi-society.cn
 │       └── 王培教授学术主页
 ```
 
-### 4.3 内容类型定义
+### 5.5 内容类型定义
 
 | 内容类型 | 模板 | 存储位置 | Frontmatter 必填字段 |
 |------|------|------|------|
@@ -278,7 +418,7 @@ agi-society.cn
 | **动态消息** | 新闻条目 | `wiki/content/news/` | `title`, `date`, `summary` |
 | **术语词条** | 百科条目 | `wiki/content/glossary/` | `title`, `tags`, `aliases` |
 
-### 4.4 跨维度导航
+### 5.6 跨维度导航
 
 ```
 同一内容的多入口访问示例：
@@ -294,7 +434,7 @@ agi-society.cn
   └── 知识库 → 出版物 → 按作者筛选 → 王培
 ```
 
-### 4.5 对标参考
+### 5.7 对标参考
 
 | AGI Society 板块 | ALife 对应 | Nólëbase 对应 |
 |------|------|------|
@@ -309,7 +449,7 @@ agi-society.cn
 
 ---
 
-## 5. 实施优先级
+## 6. 实施优先级
 
 ### Phase 1：核心内容（已有基础）
 
@@ -337,7 +477,7 @@ agi-society.cn
 
 ---
 
-## 6. 关键洞察
+## 7. 关键洞察
 
 ```
 1. 【双轨而非合并】学术信息和知识库是两种不同的信息架构。
@@ -362,7 +502,7 @@ agi-society.cn
 
 ---
 
-## 7. 参考源
+## 8. 参考源
 
 | # | 来源 | 类型 | 内容 |
 |---|------|------|------|
