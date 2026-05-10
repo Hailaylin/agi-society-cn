@@ -1,6 +1,7 @@
 ---
 layout: home
 sidebar: false
+content-order: order
 
 hero:
   name: 中国通用人工智能协会

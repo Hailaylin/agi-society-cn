@@ -12,7 +12,7 @@ NARust是一个兼顾高性能与可集成性的NARS实现方案。
 
 ## NARust-158
 
-![logo](./../images/narust/narust-158.svg)
+![logo](./images/narust/narust-158.svg)
 
 一个非公理推理系统的Rust版本，复刻自OpenNARS 1.5.8。
 
