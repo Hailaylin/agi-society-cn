@@ -1,3 +1,41 @@
+diff --git a/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.cjs b/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.cjs
+index f1ee7c0..59220d7 100644
+--- a/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.cjs
++++ b/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.cjs
+@@ -316,7 +316,14 @@ const BiDirectionalLinks = (options) => {
+       if (!isImageRef && !isAudioRef && !isVideoRef && (node_path.extname(osSpecificHref) === "" || node_path.extname(osSpecificHref) !== ".md"))
+         osSpecificHref += ".md";
+       const matchedHrefSingleOrArray = findBiDirectionalLinks(possibleBiDirectionalLinksInCleanBaseNameOfFilePaths, possibleBiDirectionalLinksInFullFilePaths, osSpecificHref);
+-      if (matchedHrefSingleOrArray === null || Array.isArray(matchedHrefSingleOrArray) && matchedHrefSingleOrArray.length === 0) {
++      let matchedHrefForRel = matchedHrefSingleOrArray;
++      if ((matchedHrefForRel === null || Array.isArray(matchedHrefForRel) && matchedHrefForRel.length === 0) && isRelativePath && state.env.relativePath) {
++        const relHref = node_path.join(node_path.dirname(state.env.relativePath), osSpecificHref);
++        const relMatch = findBiDirectionalLinks(possibleBiDirectionalLinksInCleanBaseNameOfFilePaths, possibleBiDirectionalLinksInFullFilePaths, relHref);
++        if (relMatch !== null && !(Array.isArray(relMatch) && relMatch.length === 0))
++          matchedHrefForRel = relMatch;
++      }
++      if (matchedHrefForRel === null || Array.isArray(matchedHrefForRel) && matchedHrefForRel.length === 0) {
+         const relevantPath = findTheMostRelevantOne(possibleBiDirectionalLinksInCleanBaseNameOfFilePaths, possibleBiDirectionalLinksInFullFilePaths, osSpecificHref);
+         logNoMatchedFileWarning(rootDir, inputContent, markupTextContent, href, osSpecificHref, state.env.path, !noNoMatchedFileWarning, relevantPath);
+         if (stillRenderNoMatched) {
+@@ -326,12 +333,12 @@ const BiDirectionalLinks = (options) => {
+         return false;
+       }
+       let matchedHref;
+-      if (Array.isArray(matchedHrefSingleOrArray)) {
+-        matchedHref = matchedHrefSingleOrArray[0];
+-        if (matchedHrefSingleOrArray.length > 1)
+-          logMultipleCaseInsensitiveMatchedFilesWarning(rootDir, debugOn, osSpecificHref, matchedHrefSingleOrArray);
++      if (Array.isArray(matchedHrefForRel)) {
++        matchedHref = matchedHrefForRel[0];
++        if (matchedHrefForRel.length > 1)
++          logMultipleCaseInsensitiveMatchedFilesWarning(rootDir, debugOn, osSpecificHref, matchedHrefForRel);
+       } else {
+-        matchedHref = matchedHrefSingleOrArray;
++        matchedHref = matchedHrefForRel;
+       }
+       let resolvedNewHref;
+       if (isRelativePath) {
 diff --git a/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.mjs b/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.mjs
 index 4ff433d..a83eaf5 100644
 --- a/node_modules/@nolebase/markdown-it-bi-directional-links/dist/index.mjs
