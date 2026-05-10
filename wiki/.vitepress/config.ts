@@ -66,9 +66,8 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '会议', link: '/conference/' },
-      { text: 'NARS', link: '/nars/' },
+      { text: 'NARS书库', link: '/nars/' },
       { text: '百科', link: '/other/' },
-      { text: '研究', link: '/sai/' },
       { text: '关于', link: '/about/' },
     ],
 
@@ -153,15 +152,6 @@ export default defineConfig({
           items: [
             { text: '组会总览', link: '/conference/group_meeting_overview' },
             { text: '历次组会', link: '/conference/group_meeting_catalogue' },
-          ],
-        },
-      ],
-      '/sai/': [
-        {
-          text: 'SAI 专用人工智能',
-          items: [
-            { text: '概述', link: '/sai/' },
-            { text: 'LLMs', link: '/sai/llms' },
           ],
         },
       ],

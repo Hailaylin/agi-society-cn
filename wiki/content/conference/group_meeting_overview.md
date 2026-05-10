@@ -21,9 +21,9 @@ comments: true
 | 2017-2018 | 42 | [查看](/conference/group_meeting_catalogue#_2017-2018-学年) |
 | 2016-2017 | 42 | [查看](/conference/group_meeting_catalogue#_2016-2017-学年) |
 
-## B站视频合集
+## 组会合集
 
-历年组会视频已整理为合集上传至 B站（[刘凯-AGI](https://space.bilibili.com/475410405)）：
+2019-2025的组会视频，在B站上有合集（[刘凯-AGI](https://space.bilibili.com/475410405)）：
 
 | 学年 | B站链接 | 场次 |
 |------|---------|:--:|
@@ -34,4 +34,8 @@ comments: true
 | 2020-2021 | [BV1wf4y1k7Yh](https://www.bilibili.com/video/BV1wf4y1k7Yh) | 25 |
 | 2019-2020 | [BV1hV411t7CG](https://www.bilibili.com/video/BV1hV411t7CG) | 24 |
 
-> 2018-2019 及更早的组会录像在优酷上，详见[历次组会](/conference/group_meeting_catalogue)页面。
+> [!info] 更早的组会
+> 2018-2019 及更早的组会录像在**优酷**上，详见[历次组会](/conference/group_meeting_catalogue)页面。
+
+> [!info] 2026及以后的新组会
+> 2026年开始，组会视频在B站上单独上传，一个组会一个视频
