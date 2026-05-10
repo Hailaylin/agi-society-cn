@@ -5,6 +5,7 @@ import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { GitChangelog } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { PageProperties } from '@nolebase/vitepress-plugin-page-properties/vite'
 import obsidianCallouts from 'markdown-it-obsidian-callouts'
+import markdownItMark from 'markdown-it-mark'
 import { generateSidebar, hasSidebarChanged, commitSidebarUpdate } from './sidebar'
 
 const nolebaseMD = presetMarkdownIt({
@@ -85,6 +86,7 @@ export default defineConfig({
     },
     config(md) {
       md.use(obsidianCallouts)
+      md.use(markdownItMark)
     },
   },
 

@@ -23,7 +23,7 @@ comments: true
 | **Better Word Count** | 显示选中文字的字符数 |
 
 > [!tip] 内置支持
-> Obsidian 原生支持 wikilink（`[[页面名]]`）和 callout（`> [!info]` 等），无需额外插件。
+> Obsidian 原生支持 wikilink（`[[页面名]]`）、callout（`> [!info]` 等）和荧光笔高亮（`==文本==`），无需额外插件。网站渲染也已完全支持这三种语法。
 
 ## 编辑规范
 
