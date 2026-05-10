@@ -32,7 +32,7 @@ describe('Conference sidebar ordering', () => {
   it('should show 10 conference year entries', async () => {
     const count = await page.evaluate(() => {
       const links = document.querySelectorAll('.VPSidebarItem a .text')
-      return Array.from(links).map(el => el.textContent.trim()).filter(t => /^20/.test(t)).length
+      return Array.from(links).map(el => el.textContent.trim()).filter(t => /^20\d{2} · /.test(t)).length
     })
     expect(count).toBe(10)
   })
@@ -40,7 +40,7 @@ describe('Conference sidebar ordering', () => {
   it('should sort conferences by date descending (newest first) when content-order: date is set', async () => {
     const items = await page.evaluate(() => {
       const links = document.querySelectorAll('.VPSidebarItem a .text')
-      return Array.from(links).map(el => el.textContent.trim()).filter(t => /^20/.test(t))
+      return Array.from(links).map(el => el.textContent.trim()).filter(t => /^20\d{2} · /.test(t))
     })
 
     expect(items).toEqual(expectedByDateDesc)

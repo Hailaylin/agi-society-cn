@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import path from 'node:path'
+import { writeFileSync, readFileSync } from 'node:fs'
 import { presetMarkdownIt } from '@nolebase/integrations/vitepress/markdown-it'
 import { GitChangelog } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { PageProperties } from '@nolebase/vitepress-plugin-page-properties/vite'
@@ -33,18 +34,17 @@ export default defineConfig({
       },
     },
     plugins: [
-      // Dev: poll content/ mtime every 2s, restart server on sidebar change
+      // Dev: poll .md mtime every 2s; on change: refresh sidebar + touch sidebar.ts to trigger config reload
       {
         name: 'sidebar-dev-watch',
         configureServer(server) {
-          let restarting = false
-          setInterval(async () => {
-            if (restarting) return
+          const sidebarPath = path.join(process.cwd(), '.vitepress', 'sidebar.ts')
+          setInterval(() => {
             if (pollAndRefresh()) {
-              restarting = true
+              // Touch sidebar.ts to trigger Vite config re-evaluation
+              const content = readFileSync(sidebarPath, 'utf-8')
+              writeFileSync(sidebarPath, content)
               server.ws.send({ type: 'full-reload' })
-              await server.restart()
-              restarting = false
             }
           }, 2000)
         },
