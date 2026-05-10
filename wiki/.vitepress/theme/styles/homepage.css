@@ -1,0 +1,160 @@
+/* ===========================================================
+   homepage.css — 首页布局与组件
+   Hero · 分区 · 卡片 · 会议 · 团队 · 页脚
+   不修改全局排版和 Callout
+   =========================================================== */
+
+/* ---- Hero 区域（极简克制 / ALife 风格） ---- */
+.VPHero {
+  padding: 80px 24px 60px 24px !important;
+  text-align: left !important;
+}
+.VPHero .container { max-width: 960px !important; margin: 0 auto !important; }
+.VPHero .main { max-width: 100% !important; }
+
+.VPHero .name {
+  font-family: "Cormorant Garamond", "Noto Serif SC", Georgia, serif !important;
+  font-size: 52px !important; font-weight: 700 !important;
+  line-height: 1.15 !important; letter-spacing: -0.02em !important;
+  color: #1a1a1a !important; background: none !important;
+  -webkit-text-fill-color: #1a1a1a !important;
+  max-width: 100% !important; text-align: left !important;
+}
+.VPHero .text {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  font-size: 28px !important; font-weight: 400 !important; font-style: italic !important;
+  color: #5a5a5a !important; margin-top: 8px !important;
+  line-height: 1.3 !important; text-align: left !important;
+}
+.VPHero .tagline {
+  font-family: "Noto Sans SC", sans-serif !important;
+  font-size: 16px !important; color: #6b7280 !important;
+  margin-top: 16px !important; line-height: 1.6 !important; text-align: left !important;
+}
+.VPHero .actions { justify-content: flex-start !important; margin-top: 32px !important; gap: 16px !important; }
+.VPHero .image  { display: none !important; }
+
+/* 按钮 */
+.VPHero .VPButton.brand {
+  background: #1a1a1a !important; border: 1px solid #1a1a1a !important;
+  border-radius: 2px !important; letter-spacing: 1px !important;
+  text-transform: uppercase !important; padding: 12px 28px !important;
+  font-family: "Noto Sans SC", sans-serif !important;
+  font-size: 14px !important; font-weight: 500 !important;
+  transition: background 0.2s, border-color 0.2s !important;
+}
+.VPHero .VPButton.brand:hover { background: #1a6b7a !important; border-color: #1a6b7a !important; }
+.VPHero .VPButton.alt {
+  background: transparent !important; border: 1px solid #1a1a1a !important;
+  border-radius: 2px !important; letter-spacing: 1px !important;
+  text-transform: uppercase !important; padding: 12px 28px !important;
+  font-family: "Noto Sans SC", sans-serif !important;
+  font-size: 14px !important; font-weight: 500 !important; color: #1a1a1a !important;
+  transition: border-color 0.2s, color 0.2s !important;
+}
+.VPHero .VPButton.alt:hover { border-color: #1a6b7a !important; color: #1a6b7a !important; }
+
+/* 暗色 Hero */
+.dark .VPHero .name  { color: #f5f1eb !important; -webkit-text-fill-color: #f5f1eb !important; }
+.dark .VPHero .text  { color: #b0b8c1 !important; }
+.dark .VPHero .tagline { color: #8899a6 !important; }
+.dark .VPHero .VPButton.brand { background: #1a6b7a !important; border-color: #1a6b7a !important; }
+.dark .VPHero .VPButton.brand:hover { background: #248a9c !important; border-color: #248a9c !important; }
+.dark .VPHero .VPButton.alt { color: #f5f1eb !important; border-color: #f5f1eb !important; }
+.dark .VPHero .VPButton.alt:hover { color: #5ba8b5 !important; border-color: #5ba8b5 !important; }
+
+/* 隐藏 VitePress 默认 Features */
+.VPFeatures { display: none !important; }
+
+/* ---- 明暗交替分区（AGI Conference 风格） ---- */
+.section-light, .section-dark { padding: 72px 24px; }
+.section-light { background: #ffffff; color: #1a1a1a; }
+.section-dark  { background: #f6f7f8; color: #1a1a1a; }
+.section-light > *, .section-dark > * { max-width: 960px; margin-left: auto; margin-right: auto; }
+.section-divider { width: 80px; height: 2px; background: #1a6b7a; margin: 0 auto; }
+
+/* ---- 研究卡片（双列） ---- */
+.research-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 32px; }
+.research-card {
+  padding: 32px; border: 1px solid #d1d5db; border-radius: 0;
+  background: #ffffff; transition: border-color 0.2s;
+}
+.research-card:hover { border-color: #1a6b7a; }
+.research-card h3 { margin-top: 0; font-size: 24px; }
+.research-card p  { font-size: 15px; line-height: 1.7; color: #4a4a4a; margin-bottom: 20px; }
+.research-card a  { font-size: 14px; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; }
+
+/* ---- 会议区块 ---- */
+.conference-highlight {
+  padding: 32px; border-left: 3px solid #1a6b7a;
+  margin-bottom: 40px; background: #f9fafb;
+}
+.conference-highlight h3 { margin-top: 0; }
+.conference-highlight p  { color: #4a4a4a; margin-bottom: 12px; }
+.conference-highlight strong { color: #1a1a1a; }
+.conference-archive table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.conference-archive th {
+  text-align: left; font-weight: 600; font-size: 13px;
+  letter-spacing: 1px; text-transform: uppercase; color: #6b7280;
+  padding-bottom: 8px; border-bottom: 1px solid #d1d5db;
+}
+.conference-archive td { padding: 6px 0; border-bottom: 1px solid #f3f4f6; color: #4a4a4a; }
+
+/* ---- 知识库卡片（三列） ---- */
+.knowledge-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 32px; }
+.knowledge-card {
+  padding: 28px; border: 1px solid #d1d5db;
+  background: #ffffff; transition: border-color 0.2s;
+}
+.knowledge-card:hover { border-color: #1a6b7a; }
+.knowledge-card h3 { font-size: 22px; margin-top: 0; }
+.knowledge-card p  { font-size: 14px; line-height: 1.7; color: #4a4a4a; margin-bottom: 16px; }
+.knowledge-card a  { font-size: 13px; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; }
+
+/* ---- 团队成员网格 ---- */
+.team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 32px; }
+.team-member { padding: 20px 0; border-top: 1px solid #e5e7eb; font-size: 14px; line-height: 1.7; }
+.team-member strong { font-size: 16px; display: block; margin-bottom: 2px; }
+.team-member em     { display: block; font-style: normal; color: #6b7280; font-size: 13px; margin-bottom: 4px; }
+
+/* ---- 参与贡献 ---- */
+.section-dark:last-of-type { text-align: center; padding: 48px 24px; }
+
+/* ---- 首页页脚 ---- */
+.home-footer {
+  text-align: center; padding: 32px 24px 48px;
+  font-size: 13px; color: #9ca3af; line-height: 1.8;
+  max-width: 960px; margin: 0 auto;
+}
+.home-footer a { color: #6b7280; text-decoration: none; }
+.home-footer a:hover { color: #1a6b7a; }
+
+/* ===========================================================
+   暗色模式 — 首页组件
+   =========================================================== */
+.dark .section-light { background: #0f141f; color: #c9cdd4; }
+.dark .section-dark  { background: #131a28; color: #c9cdd4; }
+.dark .section-divider { background: #3c6cdd; }
+.dark .research-card, .dark .knowledge-card { background: #1a2235; border-color: #2a3345; }
+.dark .research-card:hover, .dark .knowledge-card:hover { border-color: #3c6cdd; }
+.dark .research-card p, .dark .knowledge-card p { color: #9ca3af; }
+.dark .conference-highlight { background: #1a2235; border-left-color: #3c6cdd; }
+.dark .conference-highlight p { color: #9ca3af; }
+.dark .conference-highlight strong { color: #f5f1eb; }
+.dark .conference-archive td { color: #9ca3af; border-color: #1e293b; }
+.dark .conference-archive th { border-color: #2a3345; }
+.dark .team-member { border-top-color: #2a3345; color: #9ca3af; }
+.dark .team-member strong { color: #f5f1eb; }
+.dark .team-member em     { color: #8899a6; }
+.dark .home-footer { color: #6b7280; }
+
+/* ===========================================================
+   响应式
+   =========================================================== */
+@media (max-width: 768px) {
+  .VPHero .name { font-size: 36px !important; }
+  .VPHero .text { font-size: 22px !important; }
+  .research-grid, .team-grid { grid-template-columns: 1fr; }
+  .knowledge-grid { grid-template-columns: 1fr; }
+  .section-light, .section-dark { padding: 48px 20px; }
+}

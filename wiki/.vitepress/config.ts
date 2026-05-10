@@ -15,10 +15,10 @@ const nolebaseMD = presetMarkdownIt({
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'AGI Society of China',
+  title: '中国通用人工智能协会',
   description: '中国通用人工智能协会 — 学术知识库',
   srcDir: './content',
-  outDir: './public',
+  outDir: './dist',
   ignoreDeadLinks: true,
   cleanUrls: true,
 

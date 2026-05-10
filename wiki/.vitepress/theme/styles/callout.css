@@ -1,0 +1,84 @@
+/* ===========================================================
+   callout.css — Obsidian Callout 完整样式
+   依赖 vars.css 中的 --callout-* 颜色变量
+   参考: markdown-it-obsidian-callouts 生成的 HTML 结构
+   修改 Callout 样式只需改这个文件
+   =========================================================== */
+
+/* --- 基础容器 --- */
+.callout {
+  --callout-color: var(--callout-note);
+  border-radius: 4px; margin: 1rem 0; padding: 0;
+  border: 1px solid rgba(var(--callout-color), 0.25);
+  border-left: 3px solid rgb(var(--callout-color));
+  background: rgba(var(--callout-color), 0.08);
+  overflow: hidden;
+}
+
+/* --- 类型颜色映射 --- */
+.callout[data-callout="note"]      { --callout-color: var(--callout-note); }
+.callout[data-callout="abstract"]  { --callout-color: var(--callout-abstract); }
+.callout[data-callout="info"]      { --callout-color: var(--callout-info); }
+.callout[data-callout="todo"]      { --callout-color: var(--callout-todo); }
+.callout[data-callout="tip"]       { --callout-color: var(--callout-tip); }
+.callout[data-callout="success"]   { --callout-color: var(--callout-success); }
+.callout[data-callout="question"]  { --callout-color: var(--callout-question); }
+.callout[data-callout="warning"]   { --callout-color: var(--callout-warning); }
+.callout[data-callout="failure"]   { --callout-color: var(--callout-failure); }
+.callout[data-callout="danger"]    { --callout-color: var(--callout-danger); }
+.callout[data-callout="bug"]       { --callout-color: var(--callout-bug); }
+.callout[data-callout="example"]   { --callout-color: var(--callout-example); }
+.callout[data-callout="quote"]     { --callout-color: var(--callout-quote); }
+.callout[data-callout="caution"]   { --callout-color: var(--callout-caution); }
+.callout[data-callout="important"] { --callout-color: var(--callout-important); }
+.callout[data-callout="check"]     { --callout-color: var(--callout-check); }
+.callout[data-callout="done"]      { --callout-color: var(--callout-done); }
+.callout[data-callout="help"]      { --callout-color: var(--callout-help); }
+.callout[data-callout="faq"]       { --callout-color: var(--callout-faq); }
+.callout[data-callout="attention"] { --callout-color: var(--callout-attention); }
+
+/* --- 标题栏 --- */
+.callout-title {
+  display: flex; align-items: center; gap: 0.5em;
+  padding: 0.75em 1em; font-weight: 600; font-size: 0.95em;
+  color: rgb(var(--callout-color));
+  background: rgba(var(--callout-color), 0.08);
+  border-bottom: 1px solid rgba(var(--callout-color), 0.15);
+  user-select: none; cursor: default;
+}
+
+/* --- 可折叠 callout (details/summary) --- */
+details.callout > .callout-title { cursor: pointer; list-style: none; }
+details.callout > .callout-title::-webkit-details-marker { display: none; }
+
+/* --- 折叠箭头 --- */
+.callout-fold {
+  margin-left: auto; display: flex; align-items: center;
+  opacity: 0.6; transition: transform 0.2s;
+}
+.callout-fold::after {
+  content: ""; width: 0; height: 0;
+  border-left: 5px solid transparent; border-right: 5px solid transparent;
+  border-top: 6px solid currentColor;
+}
+details.callout[open] > .callout-title .callout-fold::after { transform: rotate(-180deg); }
+
+/* --- 标题图标 --- */
+.callout-title-icon { display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.callout-title-icon svg { width: 1.2em; height: 1.2em; color: rgb(var(--callout-color)); }
+
+/* --- 标题文字 --- */
+.callout-title-inner { line-height: 1.4; }
+
+/* --- 内容区域 --- */
+.callout-content { padding: 0.75em 1em; color: inherit; }
+.callout-content > *:first-child { margin-top: 0; }
+.callout-content > *:last-child  { margin-bottom: 0; }
+.callout-content p { margin: 0.5em 0; }
+
+/* --- 嵌套 callout --- */
+.callout .callout { margin: 0.5em 0; }
+
+/* --- 暗色模式 --- */
+.dark .callout { background: rgba(var(--callout-color), 0.12); border-color: rgba(var(--callout-color), 0.3); }
+.dark .callout-title { background: rgba(var(--callout-color), 0.12); border-bottom-color: rgba(var(--callout-color), 0.2); }
