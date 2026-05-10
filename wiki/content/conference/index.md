@@ -17,4 +17,4 @@ comments: true
 
 组会是协会成员定期进行的学术讨论活动，涵盖 NARS 理论研读、论文分享、工程进展报告等。2016-2025 十学年共举行 200+ 场组会报告。
 
-[查看组会总览 →](/conference/group/) · [历次组会目录 →](/conference/group/catalogue)
+[查看组会总览 →](/conference/group/)
