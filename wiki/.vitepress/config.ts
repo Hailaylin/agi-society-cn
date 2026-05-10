@@ -5,6 +5,9 @@ import { PageProperties } from '@nolebase/vitepress-plugin-page-properties/vite'
 import obsidianCallouts from 'markdown-it-obsidian-callouts'
 
 const nolebaseMD = presetMarkdownIt({
+  bidirectionalLinks: {
+    options: { dir: process.cwd() },
+  },
   unlazyImages: false,
 })
 
@@ -15,6 +18,7 @@ export default defineConfig({
   srcDir: './content',
   outDir: './public',
   ignoreDeadLinks: true,
+  cleanUrls: true,
 
   // CRITICAL: optimizeDeps.exclude 避免 Vite dev 模式预打包含 virtual module 的 Nólëbase 包
   vite: {
@@ -28,6 +32,7 @@ export default defineConfig({
     ],
     optimizeDeps: {
       exclude: [
+        'vitepress',
         '@nolebase/integrations',
         '@nolebase/ui',
         '@nolebase/vitepress-plugin-git-changelog',
@@ -46,6 +51,7 @@ export default defineConfig({
   },
 
   markdown: {
+    math: true,
     async preConfig(md) {
       await nolebaseMD.install(md)
     },
@@ -57,90 +63,107 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
+      { text: 'NARS', link: '/nars/' },
+      { text: '百科', link: '/other/' },
+      { text: '会议', link: '/conference/' },
+      { text: '研究', link: '/sai/' },
       { text: '关于', link: '/about/' },
     ],
 
-    sidebar: [
-      {
-        text: '关于我们',
-        items: [
-          { text: '关于协会', link: '/about/' },
-          { text: '研究团队', link: '/about/team' },
-          { text: '网站架构', link: '/about/web_arch' },
-          {
-            text: '贡献指南',
-            collapsed: true,
-            items: [
-              { text: '格式规范', link: '/about/contributing/formats' },
-              { text: '工具配置', link: '/about/contributing/tools' },
-              { text: '内容搬运', link: '/about/contributing/carrying' },
-            ],
-          },
-        ],
-      },
-      {
-        text: 'AGI 通用人工智能',
-        items: [
-          { text: '概述', link: '/agi/' },
-        ],
-      },
-      {
-        text: 'NARS 理论',
-        items: [
-          { text: 'NARS 概述', link: '/nars/' },
-          { text: 'AIKR 不足预设', link: '/nars/theory/aikr' },
-          { text: '3C 原则', link: '/nars/theory/3c' },
-          { text: '学习资源', link: '/nars/theory/learning_resources' },
-          { text: '最新动态', link: '/nars/news' },
-        ],
-      },
-      {
-        text: 'NARS 工程',
-        items: [
-          { text: '实现总览', link: '/nars/impl/' },
-          { text: '实现介绍', link: '/nars/impl/introduction' },
-          { text: 'OpenNARS', link: '/nars/impl/impls/opennars' },
-          { text: 'PyNARS', link: '/nars/impl/impls/pynars' },
-          { text: 'NARust', link: '/nars/impl/impls/narust' },
-          { text: 'ONA', link: '/nars/impl/impls/ona' },
-        ],
-      },
-      {
-        text: 'NARS 衍生项目',
-        items: [
-          { text: '衍生项目介绍', link: '/nars/derivative_project/introduction' },
-          { text: 'NACE', link: '/nars/derivative_project/nace' },
-        ],
-      },
-      {
-        text: 'SAI 专用人工智能',
-        items: [
-          { text: '概述', link: '/sai/' },
-          { text: 'LLMs', link: '/sai/llms' },
-        ],
-      },
-      {
-        text: '历次会议',
-        items: [
-          { text: '年会总览', link: '/conference/' },
-          { text: '2024 年会', link: '/conference/2024' },
-          { text: '2023 年会', link: '/conference/2023' },
-          { text: '组会视频目录', link: '/conference/group_meeting_catalogue' },
-        ],
-      },
-      {
-        text: '思想书库',
-        items: [
-          { text: '总览', link: '/other/' },
-          { text: '意义片网思想', link: '/other/meaning_network' },
-          { text: '拟态操作', link: '/other/mimicry_operation' },
-          { text: 'Lazero', link: '/other/lazero' },
-          { text: '类脑智能意识系统', link: '/other/bingfengdecao' },
-          { text: '智能同一观', link: '/other/identity_of_intelligence' },
-          { text: '资料和Q群', link: '/other/documents_and_qq_group' },
-        ],
-      },
-    ],
+    sidebar: {
+      '/about/': [
+        {
+          text: '关于我们',
+          items: [
+            { text: '关于协会', link: '/about/' },
+            { text: '研究团队', link: '/about/team' },
+            { text: '网站架构', link: '/about/web_arch' },
+          ],
+        },
+        {
+          text: '贡献指南',
+          collapsed: true,
+          items: [
+            { text: '格式规范', link: '/about/contributing/formats' },
+            { text: '工具配置', link: '/about/contributing/tools' },
+            { text: '内容搬运', link: '/about/contributing/carrying' },
+          ],
+        },
+      ],
+      '/agi/': [
+        {
+          text: 'AGI 通用人工智能',
+          items: [
+            { text: '概述', link: '/agi/' },
+            { text: 'NARS 简介', link: '/nars/' },
+          ],
+        },
+      ],
+      '/nars/': [
+        {
+          text: 'NARS 理论',
+          items: [
+            { text: 'NARS 概述', link: '/nars/' },
+            { text: 'AIKR 不足预设', link: '/nars/theory/aikr' },
+            { text: '3C 原则', link: '/nars/theory/3c' },
+            { text: '学习资源', link: '/nars/theory/learning_resources' },
+            { text: '最新动态', link: '/nars/news' },
+          ],
+        },
+        {
+          text: 'NARS 工程',
+          items: [
+            { text: '实现总览', link: '/nars/impl/' },
+            { text: '实现介绍', link: '/nars/impl/introduction' },
+            { text: 'OpenNARS', link: '/nars/impl/impls/opennars' },
+            { text: 'PyNARS', link: '/nars/impl/impls/pynars' },
+            { text: 'NARust', link: '/nars/impl/impls/narust' },
+            { text: 'ONA', link: '/nars/impl/impls/ona' },
+          ],
+        },
+        {
+          text: 'NARS 衍生项目',
+          items: [
+            { text: '衍生项目介绍', link: '/nars/derivative_project/introduction' },
+            { text: 'NACE', link: '/nars/derivative_project/nace' },
+          ],
+        },
+      ],
+      '/conference/': [
+        {
+          text: '历次会议',
+          items: [
+            { text: '年会总览', link: '/conference/' },
+            { text: '2024 年会', link: '/conference/2024' },
+            { text: '2023 年会', link: '/conference/2023' },
+            { text: '组会视频目录', link: '/conference/group_meeting_catalogue' },
+          ],
+        },
+      ],
+      '/sai/': [
+        {
+          text: 'SAI 专用人工智能',
+          items: [
+            { text: '概述', link: '/sai/' },
+            { text: 'LLMs', link: '/sai/llms' },
+          ],
+        },
+      ],
+      '/other/': [
+        {
+          text: '思想书库',
+          items: [
+            { text: '总览', link: '/other/' },
+            { text: '意义片网思想', link: '/other/meaning_network' },
+            { text: '拟态操作', link: '/other/mimicry_operation' },
+            { text: 'Lazero', link: '/other/lazero' },
+            { text: '类脑智能意识系统', link: '/other/bingfengdecao' },
+            { text: '智能同一观', link: '/other/identity_of_intelligence' },
+            { text: '资料和Q群', link: '/other/documents_and_qq_group' },
+          ],
+        },
+      ],
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Hailaylin/agi-society-cn' },
@@ -180,5 +203,12 @@ export default defineConfig({
     lastUpdated: {
       text: '最后更新于',
     },
+
+    outline: {
+      label: '页面大纲',
+      level: [2, 3],
+    },
+
+    darkModeSwitchLabel: '切换主题',
   },
 })

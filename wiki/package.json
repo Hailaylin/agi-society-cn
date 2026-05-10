@@ -13,6 +13,8 @@
     "@nolebase/vitepress-plugin-breadcrumbs": "^2.18.2",
     "@nolebase/vitepress-plugin-meta": "^2.18.2",
     "@nolebase/vitepress-plugin-sidebar": "^2.18.2",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-mathjax3": "^4.3.2",
     "markdown-it-obsidian-callouts": "^0.3.3",
     "playwright": "^1.59.1",
     "vitepress": "^1.6.3",

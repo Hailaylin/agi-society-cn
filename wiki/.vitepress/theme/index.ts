@@ -1,6 +1,9 @@
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
+import { h } from 'vue'
 import { presetClient } from '@nolebase/integrations/vitepress/client'
+import GiscusComments from './components/GiscusComments.vue'
+import DocFooterLicense from './components/DocFooterLicense.vue'
 
 import './styles/custom.css'
 
@@ -17,7 +20,12 @@ const nolebase = presetClient({
 
 export default {
   extends: DefaultTheme,
-  Layout: DefaultTheme.Layout,
+  Layout: () => {
+    return h(DefaultTheme.Layout, null, {
+      'doc-after': () => h(GiscusComments),
+      'doc-footer-before': () => h(DocFooterLicense),
+    })
+  },
   enhanceApp(ctx) {
     nolebase?.enhanceApp?.(ctx)
   },
