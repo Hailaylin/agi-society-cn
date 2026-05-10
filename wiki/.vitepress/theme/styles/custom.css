@@ -1,0 +1,38 @@
+/* AGI Society Wiki — 自定义样式 */
+
+:root {
+  --vp-c-brand-1: #284b63;
+  --vp-c-brand-2: #3a6b8c;
+  --vp-c-brand-3: #84a59d;
+}
+
+.dark {
+  --vp-c-brand-1: #7b97aa;
+  --vp-c-brand-2: #84a59d;
+  --vp-c-brand-3: #284b63;
+}
+
+/* Obsidian callout 样式增强 */
+.callout {
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+}
+
+/* 中文排版优化 */
+.vp-doc {
+  font-family: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+
+.vp-doc h1, .vp-doc h2, .vp-doc h3 {
+  font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+
+/* 页面属性面板样式 */
+.nolebase-page-properties {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+}
