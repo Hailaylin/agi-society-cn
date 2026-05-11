@@ -19,7 +19,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/Hailaylin/agi-society-cn.git
+git clone https://github.com/exomind-team/agi-society-cn.git
 cd agi-society-cn
 
 # 2. 安装依赖（仅需一次）

@@ -22,6 +22,7 @@ export default defineConfig({
   description: '中国通用人工智能协会 — 学术知识库',
   srcDir: './content',
   outDir: './dist',
+  base: '/agi-society-cn/',
   ignoreDeadLinks: true,
   cleanUrls: true,
 
@@ -54,7 +55,7 @@ export default defineConfig({
       },
       GitChangelog({
         include: ['**/*.md', '!node_modules'],
-        repoURL: 'https://github.com/Hailaylin/agi-society-cn',
+        repoURL: 'https://github.com/exomind-team/agi-society-cn',
         maxGitLogCount: 2000,
       }),
       PageProperties(),
@@ -105,7 +106,7 @@ export default defineConfig({
     sidebar: generateSidebar(),
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Hailaylin/agi-society-cn' },
+      { icon: 'github', link: 'https://github.com/exomind-team/agi-society-cn' },
     ],
 
     search: {
@@ -130,7 +131,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/Hailaylin/agi-society-cn/edit/main/content/:path',
+      pattern: 'https://github.com/exomind-team/agi-society-cn/edit/main/content/:path',
       text: '在 GitHub 上编辑此页',
     },
 

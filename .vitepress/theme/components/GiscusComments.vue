@@ -27,7 +27,7 @@ watch(isDark, () => {
 function loadGiscus() {
   const script = document.createElement('script')
   script.src = 'https://giscus.app/client.js'
-  script.setAttribute('data-repo', 'Hailaylin/agi-society-cn')
+  script.setAttribute('data-repo', 'exomind-team/agi-society-cn')
   script.setAttribute('data-repo-id', 'R_kgDON-J5KA')
   script.setAttribute('data-category', 'Comments')
   script.setAttribute('data-category-id', 'DIC_kwDON-J5KM4Cm2Vu')
